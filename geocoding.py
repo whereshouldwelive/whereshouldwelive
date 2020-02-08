@@ -57,9 +57,9 @@ def get_avergae_prices(postcodes):
     return prices
 
 def get_result(postcodes):
-    result = {"postcodes": [{"code": "SW7", "distances": [50, 50, 100], "price": 1000},
-                   {"code": "SW1", "distances": [50, 50, 100], "price": 1000},
-                   {"code": "SW2", "distances": [50, 50, 100], "price": 1000},
-                   {"code": "SW3", "distances": [50, 50, 100], "price": 1000}]}
+    result = {"postcodes": [{"code": "SW7", "distances": [50, 50, 100], "price": 1000, "lat": 123, "long": 123},
+                   {"code": "SW1", "distances": [50, 50, 100], "price": 1000, "lat": 123, "long": 123},
+                   {"code": "SW2", "distances": [50, 50, 100], "price": 1000, "lat": 123, "long": 123},
+                   {"code": "SW3", "distances": [50, 50, 100], "price": 1000, "lat": 123, "long": 123}]}
     return json.dumps(result)
 

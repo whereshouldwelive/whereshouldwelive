@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from geocoding import get_lat_long
+from geocoding import get_listings, get_result
 app = Flask(__name__)
 
 global ppl_idx
@@ -21,7 +21,8 @@ def my_form_post():
 
 @app.route('/find')
 def find():
-    return get_lat_long("SW7")
+    return get_result(["SW7", "SW1", "SW2"])
+    # return get_listings(["SW7", "23 Olympic Way"])
 
 if __name__ == '__main__':
     app.run(debug=True)

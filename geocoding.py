@@ -50,16 +50,18 @@ def get_distances(postcodes):
         distances.append([50, 50, 100])
     return distances
 
-def get_avergae_prices(postcodes):
+def get_average_prices(postcodes):
     prices = []
     for p in postcodes:
         prices.append(p)
     return prices
 
 def get_result(postcodes):
-    result = {"postcodes": [{"code": "SW7", "distances": [50, 50, 100], "price": 1000, "lat": 123, "long": 123},
-                   {"code": "SW1", "distances": [50, 50, 100], "price": 1000, "lat": 123, "long": 123},
-                   {"code": "SW2", "distances": [50, 50, 100], "price": 1000, "lat": 123, "long": 123},
-                   {"code": "SW3", "distances": [50, 50, 100], "price": 1000, "lat": 123, "long": 123}]}
+    result = {"postcodes": [{"code": "SW7", "distances": [50, 50, 100], "price": 1000, "lat": 51.4965, "long": -0.1732},
+                   {"code": "SW1", "distances": [50, 50, 100], "price": 1000, "lat": 51.4493, "long": -0.1201},
+                   {"code": "SW2", "distances": [50, 50, 100], "price": 1000, "lat": 51.4974, "long": -0.1378},
+                   {"code": "SW3", "distances": [50, 50, 100], "price": 1000, "lat": 51.4925, "long": -0.1923}]}
     return json.dumps(result)
+
+#TFL api coords to borough
 

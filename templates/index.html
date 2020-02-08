@@ -1,0 +1,11 @@
+<html>
+<body>
+  <form method="post" action="/usr_list">
+    {% for n in ppl_idx %}
+      <input type="text" name={{ n }}>
+      <br>
+    {% endfor %}
+    <input type="submit">
+</form>
+</body>
+</html>

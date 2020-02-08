@@ -26,5 +26,17 @@ def find():
     return get_result(["SW7", "SW1", "SW2"])
     # return get_listings(["SW7", "23 Olympic Way"])
 
+
+@app.after_request
+def after_request(response):
+  response.headers.add('Access-Control-Allow-Origin', '*')
+  response.headers.add("Access-Control-Allow-Credentials", "true")
+  response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization,Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers')
+  response.headers.add('Access-Control-Allow-Methods', 'GET,HEAD,PUT,POST,DELETE,OPTIONS')
+  response.headers.add('Cache-Control', 'no-cache, no-store, must-revalidate')
+  response.headers.add('Pragma', 'no-cache')
+  response.headers.add('Expires', '0')
+  response.headers.add('Cache-Control', 'public, max-age=0')
+  return response
 if __name__ == '__main__':
     app.run(debug=True)

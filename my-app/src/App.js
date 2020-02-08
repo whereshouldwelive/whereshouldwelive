@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Input, Button } from '@material-ui/core';
+import { Input} from '@material-ui/core';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 
@@ -68,15 +71,26 @@ class App extends React.Component {
                 Sup
               </div>
               <div className="sidebar">
-              <h2 className="hhh">
-              Information for flats at SW7:
-              <ul className="info">
-                <li>Average price: £530</li>
-                <li>Distance from A: 35min</li>
-                <li>Distance from B: 25min</li>
-                <li>Distance from C: 40min</li>
-              </ul>
-              </h2>
+                <Card border="dark" style={{ width: '31rem' }} className={"bg-light text-dark"}>
+                  <Card.Header>
+                    Information for flats at SW7
+                  </Card.Header>
+                  <Card.Body>
+                    <Card.Text>
+                      Average price: £530
+                    </Card.Text>
+                    <Card.Text>
+                    Distance from A: 35min
+                  </Card.Text>
+                    <Card.Text>
+                      Distance from B: 25min
+                    </Card.Text>
+                    <Card.Text>
+                      Distance from C: 40min
+                    </Card.Text>
+                    <Button variant="primary">Flats</Button>
+                  </Card.Body>
+                </Card>
               </div>
             </div>
           </div>

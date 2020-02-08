@@ -12,8 +12,7 @@ import './App.css';
 
 const Marker = props => {
   return <>
-    <div className="pin"></div>
-    <div className="pulse"></div>
+    <div className="pin" onMouseEnter={() => console.log(props.vals)}></div>
   </>
 }
 
@@ -57,6 +56,9 @@ class App extends React.Component {
         [evt.target.name]: value
       });
     }
+  hoverMarker(p) {
+    console.log(p);
+  }
   handleSubmit(e){
     e.preventDefault();
     fetch("http://whereshouldwelive.herokuapp.com/find", {
@@ -92,7 +94,7 @@ class App extends React.Component {
             This is {this.state.resp}
             </p>
         </header>)}
-        {!this.state.page1 && this.state.page2 && (
+        {!this.state.page1  && (
           <div className="page2">
             <div className="header-wrapper">
               <h1 className="title">
@@ -105,29 +107,98 @@ class App extends React.Component {
               </h1>
             </div>
             <div className="wrapper">
+            <div className="map">
+              <GoogleMapReact
+                bootstrapURLKeys={{key:"AIzaSyBUajMUOmaG_OFJFtVI-Fb2rtTQkeWzbUg"}}
+                defaultCenter={this.state.center}
+                defaultZoom={11}
+              >
+                {this.state.resp && this.state.resp[0] && (<Marker vals={this.state.resp[0]} lat={this.state.resp[0].lat} lng={this.state.resp[0].long} />)}
 
-              <div className="sidebar">
-                <Card border="dark" style={{ width: '31rem' }} className={"bg-light text-dark"}>
-                  <Card.Header>
-                    Information for flats at SW7
-                  </Card.Header>
-                  <Card.Body>
-                    <Card.Text>
-                      Average price: £530
+              </GoogleMapReact>
+            </div>
+              {this.state.page2 && (
+                <div className="sidebar">
+                  <Card border="dark" style={{ width: '31rem' }} className={"bg-light text-dark"}>
+                    <Card.Header>
+                      Information for flats at SW7
+                    </Card.Header>
+                    <Card.Body>
+                      <Card.Text>
+                        Average price: £530
+                      </Card.Text>
+                      <Card.Text>
+                      Distance from A: 35min
                     </Card.Text>
-                    <Card.Text>
-                    Distance from A: 35min
-                  </Card.Text>
-                    <Card.Text>
-                      Distance from B: 25min
-                    </Card.Text>
-                    <Card.Text>
-                      Distance from C: 40min
-                    </Card.Text>
-                    <Button variant="primary">Flats</Button>
-                  </Card.Body>
-                </Card>
-              </div>
+                      <Card.Text>
+                        Distance from B: 25min
+                      </Card.Text>
+                      <Card.Text>
+                        Distance from C: 40min
+                      </Card.Text>
+                      <Button variant="primary">Flats</Button>
+                    </Card.Body>
+                  </Card>
+                </div>)}
+                {!this.state.page2 && (<div className="sidebar2">
+                    <CardDeck>
+                      <ListGroup variant="flush">
+                        <ListGroup.Item>
+                          <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                            <Card.Body>
+                              <Card.Title>
+                                Hyde Park, London W2
+                              </Card.Title>
+                              <Card.Text>
+                                £225,000,000
+                              </Card.Text>
+                              <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/0d4f63d83077588bf82306da9c853e793d24152d.jpg" />
+                            </Card.Body>
+                          </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                          <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                            <Card.Body>
+                              <Card.Title>
+                                Wilton Crescent, London SW1X
+                              </Card.Title>
+                              <Card.Text>
+                                £82,500,000
+                              </Card.Text>
+                              <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
+                            </Card.Body>
+                          </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                          <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                            <Card.Body>
+                              <Card.Title>
+                                Wilton Crescent, London SW1X
+                              </Card.Title>
+                              <Card.Text>
+                                £82,500,000
+                              </Card.Text>
+                              <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
+                            </Card.Body>
+                          </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                          <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                            <Card.Body>
+                              <Card.Title>
+                                Wilton Crescent, London SW1X
+                              </Card.Title>
+                              <Card.Text>
+                                £82,500,000
+                              </Card.Text>
+                              <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
+                            </Card.Body>
+                          </Card>
+                        </ListGroup.Item>
+                      </ListGroup>
+                    </CardDeck>
+                  </div>
+                )}
             </div>
           </div>
         )}
@@ -144,78 +215,8 @@ class App extends React.Component {
               </h1>
             </div>
               <div className="wrapper">
-              <div className="map">
-                <GoogleMapReact
-                  bootstrapURLKeys={{key:"AIzaSyBUajMUOmaG_OFJFtVI-Fb2rtTQkeWzbUg"}}
-                  defaultCenter={this.state.center}
-                  defaultZoom={11}
-                >
-                  {this.state.resp && this.state.resp[0] && (<Marker lat={this.state.resp[0].lat} lng={this.state.resp[0].long} />)}
-                  {this.state.resp && this.state.resp[1] && (<Marker lat={this.state.resp[1].lat} lng={this.state.resp[1].long} />)}
-                  {this.state.resp && this.state.resp[2] && (<Marker lat={this.state.resp[2].lat} lng={this.state.resp[2].long} />)}
-                  {this.state.resp && this.state.resp[3] && (<Marker lat={this.state.resp[3].lat} lng={this.state.resp[3].long} />)}
-                  {this.state.resp && this.state.resp[4] && (<Marker lat={this.state.resp[4].lat} lng={this.state.resp[4].long} />)}
-                  {this.state.resp && this.state.resp[5] && (<Marker lat={this.state.resp[5].lat} lng={this.state.resp[5].long} />)}
-                </GoogleMapReact>
-              </div>
-              <div className="sidebar2">
-                  <CardDeck>
-                    <ListGroup variant="flush">
-                      <ListGroup.Item>
-                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
-                          <Card.Body>
-                            <Card.Title>
-                              Hyde Park, London W2
-                            </Card.Title>
-                            <Card.Text>
-                              £225,000,000
-                            </Card.Text>
-                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/0d4f63d83077588bf82306da9c853e793d24152d.jpg" />
-                          </Card.Body>
-                        </Card>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
-                          <Card.Body>
-                            <Card.Title>
-                              Wilton Crescent, London SW1X
-                            </Card.Title>
-                            <Card.Text>
-                              £82,500,000
-                            </Card.Text>
-                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
-                          </Card.Body>
-                        </Card>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
-                          <Card.Body>
-                            <Card.Title>
-                              Wilton Crescent, London SW1X
-                            </Card.Title>
-                            <Card.Text>
-                              £82,500,000
-                            </Card.Text>
-                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
-                          </Card.Body>
-                        </Card>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
-                          <Card.Body>
-                            <Card.Title>
-                              Wilton Crescent, London SW1X
-                            </Card.Title>
-                            <Card.Text>
-                              £82,500,000
-                            </Card.Text>
-                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
-                          </Card.Body>
-                        </Card>
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </CardDeck>
-                </div>
+
+
               </div>
             </div>
         )}

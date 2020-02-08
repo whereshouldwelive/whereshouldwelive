@@ -90,6 +90,7 @@ body {
 }
 
 .sidebar2 {
+  width:35%;
   overflow: scroll;
   height: 600px;
 }

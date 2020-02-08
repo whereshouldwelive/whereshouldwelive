@@ -81,7 +81,7 @@ PySocks==1.6.8
 python-dateutil==2.7.5
 python-igraph==0.7.1.post6
 pytz==2018.7
-PyYAML==3.13
+PyYAML==5.1
 pyzmq==17.1.2
 qtconsole==4.4.3
 requests==2.20.1

@@ -89,6 +89,11 @@ body {
     line-height: 20px !important;
 }
 
+.sidebar2 {
+  overflow: scroll;
+  height: 600px;
+}
+
 .form {
   display: flex;
   flex-direction: column;

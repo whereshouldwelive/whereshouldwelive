@@ -1,0 +1,1975 @@
+﻿Postcode District,Bedroom Category,Count of rents,Mean,Lower quartile,Median,Upper quartile
+BR1,Room,20,535,492,542,600
+BR1,Studio,10,706,600,753,775
+BR1,One Bedroom,120,"1,033",950,"1,050","1,100"
+BR1,Two Bedrooms,230,"1,238","1,100","1,250","1,350"
+BR1,Three Bedrooms,90,"1,484","1,350","1,475","1,600"
+BR1,Four or More Bedrooms,40,"2,487","1,975","2,375","2,900"
+BR2,Room,10,657,600,675,700
+BR2,Studio,-,..,..,..,..
+BR2,One Bedroom,80,982,900,975,"1,050"
+BR2,Two Bedrooms,200,"1,259","1,150","1,250","1,350"
+BR2,Three Bedrooms,70,"1,578","1,400","1,550","1,750"
+BR2,Four or More Bedrooms,40,"2,238","1,725","1,900","2,400"
+BR3,Room,10,436,392,392,500
+BR3,Studio,10,719,670,700,795
+BR3,One Bedroom,130,970,900,975,"1,007"
+BR3,Two Bedrooms,150,"1,262","1,200","1,250","1,350"
+BR3,Three Bedrooms,50,"1,666","1,500","1,650","1,800"
+BR3,Four or More Bedrooms,20,"2,359","1,800","1,935","2,700"
+BR4,Room,0,.,.,.,.
+BR4,Studio,10,671,600,680,725
+BR4,One Bedroom,10,946,873,950,"1,050"
+BR4,Two Bedrooms,10,"1,113","1,025","1,150","1,200"
+BR4,Three Bedrooms,10,"1,780","1,700","1,750","1,800"
+BR4,Four or More Bedrooms,10,"1,992","1,900","2,000","2,250"
+BR5,Room,0,.,.,.,.
+BR5,Studio,0,.,.,.,.
+BR5,One Bedroom,30,899,850,875,950
+BR5,Two Bedrooms,100,"1,092","1,000","1,050","1,200"
+BR5,Three Bedrooms,90,"1,442","1,300","1,400","1,600"
+BR5,Four or More Bedrooms,40,"1,961","1,650","1,900","2,200"
+BR6,Room,-,..,..,..,..
+BR6,Studio,20,665,578,650,750
+BR6,One Bedroom,70,947,875,938,"1,000"
+BR6,Two Bedrooms,100,"1,200","1,050","1,195","1,300"
+BR6,Three Bedrooms,100,"1,438","1,300","1,500","1,575"
+BR6,Four or More Bedrooms,60,"2,146","1,650","1,825","2,000"
+BR7,Room,0,.,.,.,.
+BR7,Studio,0,.,.,.,.
+BR7,One Bedroom,40,941,850,900,"1,000"
+BR7,Two Bedrooms,90,"1,261","1,150","1,200","1,325"
+BR7,Three Bedrooms,50,"1,715","1,500","1,698","1,800"
+BR7,Four or More Bedrooms,30,"2,611","2,100","2,300","3,200"
+BR8,Room,0,.,.,.,.
+BR8,Studio,0,.,.,.,.
+BR8,One Bedroom,0,.,.,.,.
+BR8,Two Bedrooms,-,..,..,..,..
+BR8,Three Bedrooms,0,.,.,.,.
+BR8,Four or More Bedrooms,0,.,.,.,.
+CM13,Room,0,.,.,.,.
+CM13,Studio,0,.,.,.,.
+CM13,One Bedroom,0,.,.,.,.
+CM13,Two Bedrooms,0,.,.,.,.
+CM13,Three Bedrooms,0,.,.,.,.
+CM13,Four or More Bedrooms,0,.,.,.,.
+CM14,Room,0,.,.,.,.
+CM14,Studio,0,.,.,.,.
+CM14,One Bedroom,0,.,.,.,.
+CM14,Two Bedrooms,0,.,.,.,.
+CM14,Three Bedrooms,0,.,.,.,.
+CM14,Four or More Bedrooms,0,.,.,.,.
+CM23,Room,0,.,.,.,.
+CM23,Studio,0,.,.,.,.
+CM23,One Bedroom,0,.,.,.,.
+CM23,Two Bedrooms,0,.,.,.,.
+CM23,Three Bedrooms,0,.,.,.,.
+CM23,Four or More Bedrooms,0,.,.,.,.
+CR0,Room,70,502,390,492,567
+CR0,Studio,50,745,700,750,800
+CR0,One Bedroom,350,944,875,925,"1,000"
+CR0,Two Bedrooms,370,"1,188","1,100","1,200","1,250"
+CR0,Three Bedrooms,90,"1,397","1,300","1,400","1,500"
+CR0,Four or More Bedrooms,30,"2,074","1,660","1,950","2,200"
+CR2,Room,-,..,..,..,..
+CR2,Studio,10,683,600,675,750
+CR2,One Bedroom,50,894,850,900,925
+CR2,Two Bedrooms,100,"1,150","1,100","1,125","1,200"
+CR2,Three Bedrooms,30,"1,452","1,300","1,400","1,500"
+CR2,Four or More Bedrooms,10,"1,783","1,700","1,900","1,900"
+CR3,Room,0,.,.,.,.
+CR3,Studio,0,.,.,.,.
+CR3,One Bedroom,0,.,.,.,.
+CR3,Two Bedrooms,0,.,.,.,.
+CR3,Three Bedrooms,-,..,..,..,..
+CR3,Four or More Bedrooms,-,..,..,..,..
+CR4,Room,10,425,392,417,442
+CR4,Studio,10,771,725,775,825
+CR4,One Bedroom,30,984,910,"1,000","1,050"
+CR4,Two Bedrooms,60,"1,199","1,100","1,200","1,350"
+CR4,Three Bedrooms,30,"1,524","1,450","1,500","1,600"
+CR4,Four or More Bedrooms,20,"1,932","1,800","1,850","2,000"
+CR44,Room,0,.,.,.,.
+CR44,Studio,0,.,.,.,.
+CR44,One Bedroom,0,.,.,.,.
+CR44,Two Bedrooms,0,.,.,.,.
+CR44,Three Bedrooms,0,.,.,.,.
+CR44,Four or More Bedrooms,0,.,.,.,.
+CR5,Room,-,..,..,..,..
+CR5,Studio,-,..,..,..,..
+CR5,One Bedroom,-,..,..,..,..
+CR5,Two Bedrooms,10,"1,185","1,050","1,273","1,300"
+CR5,Three Bedrooms,20,"1,386","1,295","1,350","1,550"
+CR5,Four or More Bedrooms,10,"2,057","1,740","1,850","2,450"
+CR6,Room,0,.,.,.,.
+CR6,Studio,0,.,.,.,.
+CR6,One Bedroom,0,.,.,.,.
+CR6,Two Bedrooms,-,..,..,..,..
+CR6,Three Bedrooms,0,.,.,.,.
+CR6,Four or More Bedrooms,0,.,.,.,.
+CR7,Room,20,475,399,478,559
+CR7,Studio,40,670,627,681,728
+CR7,One Bedroom,60,895,850,875,920
+CR7,Two Bedrooms,40,"1,151","1,100","1,200","1,213"
+CR7,Three Bedrooms,40,"1,439","1,350","1,450","1,550"
+CR7,Four or More Bedrooms,10,"1,721","1,600","1,650","1,800"
+CR8,Room,10,544,485,535,585
+CR8,Studio,30,728,695,700,750
+CR8,One Bedroom,30,836,800,825,950
+CR8,Two Bedrooms,70,"1,155","1,000","1,150","1,220"
+CR8,Three Bedrooms,30,"1,385","1,200","1,400","1,500"
+CR8,Four or More Bedrooms,30,"2,038","1,750","1,992","2,250"
+CR9,Room,0,.,.,.,.
+CR9,Studio,0,.,.,.,.
+CR9,One Bedroom,0,.,.,.,.
+CR9,Two Bedrooms,0,.,.,.,.
+CR9,Three Bedrooms,0,.,.,.,.
+CR9,Four or More Bedrooms,0,.,.,.,.
+CR90,Room,0,.,.,.,.
+CR90,Studio,0,.,.,.,.
+CR90,One Bedroom,0,.,.,.,.
+CR90,Two Bedrooms,0,.,.,.,.
+CR90,Three Bedrooms,0,.,.,.,.
+CR90,Four or More Bedrooms,0,.,.,.,.
+DA1,Room,0,.,.,.,.
+DA1,Studio,10,596,550,600,600
+DA1,One Bedroom,30,676,580,650,700
+DA1,Two Bedrooms,20,"1,047",925,"1,050","1,150"
+DA1,Three Bedrooms,20,"1,220","1,100","1,275","1,395"
+DA1,Four or More Bedrooms,10,"1,540","1,500","1,500","1,500"
+DA14,Room,10,540,525,550,575
+DA14,Studio,0,.,.,.,.
+DA14,One Bedroom,10,886,850,900,920
+DA14,Two Bedrooms,50,"1,097","1,000","1,100","1,200"
+DA14,Three Bedrooms,10,"1,278","1,150","1,300","1,350"
+DA14,Four or More Bedrooms,10,"1,640","1,500","1,700","1,700"
+DA15,Room,-,..,..,..,..
+DA15,Studio,0,.,.,.,.
+DA15,One Bedroom,10,845,825,825,850
+DA15,Two Bedrooms,10,"1,181","1,075","1,150","1,300"
+DA15,Three Bedrooms,10,"1,310","1,050","1,375","1,450"
+DA15,Four or More Bedrooms,10,"1,725","1,600","1,700","1,750"
+DA16,Room,0,.,.,.,.
+DA16,Studio,-,..,..,..,..
+DA16,One Bedroom,10,913,850,888,990
+DA16,Two Bedrooms,30,"1,139","1,050","1,150","1,250"
+DA16,Three Bedrooms,30,"1,338","1,250","1,350","1,450"
+DA16,Four or More Bedrooms,10,"1,554","1,400","1,575","1,690"
+DA17,Room,-,..,..,..,..
+DA17,Studio,0,.,.,.,.
+DA17,One Bedroom,10,818,778,825,863
+DA17,Two Bedrooms,30,"1,066",998,"1,050","1,125"
+DA17,Three Bedrooms,20,"1,262","1,213","1,263","1,325"
+DA17,Four or More Bedrooms,-,..,..,..,..
+DA18,Room,0,.,.,.,.
+DA18,Studio,0,.,.,.,.
+DA18,One Bedroom,-,..,..,..,..
+DA18,Two Bedrooms,-,..,..,..,..
+DA18,Three Bedrooms,10,"1,139","1,070","1,175","1,200"
+DA18,Four or More Bedrooms,10,"1,331","1,220","1,300","1,357"
+DA5,Room,-,..,..,..,..
+DA5,Studio,0,.,.,.,.
+DA5,One Bedroom,10,"1,063",980,"1,075","1,200"
+DA5,Two Bedrooms,20,"1,161","1,050","1,200","1,250"
+DA5,Three Bedrooms,10,"1,412","1,350","1,421","1,500"
+DA5,Four or More Bedrooms,10,"1,983","1,700","1,825","2,500"
+DA6,Room,0,.,.,.,.
+DA6,Studio,10,733,725,725,725
+DA6,One Bedroom,20,847,800,875,900
+DA6,Two Bedrooms,20,"1,161","1,100","1,150","1,260"
+DA6,Three Bedrooms,10,"1,309","1,200","1,325","1,450"
+DA6,Four or More Bedrooms,0,.,.,.,.
+DA7,Room,0,.,.,.,.
+DA7,Studio,-,..,..,..,..
+DA7,One Bedroom,-,..,..,..,..
+DA7,Two Bedrooms,50,"1,033",925,"1,050","1,100"
+DA7,Three Bedrooms,30,"1,380","1,300","1,350","1,450"
+DA7,Four or More Bedrooms,10,"1,561","1,450","1,500","1,700"
+DA8,Room,0,.,.,.,.
+DA8,Studio,10,659,650,675,688
+DA8,One Bedroom,20,787,750,785,825
+DA8,Two Bedrooms,50,"1,032",950,"1,000","1,110"
+DA8,Three Bedrooms,20,"1,186","1,100","1,250","1,250"
+DA8,Four or More Bedrooms,10,"1,515","1,450","1,450","1,500"
+E1,Room,20,674,592,642,750
+E1,Studio,30,"1,447","1,150","1,343","1,733"
+E1,One Bedroom,160,"1,677","1,350","1,517","1,885"
+E1,Two Bedrooms,170,"2,155","1,699","1,863","2,383"
+E1,Three Bedrooms,70,"2,396","1,950","2,250","2,578"
+E1,Four or More Bedrooms,30,"2,842","2,643","2,800","2,925"
+E10,Room,-,..,..,..,..
+E10,Studio,20,786,685,800,900
+E10,One Bedroom,70,"1,045",968,"1,000","1,100"
+E10,Two Bedrooms,100,"1,330","1,250","1,350","1,400"
+E10,Three Bedrooms,50,"1,653","1,500","1,635","1,750"
+E10,Four or More Bedrooms,20,"2,095","1,725","2,100","2,300"
+E11,Room,20,572,508,589,614
+E11,Studio,20,762,696,750,850
+E11,One Bedroom,110,"1,076",995,"1,075","1,150"
+E11,Two Bedrooms,210,"1,328","1,250","1,300","1,400"
+E11,Three Bedrooms,60,"1,686","1,450","1,700","1,850"
+E11,Four or More Bedrooms,50,"2,258","1,950","2,200","2,400"
+E12,Room,-,..,..,..,..
+E12,Studio,-,..,..,..,..
+E12,One Bedroom,30,"1,021",900,"1,025","1,125"
+E12,Two Bedrooms,50,"1,262","1,200","1,250","1,330"
+E12,Three Bedrooms,50,"1,535","1,425","1,550","1,650"
+E12,Four or More Bedrooms,10,"2,021","1,700","1,850","2,050"
+E13,Room,10,514,477,498,563
+E13,Studio,-,..,..,..,..
+E13,One Bedroom,70,"1,097","1,000","1,070","1,150"
+E13,Two Bedrooms,80,"1,313","1,250","1,325","1,400"
+E13,Three Bedrooms,50,"1,633","1,500","1,650","1,725"
+E13,Four or More Bedrooms,30,"1,949","1,800","1,850","2,000"
+E14,Room,20,714,592,653,859
+E14,Studio,50,"1,405","1,350","1,408","1,495"
+E14,One Bedroom,260,"1,519","1,343","1,456","1,690"
+E14,Two Bedrooms,310,"1,911","1,600","1,777","2,100"
+E14,Three Bedrooms,120,"2,386","1,996","2,167","2,449"
+E14,Four or More Bedrooms,20,"2,424","2,167","2,383","2,700"
+E15,Room,20,676,527,570,642
+E15,Studio,10,922,900,945,"1,000"
+E15,One Bedroom,150,"1,231","1,100","1,200","1,300"
+E15,Two Bedrooms,210,"1,466","1,350","1,450","1,550"
+E15,Three Bedrooms,90,"1,731","1,600","1,750","1,850"
+E15,Four or More Bedrooms,30,"2,157","1,950","2,008","2,300"
+E16,Room,10,656,621,650,708
+E16,Studio,20,"1,182","1,097","1,175","1,300"
+E16,One Bedroom,140,"1,278","1,170","1,255","1,365"
+E16,Two Bedrooms,250,"1,544","1,387","1,550","1,650"
+E16,Three Bedrooms,80,"1,843","1,695","1,894","2,000"
+E16,Four or More Bedrooms,10,"2,258","2,000","2,100","2,600"
+E17,Room,10,496,442,473,535
+E17,Studio,40,850,790,848,950
+E17,One Bedroom,210,"1,106","1,000","1,100","1,200"
+E17,Two Bedrooms,290,"1,349","1,250","1,350","1,450"
+E17,Three Bedrooms,120,"1,694","1,550","1,700","1,800"
+E17,Four or More Bedrooms,60,"2,109","1,830","2,000","2,300"
+E18,Room,0,.,.,.,.
+E18,Studio,10,802,711,800,900
+E18,One Bedroom,60,"1,080","1,000","1,075","1,150"
+E18,Two Bedrooms,110,"1,324","1,250","1,300","1,400"
+E18,Three Bedrooms,30,"1,571","1,495","1,550","1,700"
+E18,Four or More Bedrooms,20,"2,281","2,050","2,250","2,500"
+E1W,Room,0,.,.,.,.
+E1W,Studio,20,"1,340","1,192","1,300","1,473"
+E1W,One Bedroom,90,"1,577","1,387","1,560","1,712"
+E1W,Two Bedrooms,130,"2,001","1,690","1,900","2,275"
+E1W,Three Bedrooms,20,"2,874","2,037","2,780","3,250"
+E1W,Four or More Bedrooms,10,"3,406","2,578","3,012","3,098"
+E2,Room,10,669,600,646,750
+E2,Studio,20,"1,412","1,081","1,207","1,419"
+E2,One Bedroom,130,"1,460","1,300","1,450","1,560"
+E2,Two Bedrooms,130,"1,847","1,625","1,750","2,000"
+E2,Three Bedrooms,50,"2,348","2,058","2,200","2,600"
+E2,Four or More Bedrooms,30,"2,957","2,600","2,950","3,200"
+E20,Room,0,.,.,.,.
+E20,Studio,0,.,.,.,.
+E20,One Bedroom,-,..,..,..,..
+E20,Two Bedrooms,-,..,..,..,..
+E20,Three Bedrooms,-,..,..,..,..
+E20,Four or More Bedrooms,0,.,.,.,.
+E3,Room,10,652,574,650,715
+E3,Studio,30,"1,215","1,150","1,200","1,257"
+E3,One Bedroom,200,"1,319","1,250","1,300","1,387"
+E3,Two Bedrooms,240,"1,592","1,500","1,595","1,673"
+E3,Three Bedrooms,100,"2,125","1,918","2,120","2,321"
+E3,Four or More Bedrooms,40,"2,698","2,500","2,600","3,000"
+E4,Room,0,.,.,.,.
+E4,Studio,-,..,..,..,..
+E4,One Bedroom,90,990,900,997,"1,050"
+E4,Two Bedrooms,140,"1,219","1,150","1,200","1,300"
+E4,Three Bedrooms,60,"1,500","1,400","1,500","1,600"
+E4,Four or More Bedrooms,20,"1,837","1,700","1,850","1,900"
+E5,Room,-,..,..,..,..
+E5,Studio,10,900,678,850,"1,100"
+E5,One Bedroom,40,"1,302","1,225","1,300","1,425"
+E5,Two Bedrooms,50,"1,659","1,473","1,647","1,800"
+E5,Three Bedrooms,10,"2,092","1,849","2,026","2,392"
+E5,Four or More Bedrooms,10,"3,111","3,000","3,142","3,500"
+E6,Room,10,551,520,550,628
+E6,Studio,0,.,.,.,.
+E6,One Bedroom,40,"1,004",924,"1,000","1,100"
+E6,Two Bedrooms,60,"1,248","1,150","1,250","1,310"
+E6,Three Bedrooms,30,"1,578","1,500","1,575","1,650"
+E6,Four or More Bedrooms,20,"1,921","1,750","1,900","2,100"
+E7,Room,30,603,462,621,738
+E7,Studio,10,786,750,825,850
+E7,One Bedroom,30,"1,044","1,000","1,050","1,100"
+E7,Two Bedrooms,60,"1,278","1,200","1,300","1,375"
+E7,Three Bedrooms,50,"1,610","1,500","1,600","1,700"
+E7,Four or More Bedrooms,30,"1,949","1,800","1,950","2,100"
+E77,Room,0,.,.,.,.
+E77,Studio,0,.,.,.,.
+E77,One Bedroom,0,.,.,.,.
+E77,Two Bedrooms,0,.,.,.,.
+E77,Three Bedrooms,0,.,.,.,.
+E77,Four or More Bedrooms,0,.,.,.,.
+E8,Room,-,..,..,..,..
+E8,Studio,20,"1,416","1,126","1,177","1,842"
+E8,One Bedroom,80,"1,531","1,368","1,516","1,649"
+E8,Two Bedrooms,150,"1,723","1,388","1,663","2,058"
+E8,Three Bedrooms,50,"2,476","2,167","2,492","2,860"
+E8,Four or More Bedrooms,10,"3,207","2,990","3,033","3,532"
+E9,Room,0,.,.,.,.
+E9,Studio,-,..,..,..,..
+E9,One Bedroom,40,"1,444","1,257","1,357","1,500"
+E9,Two Bedrooms,40,"1,738","1,517","1,637","1,900"
+E9,Three Bedrooms,30,"2,236","1,750","1,950","2,600"
+E9,Four or More Bedrooms,10,"2,641","2,300","2,518","3,064"
+E98,Room,0,.,.,.,.
+E98,Studio,0,.,.,.,.
+E98,One Bedroom,0,.,.,.,.
+E98,Two Bedrooms,0,.,.,.,.
+E98,Three Bedrooms,0,.,.,.,.
+E98,Four or More Bedrooms,0,.,.,.,.
+EC1A,Room,0,.,.,.,.
+EC1A,Studio,-,..,..,..,..
+EC1A,One Bedroom,20,"2,022","1,712","2,004","2,383"
+EC1A,Two Bedrooms,10,"3,280","2,383","3,525","3,857"
+EC1A,Three Bedrooms,-,..,..,..,..
+EC1A,Four or More Bedrooms,0,.,.,.,.
+EC1M,Room,0,.,.,.,.
+EC1M,Studio,10,"1,250","1,250","1,257","1,257"
+EC1M,One Bedroom,10,"1,841","1,668","1,950","1,993"
+EC1M,Two Bedrooms,20,"2,584","2,383","2,557","2,708"
+EC1M,Three Bedrooms,-,..,..,..,..
+EC1M,Four or More Bedrooms,0,.,.,.,.
+EC1N,Room,0,.,.,.,.
+EC1N,Studio,-,..,..,..,..
+EC1N,One Bedroom,-,..,..,..,..
+EC1N,Two Bedrooms,20,"2,533","2,210","2,600","2,817"
+EC1N,Three Bedrooms,-,..,..,..,..
+EC1N,Four or More Bedrooms,0,.,.,.,.
+EC1P,Room,0,.,.,.,.
+EC1P,Studio,0,.,.,.,.
+EC1P,One Bedroom,0,.,.,.,.
+EC1P,Two Bedrooms,0,.,.,.,.
+EC1P,Three Bedrooms,0,.,.,.,.
+EC1P,Four or More Bedrooms,0,.,.,.,.
+EC1R,Room,0,.,.,.,.
+EC1R,Studio,0,.,.,.,.
+EC1R,One Bedroom,20,"1,825","1,733","1,842","1,863"
+EC1R,Two Bedrooms,20,"2,320","2,188","2,286","2,438"
+EC1R,Three Bedrooms,-,..,..,..,..
+EC1R,Four or More Bedrooms,0,.,.,.,.
+EC1V,Room,-,..,..,..,..
+EC1V,Studio,10,"1,500","1,300","1,400","1,798"
+EC1V,One Bedroom,70,"1,948","1,733","1,950","2,167"
+EC1V,Two Bedrooms,90,"2,619","2,275","2,687","2,882"
+EC1V,Three Bedrooms,20,"3,177","2,557","3,098","3,597"
+EC1V,Four or More Bedrooms,10,"3,785","2,687","3,163","4,767"
+EC1Y,Room,-,..,..,..,..
+EC1Y,Studio,-,..,..,..,..
+EC1Y,One Bedroom,10,"1,959","1,733","1,950","2,145"
+EC1Y,Two Bedrooms,20,"2,742","2,275","2,698","2,968"
+EC1Y,Three Bedrooms,-,..,..,..,..
+EC1Y,Four or More Bedrooms,0,.,.,.,.
+EC2A,Room,0,.,.,.,.
+EC2A,Studio,10,"1,493","1,226","1,322","1,837"
+EC2A,One Bedroom,20,"1,804","1,500","1,820","2,080"
+EC2A,Two Bedrooms,10,"2,858","2,500","2,604","3,250"
+EC2A,Three Bedrooms,-,..,..,..,..
+EC2A,Four or More Bedrooms,0,.,.,.,.
+EC2M,Room,0,.,.,.,.
+EC2M,Studio,-,..,..,..,..
+EC2M,One Bedroom,-,..,..,..,..
+EC2M,Two Bedrooms,0,.,.,.,.
+EC2M,Three Bedrooms,0,.,.,.,.
+EC2M,Four or More Bedrooms,0,.,.,.,.
+EC2N,Room,0,.,.,.,.
+EC2N,Studio,0,.,.,.,.
+EC2N,One Bedroom,0,.,.,.,.
+EC2N,Two Bedrooms,0,.,.,.,.
+EC2N,Three Bedrooms,0,.,.,.,.
+EC2N,Four or More Bedrooms,0,.,.,.,.
+EC2P,Room,0,.,.,.,.
+EC2P,Studio,0,.,.,.,.
+EC2P,One Bedroom,0,.,.,.,.
+EC2P,Two Bedrooms,0,.,.,.,.
+EC2P,Three Bedrooms,0,.,.,.,.
+EC2P,Four or More Bedrooms,0,.,.,.,.
+EC2R,Room,0,.,.,.,.
+EC2R,Studio,0,.,.,.,.
+EC2R,One Bedroom,0,.,.,.,.
+EC2R,Two Bedrooms,0,.,.,.,.
+EC2R,Three Bedrooms,0,.,.,.,.
+EC2R,Four or More Bedrooms,0,.,.,.,.
+EC2V,Room,0,.,.,.,.
+EC2V,Studio,0,.,.,.,.
+EC2V,One Bedroom,0,.,.,.,.
+EC2V,Two Bedrooms,0,.,.,.,.
+EC2V,Three Bedrooms,0,.,.,.,.
+EC2V,Four or More Bedrooms,0,.,.,.,.
+EC2Y,Room,0,.,.,.,.
+EC2Y,Studio,10,"2,154","2,145","2,145","2,167"
+EC2Y,One Bedroom,10,"2,486","2,069","2,546","2,979"
+EC2Y,Two Bedrooms,10,"2,679","2,329","2,654","2,817"
+EC2Y,Three Bedrooms,0,.,.,.,.
+EC2Y,Four or More Bedrooms,-,..,..,..,..
+EC3A,Room,0,.,.,.,.
+EC3A,Studio,0,.,.,.,.
+EC3A,One Bedroom,0,.,.,.,.
+EC3A,Two Bedrooms,0,.,.,.,.
+EC3A,Three Bedrooms,0,.,.,.,.
+EC3A,Four or More Bedrooms,0,.,.,.,.
+EC3B,Room,0,.,.,.,.
+EC3B,Studio,0,.,.,.,.
+EC3B,One Bedroom,0,.,.,.,.
+EC3B,Two Bedrooms,0,.,.,.,.
+EC3B,Three Bedrooms,0,.,.,.,.
+EC3B,Four or More Bedrooms,0,.,.,.,.
+EC3M,Room,0,.,.,.,.
+EC3M,Studio,0,.,.,.,.
+EC3M,One Bedroom,0,.,.,.,.
+EC3M,Two Bedrooms,0,.,.,.,.
+EC3M,Three Bedrooms,0,.,.,.,.
+EC3M,Four or More Bedrooms,0,.,.,.,.
+EC3N,Room,0,.,.,.,.
+EC3N,Studio,0,.,.,.,.
+EC3N,One Bedroom,-,..,..,..,..
+EC3N,Two Bedrooms,0,.,.,.,.
+EC3N,Three Bedrooms,0,.,.,.,.
+EC3N,Four or More Bedrooms,0,.,.,.,.
+EC3P,Room,0,.,.,.,.
+EC3P,Studio,0,.,.,.,.
+EC3P,One Bedroom,0,.,.,.,.
+EC3P,Two Bedrooms,0,.,.,.,.
+EC3P,Three Bedrooms,0,.,.,.,.
+EC3P,Four or More Bedrooms,0,.,.,.,.
+EC3R,Room,0,.,.,.,.
+EC3R,Studio,-,..,..,..,..
+EC3R,One Bedroom,0,.,.,.,.
+EC3R,Two Bedrooms,-,..,..,..,..
+EC3R,Three Bedrooms,0,.,.,.,.
+EC3R,Four or More Bedrooms,0,.,.,.,.
+EC3V,Room,0,.,.,.,.
+EC3V,Studio,0,.,.,.,.
+EC3V,One Bedroom,0,.,.,.,.
+EC3V,Two Bedrooms,0,.,.,.,.
+EC3V,Three Bedrooms,0,.,.,.,.
+EC3V,Four or More Bedrooms,0,.,.,.,.
+EC4A,Room,0,.,.,.,.
+EC4A,Studio,-,..,..,..,..
+EC4A,One Bedroom,-,..,..,..,..
+EC4A,Two Bedrooms,-,..,..,..,..
+EC4A,Three Bedrooms,0,.,.,.,.
+EC4A,Four or More Bedrooms,0,.,.,.,.
+EC4M,Room,0,.,.,.,.
+EC4M,Studio,0,.,.,.,.
+EC4M,One Bedroom,-,..,..,..,..
+EC4M,Two Bedrooms,-,..,..,..,..
+EC4M,Three Bedrooms,0,.,.,.,.
+EC4M,Four or More Bedrooms,0,.,.,.,.
+EC4N,Room,0,.,.,.,.
+EC4N,Studio,0,.,.,.,.
+EC4N,One Bedroom,0,.,.,.,.
+EC4N,Two Bedrooms,0,.,.,.,.
+EC4N,Three Bedrooms,0,.,.,.,.
+EC4N,Four or More Bedrooms,0,.,.,.,.
+EC4P,Room,0,.,.,.,.
+EC4P,Studio,0,.,.,.,.
+EC4P,One Bedroom,0,.,.,.,.
+EC4P,Two Bedrooms,0,.,.,.,.
+EC4P,Three Bedrooms,0,.,.,.,.
+EC4P,Four or More Bedrooms,0,.,.,.,.
+EC4R,Room,0,.,.,.,.
+EC4R,Studio,0,.,.,.,.
+EC4R,One Bedroom,0,.,.,.,.
+EC4R,Two Bedrooms,0,.,.,.,.
+EC4R,Three Bedrooms,0,.,.,.,.
+EC4R,Four or More Bedrooms,0,.,.,.,.
+EC4V,Room,0,.,.,.,.
+EC4V,Studio,0,.,.,.,.
+EC4V,One Bedroom,-,..,..,..,..
+EC4V,Two Bedrooms,0,.,.,.,.
+EC4V,Three Bedrooms,-,..,..,..,..
+EC4V,Four or More Bedrooms,0,.,.,.,.
+EC4Y,Room,0,.,.,.,.
+EC4Y,Studio,0,.,.,.,.
+EC4Y,One Bedroom,-,..,..,..,..
+EC4Y,Two Bedrooms,-,..,..,..,..
+EC4Y,Three Bedrooms,0,.,.,.,.
+EC4Y,Four or More Bedrooms,0,.,.,.,.
+EC50,Room,0,.,.,.,.
+EC50,Studio,0,.,.,.,.
+EC50,One Bedroom,0,.,.,.,.
+EC50,Two Bedrooms,0,.,.,.,.
+EC50,Three Bedrooms,0,.,.,.,.
+EC50,Four or More Bedrooms,0,.,.,.,.
+EC88,Room,0,.,.,.,.
+EC88,Studio,0,.,.,.,.
+EC88,One Bedroom,0,.,.,.,.
+EC88,Two Bedrooms,0,.,.,.,.
+EC88,Three Bedrooms,0,.,.,.,.
+EC88,Four or More Bedrooms,0,.,.,.,.
+EN1,Room,10,673,442,467,536
+EN1,Studio,10,877,850,870,900
+EN1,One Bedroom,50,"1,002",925,"1,000","1,050"
+EN1,Two Bedrooms,70,"1,273","1,200","1,300","1,350"
+EN1,Three Bedrooms,40,"1,552","1,500","1,500","1,600"
+EN1,Four or More Bedrooms,10,"1,908","1,700","1,850","2,100"
+EN2,Room,-,..,..,..,..
+EN2,Studio,10,760,700,725,800
+EN2,One Bedroom,30,"1,027",950,"1,000","1,050"
+EN2,Two Bedrooms,80,"1,315","1,160","1,280","1,350"
+EN2,Three Bedrooms,20,"1,809","1,450","1,599","1,798"
+EN2,Four or More Bedrooms,20,"2,052","1,775","1,975","2,275"
+EN3,Room,10,608,489,591,717
+EN3,Studio,10,826,750,826,876
+EN3,One Bedroom,10,994,900,"1,000","1,095"
+EN3,Two Bedrooms,20,"1,299","1,250","1,300","1,340"
+EN3,Three Bedrooms,10,"1,414","1,300","1,423","1,500"
+EN3,Four or More Bedrooms,10,"1,728","1,600","1,750","1,800"
+EN4,Room,-,..,..,..,..
+EN4,Studio,10,859,780,850,900
+EN4,One Bedroom,40,"1,014",933,"1,000","1,100"
+EN4,Two Bedrooms,80,"1,249","1,148","1,250","1,350"
+EN4,Three Bedrooms,40,"1,990","1,600","1,700","2,200"
+EN4,Four or More Bedrooms,20,"3,318","2,000","2,325","2,875"
+EN5,Room,-,..,..,..,..
+EN5,Studio,10,802,750,775,850
+EN5,One Bedroom,60,"1,051",932,"1,080","1,150"
+EN5,Two Bedrooms,90,"1,298","1,200","1,275","1,400"
+EN5,Three Bedrooms,40,"1,730","1,500","1,699","1,800"
+EN5,Four or More Bedrooms,20,"2,695","2,200","2,496","2,947"
+EN6,Room,0,.,.,.,.
+EN6,Studio,0,.,.,.,.
+EN6,One Bedroom,0,.,.,.,.
+EN6,Two Bedrooms,0,.,.,.,.
+EN6,Three Bedrooms,0,.,.,.,.
+EN6,Four or More Bedrooms,0,.,.,.,.
+EN7,Room,0,.,.,.,.
+EN7,Studio,0,.,.,.,.
+EN7,One Bedroom,0,.,.,.,.
+EN7,Two Bedrooms,0,.,.,.,.
+EN7,Three Bedrooms,0,.,.,.,.
+EN7,Four or More Bedrooms,0,.,.,.,.
+EN8,Room,0,.,.,.,.
+EN8,Studio,0,.,.,.,.
+EN8,One Bedroom,0,.,.,.,.
+EN8,Two Bedrooms,0,.,.,.,.
+EN8,Three Bedrooms,0,.,.,.,.
+EN8,Four or More Bedrooms,0,.,.,.,.
+EN9,Room,0,.,.,.,.
+EN9,Studio,0,.,.,.,.
+EN9,One Bedroom,0,.,.,.,.
+EN9,Two Bedrooms,0,.,.,.,.
+EN9,Three Bedrooms,0,.,.,.,.
+EN9,Four or More Bedrooms,0,.,.,.,.
+HA0,Room,20,578,450,550,710
+HA0,Studio,30,844,775,850,900
+HA0,One Bedroom,60,"1,094","1,049","1,100","1,150"
+HA0,Two Bedrooms,70,"1,370","1,300","1,350","1,450"
+HA0,Three Bedrooms,40,"1,670","1,550","1,650","1,800"
+HA0,Four or More Bedrooms,30,"2,153","1,900","2,050","2,400"
+HA1,Room,20,686,533,696,863
+HA1,Studio,80,"1,000",850,"1,050","1,150"
+HA1,One Bedroom,160,"1,152","1,050","1,150","1,275"
+HA1,Two Bedrooms,200,"1,354","1,250","1,325","1,400"
+HA1,Three Bedrooms,60,"1,608","1,475","1,600","1,750"
+HA1,Four or More Bedrooms,30,"2,253","1,900","2,100","2,500"
+HA2,Room,10,576,442,625,700
+HA2,Studio,30,795,678,795,925
+HA2,One Bedroom,80,"1,052",950,"1,050","1,150"
+HA2,Two Bedrooms,120,"1,256","1,200","1,250","1,300"
+HA2,Three Bedrooms,110,"1,571","1,475","1,575","1,650"
+HA2,Four or More Bedrooms,30,"1,875","1,700","1,750","1,950"
+HA3,Room,30,540,433,525,642
+HA3,Studio,50,785,725,760,875
+HA3,One Bedroom,100,986,900,980,"1,050"
+HA3,Two Bedrooms,180,"1,261","1,200","1,250","1,300"
+HA3,Three Bedrooms,220,"1,621","1,500","1,600","1,750"
+HA3,Four or More Bedrooms,120,"2,050","1,750","1,950","2,300"
+HA4,Room,10,583,450,550,692
+HA4,Studio,-,..,..,..,..
+HA4,One Bedroom,40,"1,028",950,"1,025","1,100"
+HA4,Two Bedrooms,80,"1,266","1,200","1,250","1,350"
+HA4,Three Bedrooms,20,"1,495","1,350","1,500","1,600"
+HA4,Four or More Bedrooms,10,"2,070","1,900","1,973","2,200"
+HA5,Room,-,..,..,..,..
+HA5,Studio,10,741,663,725,825
+HA5,One Bedroom,40,"1,035",950,"1,000","1,100"
+HA5,Two Bedrooms,120,"1,295","1,200","1,275","1,375"
+HA5,Three Bedrooms,40,"1,663","1,550","1,725","1,800"
+HA5,Four or More Bedrooms,50,"2,554","1,925","2,200","2,900"
+HA6,Room,0,.,.,.,.
+HA6,Studio,20,790,695,850,850
+HA6,One Bedroom,80,997,900,"1,025","1,100"
+HA6,Two Bedrooms,140,"1,317","1,200","1,300","1,475"
+HA6,Three Bedrooms,60,"1,715","1,588","1,700","1,850"
+HA6,Four or More Bedrooms,40,"2,476","2,050","2,400","2,750"
+HA7,Room,0,.,.,.,.
+HA7,Studio,10,793,750,776,850
+HA7,One Bedroom,50,"1,191","1,025","1,200","1,270"
+HA7,Two Bedrooms,100,"1,418","1,300","1,350","1,500"
+HA7,Three Bedrooms,70,"1,691","1,500","1,663","1,825"
+HA7,Four or More Bedrooms,30,"2,187","1,950","2,200","2,500"
+HA8,Room,10,447,400,439,482
+HA8,Studio,10,806,700,815,900
+HA8,One Bedroom,60,"1,064",950,"1,063","1,150"
+HA8,Two Bedrooms,120,"1,333","1,250","1,350","1,425"
+HA8,Three Bedrooms,100,"1,645","1,500","1,650","1,750"
+HA8,Four or More Bedrooms,60,"2,175","1,888","2,100","2,375"
+HA9,Room,10,524,450,520,550
+HA9,Studio,30,912,842,900,"1,000"
+HA9,One Bedroom,100,"1,164","1,050","1,190","1,275"
+HA9,Two Bedrooms,150,"1,413","1,325","1,400","1,500"
+HA9,Three Bedrooms,60,"1,675","1,500","1,650","1,800"
+HA9,Four or More Bedrooms,40,"2,122","1,850","1,995","2,300"
+IG1,Room,10,504,429,535,542
+IG1,Studio,10,810,724,800,850
+IG1,One Bedroom,70,931,860,900,"1,000"
+IG1,Two Bedrooms,80,"1,226","1,150","1,200","1,300"
+IG1,Three Bedrooms,40,"1,504","1,400","1,538","1,600"
+IG1,Four or More Bedrooms,20,"2,115","1,800","1,850","2,250"
+IG11,Room,10,672,642,657,792
+IG11,Studio,10,750,730,750,781
+IG11,One Bedroom,140,"1,017",950,"1,000","1,100"
+IG11,Two Bedrooms,150,"1,227","1,150","1,200","1,300"
+IG11,Three Bedrooms,90,"1,505","1,400","1,538","1,600"
+IG11,Four or More Bedrooms,20,"1,677","1,400","1,800","1,900"
+IG2,Room,10,486,432,496,525
+IG2,Studio,10,770,681,750,795
+IG2,One Bedroom,40,"1,032",950,"1,050","1,148"
+IG2,Two Bedrooms,60,"1,260","1,200","1,275","1,350"
+IG2,Three Bedrooms,30,"1,589","1,500","1,600","1,700"
+IG2,Four or More Bedrooms,10,"1,856","1,600","1,850","2,040"
+IG3,Room,10,598,592,592,642
+IG3,Studio,10,727,650,771,781
+IG3,One Bedroom,40,919,850,900,"1,000"
+IG3,Two Bedrooms,40,"1,191","1,100","1,200","1,250"
+IG3,Three Bedrooms,30,"1,537","1,413","1,550","1,651"
+IG3,Four or More Bedrooms,20,"1,836","1,638","1,750","1,975"
+IG4,Room,-,..,..,..,..
+IG4,Studio,-,..,..,..,..
+IG4,One Bedroom,10,"1,013",975,"1,012","1,076"
+IG4,Two Bedrooms,10,"1,224","1,150","1,185","1,250"
+IG4,Three Bedrooms,-,..,..,..,..
+IG4,Four or More Bedrooms,10,"1,969","1,895","2,000","2,000"
+IG5,Room,10,594,564,637,637
+IG5,Studio,-,..,..,..,..
+IG5,One Bedroom,0,.,.,.,.
+IG5,Two Bedrooms,10,"1,119","1,088","1,125","1,163"
+IG5,Three Bedrooms,10,"1,514","1,400","1,550","1,600"
+IG5,Four or More Bedrooms,10,"1,936","1,750","1,818","2,200"
+IG6,Room,-,..,..,..,..
+IG6,Studio,-,..,..,..,..
+IG6,One Bedroom,30,980,890,925,"1,070"
+IG6,Two Bedrooms,40,"1,188","1,100","1,200","1,250"
+IG6,Three Bedrooms,60,"1,514","1,425","1,550","1,600"
+IG6,Four or More Bedrooms,10,"1,915","1,650","1,800","2,000"
+IG7,Room,0,.,.,.,.
+IG7,Studio,0,.,.,.,.
+IG7,One Bedroom,10,957,850,975,"1,050"
+IG7,Two Bedrooms,10,"1,207","1,100","1,250","1,350"
+IG7,Three Bedrooms,10,"1,442","1,330","1,500","1,588"
+IG7,Four or More Bedrooms,-,..,..,..,..
+IG8,Room,10,392,392,404,442
+IG8,Studio,-,..,..,..,..
+IG8,One Bedroom,20,"1,007",875,"1,000","1,100"
+IG8,Two Bedrooms,70,"1,341","1,175","1,250","1,425"
+IG8,Three Bedrooms,50,"1,616","1,500","1,650","1,695"
+IG8,Four or More Bedrooms,20,"2,299","1,900","2,100","2,900"
+IG9,Room,0,.,.,.,.
+IG9,Studio,0,.,.,.,.
+IG9,One Bedroom,10,"1,009",975,995,"1,000"
+IG9,Two Bedrooms,-,..,..,..,..
+IG9,Three Bedrooms,0,.,.,.,.
+IG9,Four or More Bedrooms,-,..,..,..,..
+KT1,Room,60,497,442,492,492
+KT1,Studio,10,916,895,925,995
+KT1,One Bedroom,70,"1,133","1,050","1,150","1,200"
+KT1,Two Bedrooms,130,"1,401","1,250","1,350","1,500"
+KT1,Three Bedrooms,40,"1,587","1,500","1,600","1,695"
+KT1,Four or More Bedrooms,30,"2,260","2,000","2,200","2,500"
+KT17,Room,0,.,.,.,.
+KT17,Studio,0,.,.,.,.
+KT17,One Bedroom,0,.,.,.,.
+KT17,Two Bedrooms,0,.,.,.,.
+KT17,Three Bedrooms,0,.,.,.,.
+KT17,Four or More Bedrooms,0,.,.,.,.
+KT18,Room,0,.,.,.,.
+KT18,Studio,0,.,.,.,.
+KT18,One Bedroom,0,.,.,.,.
+KT18,Two Bedrooms,0,.,.,.,.
+KT18,Three Bedrooms,0,.,.,.,.
+KT18,Four or More Bedrooms,0,.,.,.,.
+KT19,Room,0,.,.,.,.
+KT19,Studio,0,.,.,.,.
+KT19,One Bedroom,0,.,.,.,.
+KT19,Two Bedrooms,0,.,.,.,.
+KT19,Three Bedrooms,0,.,.,.,.
+KT19,Four or More Bedrooms,0,.,.,.,.
+KT2,Room,20,556,550,550,575
+KT2,Studio,10,867,800,875,895
+KT2,One Bedroom,80,"1,137","1,050","1,100","1,200"
+KT2,Two Bedrooms,160,"1,432","1,250","1,350","1,525"
+KT2,Three Bedrooms,40,"1,848","1,595","1,775","2,000"
+KT2,Four or More Bedrooms,30,"2,899","2,275","2,500","2,900"
+KT22,Room,0,.,.,.,.
+KT22,Studio,0,.,.,.,.
+KT22,One Bedroom,0,.,.,.,.
+KT22,Two Bedrooms,0,.,.,.,.
+KT22,Three Bedrooms,0,.,.,.,.
+KT22,Four or More Bedrooms,0,.,.,.,.
+KT3,Room,-,..,..,..,..
+KT3,Studio,-,..,..,..,..
+KT3,One Bedroom,20,"1,077",958,"1,075","1,150"
+KT3,Two Bedrooms,40,"1,279","1,149","1,250","1,388"
+KT3,Three Bedrooms,30,"1,687","1,500","1,650","1,825"
+KT3,Four or More Bedrooms,10,"2,383","1,900","2,200","2,500"
+KT4,Room,-,..,..,..,..
+KT4,Studio,0,.,.,.,.
+KT4,One Bedroom,20,"1,045",895,"1,000","1,250"
+KT4,Two Bedrooms,30,"1,364","1,250","1,350","1,475"
+KT4,Three Bedrooms,20,"1,637","1,400","1,625","1,750"
+KT4,Four or More Bedrooms,10,"2,206","1,950","2,100","2,525"
+KT5,Room,10,499,508,508,508
+KT5,Studio,10,834,750,800,950
+KT5,One Bedroom,10,"1,015",925,"1,025","1,100"
+KT5,Two Bedrooms,20,"1,289","1,245","1,275","1,375"
+KT5,Three Bedrooms,10,"1,714","1,500","1,795","1,850"
+KT5,Four or More Bedrooms,10,"2,593","2,000","2,500","2,750"
+KT6,Room,-,..,..,..,..
+KT6,Studio,10,777,700,800,825
+KT6,One Bedroom,40,"1,052",975,"1,000","1,195"
+KT6,Two Bedrooms,60,"1,313","1,225","1,300","1,396"
+KT6,Three Bedrooms,20,"1,473","1,350","1,475","1,608"
+KT6,Four or More Bedrooms,10,"2,793","1,950","2,500","2,600"
+KT7,Room,0,.,.,.,.
+KT7,Studio,0,.,.,.,.
+KT7,One Bedroom,0,.,.,.,.
+KT7,Two Bedrooms,0,.,.,.,.
+KT7,Three Bedrooms,0,.,.,.,.
+KT7,Four or More Bedrooms,0,.,.,.,.
+KT8,Room,0,.,.,.,.
+KT8,Studio,-,..,..,..,..
+KT8,One Bedroom,-,..,..,..,..
+KT8,Two Bedrooms,-,..,..,..,..
+KT8,Three Bedrooms,0,.,.,.,.
+KT8,Four or More Bedrooms,0,.,.,.,.
+KT9,Room,0,.,.,.,.
+KT9,Studio,0,.,.,.,.
+KT9,One Bedroom,-,..,..,..,..
+KT9,Two Bedrooms,10,"1,137","1,000","1,250","1,270"
+KT9,Three Bedrooms,10,"1,555","1,450","1,550","1,600"
+KT9,Four or More Bedrooms,-,..,..,..,..
+N1,Room,10,858,790,800,900
+N1,Studio,30,"1,274",997,"1,278","1,430"
+N1,One Bedroom,260,"1,687","1,517","1,647","1,842"
+N1,Two Bedrooms,290,"2,133","1,798","2,058","2,383"
+N1,Three Bedrooms,90,"2,688","2,300","2,600","3,012"
+N1,Four or More Bedrooms,20,"3,310","2,817","3,033","4,008"
+N10,Room,-,..,..,..,..
+N10,Studio,20,827,800,869,910
+N10,One Bedroom,80,"1,298","1,200","1,300","1,387"
+N10,Two Bedrooms,130,"1,601","1,360","1,500","1,668"
+N10,Three Bedrooms,60,"1,920","1,656","1,800","2,043"
+N10,Four or More Bedrooms,40,"2,149","1,575","1,833","2,318"
+N11,Room,10,493,450,500,545
+N11,Studio,10,806,750,800,851
+N11,One Bedroom,80,"1,183","1,100","1,200","1,250"
+N11,Two Bedrooms,140,"1,420","1,300","1,400","1,500"
+N11,Three Bedrooms,30,"1,732","1,575","1,750","1,850"
+N11,Four or More Bedrooms,10,"2,416","2,150","2,300","2,513"
+N12,Room,-,..,..,..,..
+N12,Studio,20,872,800,826,949
+N12,One Bedroom,60,"1,157","1,100","1,150","1,200"
+N12,Two Bedrooms,80,"1,393","1,275","1,378","1,487"
+N12,Three Bedrooms,30,"1,778","1,700","1,800","1,850"
+N12,Four or More Bedrooms,10,"2,348","2,000","2,230","2,400"
+N13,Room,20,510,417,492,592
+N13,Studio,30,824,720,850,897
+N13,One Bedroom,40,"1,045",950,"1,038","1,100"
+N13,Two Bedrooms,60,"1,356","1,250","1,362","1,450"
+N13,Three Bedrooms,20,"1,621","1,500","1,650","1,750"
+N13,Four or More Bedrooms,10,"2,138","2,000","2,000","2,300"
+N14,Room,10,618,555,600,700
+N14,Studio,10,871,823,850,900
+N14,One Bedroom,30,"1,111","1,000","1,050","1,150"
+N14,Two Bedrooms,70,"1,353","1,250","1,350","1,400"
+N14,Three Bedrooms,20,"1,735","1,650","1,725","1,900"
+N14,Four or More Bedrooms,20,"2,261","2,100","2,225","2,450"
+N15,Room,10,541,467,539,617
+N15,Studio,20,943,826,"1,045","1,050"
+N15,One Bedroom,20,"1,169","1,100","1,195","1,250"
+N15,Two Bedrooms,30,"1,376","1,300","1,400","1,452"
+N15,Three Bedrooms,10,"1,659","1,450","1,681","1,750"
+N15,Four or More Bedrooms,10,"2,205","2,000","2,200","2,300"
+N16,Room,10,689,635,685,791
+N16,Studio,20,931,846,963,"1,030"
+N16,One Bedroom,120,"1,334","1,225","1,300","1,452"
+N16,Two Bedrooms,110,"1,631","1,500","1,625","1,750"
+N16,Three Bedrooms,40,"2,317","2,010","2,221","2,600"
+N16,Four or More Bedrooms,20,"2,960","2,600","3,039","3,200"
+N17,Room,10,534,467,522,600
+N17,Studio,10,692,570,701,740
+N17,One Bedroom,10,"1,080","1,000","1,100","1,200"
+N17,Two Bedrooms,20,"1,402","1,300","1,400","1,495"
+N17,Three Bedrooms,10,"1,772","1,642","1,750","1,900"
+N17,Four or More Bedrooms,10,"1,929","1,700","1,925","2,149"
+N18,Room,-,..,..,..,..
+N18,Studio,10,736,676,676,800
+N18,One Bedroom,10,"1,072","1,050","1,050","1,105"
+N18,Two Bedrooms,20,"1,290","1,100","1,350","1,447"
+N18,Three Bedrooms,10,"1,342","1,040","1,395","1,550"
+N18,Four or More Bedrooms,-,..,..,..,..
+N19,Room,10,686,618,675,789
+N19,Studio,30,"1,035",850,910,"1,118"
+N19,One Bedroom,120,"1,405","1,250","1,343","1,450"
+N19,Two Bedrooms,110,"1,665","1,517","1,625","1,733"
+N19,Three Bedrooms,70,"2,229","2,002","2,167","2,383"
+N19,Four or More Bedrooms,40,"2,902","2,400","2,860","3,033"
+N1C,Room,0,.,.,.,.
+N1C,Studio,-,..,..,..,..
+N1C,One Bedroom,-,..,..,..,..
+N1C,Two Bedrooms,-,..,..,..,..
+N1C,Three Bedrooms,0,.,.,.,.
+N1C,Four or More Bedrooms,0,.,.,.,.
+N1P,Room,0,.,.,.,.
+N1P,Studio,0,.,.,.,.
+N1P,One Bedroom,0,.,.,.,.
+N1P,Two Bedrooms,0,.,.,.,.
+N1P,Three Bedrooms,0,.,.,.,.
+N1P,Four or More Bedrooms,0,.,.,.,.
+N2,Room,0,.,.,.,.
+N2,Studio,10,"1,002",910,"1,000","1,100"
+N2,One Bedroom,50,"1,222","1,150","1,250","1,300"
+N2,Two Bedrooms,110,"1,533","1,325","1,430","1,550"
+N2,Three Bedrooms,50,"1,824","1,600","1,733","1,850"
+N2,Four or More Bedrooms,30,"3,783","2,300","3,150","3,683"
+N20,Room,-,..,..,..,..
+N20,Studio,-,..,..,..,..
+N20,One Bedroom,30,"1,182","1,050","1,112","1,350"
+N20,Two Bedrooms,60,"1,453","1,200","1,350","1,450"
+N20,Three Bedrooms,30,"1,892","1,599","1,750","2,100"
+N20,Four or More Bedrooms,30,"2,250","1,900","2,050","2,500"
+N21,Room,-,..,..,..,..
+N21,Studio,-,..,..,..,..
+N21,One Bedroom,10,"1,098",950,"1,150","1,200"
+N21,Two Bedrooms,20,"1,341","1,250","1,325","1,387"
+N21,Three Bedrooms,10,"1,690","1,650","1,650","1,700"
+N21,Four or More Bedrooms,10,"1,993","1,650","2,000","2,249"
+N22,Room,10,577,392,542,600
+N22,Studio,20,866,800,850,895
+N22,One Bedroom,40,"1,178","1,100","1,196","1,250"
+N22,Two Bedrooms,60,"1,415","1,300","1,400","1,475"
+N22,Three Bedrooms,40,"1,762","1,600","1,688","1,950"
+N22,Four or More Bedrooms,20,"2,174","2,000","2,125","2,300"
+N3,Room,-,..,..,..,..
+N3,Studio,10,854,688,914,991
+N3,One Bedroom,30,"1,162","1,050","1,150","1,250"
+N3,Two Bedrooms,100,"1,388","1,300","1,395","1,499"
+N3,Three Bedrooms,20,"1,968","1,751","1,823","2,100"
+N3,Four or More Bedrooms,10,"2,690","2,250","2,500","3,250"
+N4,Room,20,655,592,692,737
+N4,Studio,40,"1,018",901,"1,000","1,083"
+N4,One Bedroom,150,"1,324","1,229","1,300","1,408"
+N4,Two Bedrooms,160,"1,638","1,495","1,620","1,798"
+N4,Three Bedrooms,60,"2,176","1,950","2,167","2,367"
+N4,Four or More Bedrooms,20,"2,796","2,297","2,600","3,350"
+N5,Room,-,..,..,..,..
+N5,Studio,10,"1,016",800,"1,018","1,050"
+N5,One Bedroom,70,"1,573","1,408","1,538","1,706"
+N5,Two Bedrooms,60,"2,034","1,846","1,993","2,167"
+N5,Three Bedrooms,10,"2,246","1,863","2,167","2,600"
+N5,Four or More Bedrooms,10,"3,612","3,250","3,792","3,868"
+N6,Room,-,..,..,..,..
+N6,Studio,30,992,826,997,"1,179"
+N6,One Bedroom,30,"1,345","1,300","1,400","1,430"
+N6,Two Bedrooms,70,"1,863","1,603","1,712","1,950"
+N6,Three Bedrooms,20,"2,195","1,950","2,100","2,300"
+N6,Four or More Bedrooms,10,"4,483","2,708","2,969","6,500"
+N7,Room,10,692,646,696,716
+N7,Studio,30,995,867,975,"1,105"
+N7,One Bedroom,220,"1,374","1,259","1,387","1,473"
+N7,Two Bedrooms,220,"1,742","1,560","1,694","1,896"
+N7,Three Bedrooms,100,"2,174","1,926","2,145","2,373"
+N7,Four or More Bedrooms,50,"3,217","2,808","3,023","3,391"
+N8,Room,10,611,550,613,675
+N8,Studio,40,909,800,920,"1,001"
+N8,One Bedroom,140,"1,263","1,200","1,300","1,350"
+N8,Two Bedrooms,200,"1,603","1,452","1,560","1,750"
+N8,Three Bedrooms,50,"1,994","1,780","2,000","2,167"
+N8,Four or More Bedrooms,20,"2,725","2,550","2,730","3,000"
+N81,Room,0,.,.,.,.
+N81,Studio,0,.,.,.,.
+N81,One Bedroom,0,.,.,.,.
+N81,Two Bedrooms,0,.,.,.,.
+N81,Three Bedrooms,0,.,.,.,.
+N81,Four or More Bedrooms,0,.,.,.,.
+N9,Room,10,454,400,487,495
+N9,Studio,10,766,725,770,800
+N9,One Bedroom,10,994,950,975,"1,049"
+N9,Two Bedrooms,-,..,..,..,..
+N9,Three Bedrooms,10,"1,592","1,500","1,600","1,650"
+N9,Four or More Bedrooms,10,"1,929","1,800","1,846","2,000"
+NW1,Room,20,874,715,880,"1,083"
+NW1,Studio,120,"1,290","1,100","1,257","1,452"
+NW1,One Bedroom,370,"1,704","1,495","1,625","1,842"
+NW1,Two Bedrooms,390,"2,279","1,885","2,145","2,557"
+NW1,Three Bedrooms,220,"3,067","2,503","2,860","3,272"
+NW1,Four or More Bedrooms,130,"4,891","3,142","3,458","4,117"
+NW10,Room,20,631,567,650,700
+NW10,Studio,40,896,801,875,953
+NW10,One Bedroom,120,"1,273","1,192","1,275","1,352"
+NW10,Two Bedrooms,250,"1,555","1,430","1,548","1,668"
+NW10,Three Bedrooms,110,"1,997","1,733","1,963","2,210"
+NW10,Four or More Bedrooms,90,"2,578","2,123","2,496","2,817"
+NW11,Room,10,662,550,650,742
+NW11,Studio,30,"1,016",921,"1,023","1,127"
+NW11,One Bedroom,60,"1,285","1,196","1,250","1,404"
+NW11,Two Bedrooms,110,"1,827","1,517","1,695","1,972"
+NW11,Three Bedrooms,60,"2,181","1,852","2,100","2,450"
+NW11,Four or More Bedrooms,40,"4,349","2,470","3,781","5,633"
+NW1W,Room,0,.,.,.,.
+NW1W,Studio,0,.,.,.,.
+NW1W,One Bedroom,0,.,.,.,.
+NW1W,Two Bedrooms,0,.,.,.,.
+NW1W,Three Bedrooms,0,.,.,.,.
+NW1W,Four or More Bedrooms,0,.,.,.,.
+NW2,Room,30,739,592,700,717
+NW2,Studio,50,892,800,867,"1,001"
+NW2,One Bedroom,110,"1,303","1,192","1,300","1,408"
+NW2,Two Bedrooms,160,"1,600","1,495","1,560","1,733"
+NW2,Three Bedrooms,90,"1,967","1,750","1,920","2,100"
+NW2,Four or More Bedrooms,70,"2,543","2,000","2,297","2,817"
+NW26,Room,0,.,.,.,.
+NW26,Studio,0,.,.,.,.
+NW26,One Bedroom,0,.,.,.,.
+NW26,Two Bedrooms,0,.,.,.,.
+NW26,Three Bedrooms,0,.,.,.,.
+NW26,Four or More Bedrooms,0,.,.,.,.
+NW3,Room,20,854,774,831,969
+NW3,Studio,120,"1,219","1,100","1,192","1,343"
+NW3,One Bedroom,290,"1,640","1,495","1,625","1,746"
+NW3,Two Bedrooms,460,"2,273","1,850","2,102","2,427"
+NW3,Three Bedrooms,170,"3,753","2,600","3,228","4,008"
+NW3,Four or More Bedrooms,100,"8,135","4,220","6,500","10,000"
+NW4,Room,10,559,512,542,568
+NW4,Studio,30,813,738,823,888
+NW4,One Bedroom,30,"1,122","1,062","1,101","1,192"
+NW4,Two Bedrooms,60,"1,394","1,296","1,387","1,500"
+NW4,Three Bedrooms,30,"2,008","1,733","1,810","2,297"
+NW4,Four or More Bedrooms,20,"2,704","2,250","2,427","3,033"
+NW5,Room,10,904,845,845,925
+NW5,Studio,10,"1,126","1,018","1,159","1,200"
+NW5,One Bedroom,180,"1,494","1,404","1,499","1,603"
+NW5,Two Bedrooms,180,"1,945","1,695","1,842","2,102"
+NW5,Three Bedrooms,90,"2,429","2,075","2,275","2,708"
+NW5,Four or More Bedrooms,40,"3,841","2,925","3,467","4,117"
+NW6,Room,10,647,524,650,833
+NW6,Studio,30,"1,092",963,"1,133","1,213"
+NW6,One Bedroom,110,"1,488","1,387","1,473","1,603"
+NW6,Two Bedrooms,210,"1,873","1,625","1,842","2,010"
+NW6,Three Bedrooms,80,"2,534","2,210","2,470","2,817"
+NW6,Four or More Bedrooms,30,"3,936","2,373","3,423","4,658"
+NW7,Room,0,.,.,.,.
+NW7,Studio,10,820,780,807,850
+NW7,One Bedroom,30,"1,119","1,050","1,100","1,200"
+NW7,Two Bedrooms,80,"1,418","1,300","1,350","1,450"
+NW7,Three Bedrooms,30,"1,925","1,650","1,821","2,167"
+NW7,Four or More Bedrooms,30,"2,537","2,197","2,400","2,800"
+NW8,Room,10,934,700,800,"1,343"
+NW8,Studio,30,"1,312","1,212","1,300","1,395"
+NW8,One Bedroom,180,"1,778","1,568","1,733","1,950"
+NW8,Two Bedrooms,160,"2,390","2,002","2,262","2,643"
+NW8,Three Bedrooms,100,"3,860","2,795","3,445","4,767"
+NW8,Four or More Bedrooms,60,"7,781","5,958","7,367","9,533"
+NW9,Room,10,498,442,500,550
+NW9,Studio,50,932,800,950,"1,001"
+NW9,One Bedroom,80,"1,163","1,062","1,200","1,250"
+NW9,Two Bedrooms,110,"1,354","1,200","1,350","1,495"
+NW9,Three Bedrooms,70,"1,674","1,600","1,700","1,795"
+NW9,Four or More Bedrooms,30,"2,162","1,950","2,079","2,300"
+RM1,Room,-,..,..,..,..
+RM1,Studio,10,690,625,700,725
+RM1,One Bedroom,60,895,800,900,975
+RM1,Two Bedrooms,100,"1,083","1,000","1,100","1,150"
+RM1,Three Bedrooms,20,"1,372","1,300","1,400","1,400"
+RM1,Four or More Bedrooms,10,"1,776","1,500","1,700","1,775"
+RM10,Room,10,508,442,542,542
+RM10,Studio,0,.,.,.,.
+RM10,One Bedroom,20,831,795,800,850
+RM10,Two Bedrooms,50,"1,114","1,050","1,100","1,200"
+RM10,Three Bedrooms,50,"1,327","1,250","1,350","1,400"
+RM10,Four or More Bedrooms,10,"1,583","1,500","1,525","1,650"
+RM11,Room,0,.,.,.,.
+RM11,Studio,-,..,..,..,..
+RM11,One Bedroom,10,890,850,875,920
+RM11,Two Bedrooms,30,"1,076",975,"1,050","1,180"
+RM11,Three Bedrooms,20,"1,320","1,295","1,350","1,450"
+RM11,Four or More Bedrooms,-,..,..,..,..
+RM12,Room,-,..,..,..,..
+RM12,Studio,-,..,..,..,..
+RM12,One Bedroom,30,853,800,800,900
+RM12,Two Bedrooms,30,"1,113","1,050","1,095","1,175"
+RM12,Three Bedrooms,50,"1,353","1,275","1,350","1,475"
+RM12,Four or More Bedrooms,10,"1,659","1,538","1,725","1,750"
+RM13,Room,-,..,..,..,..
+RM13,Studio,-,..,..,..,..
+RM13,One Bedroom,10,788,750,798,825
+RM13,Two Bedrooms,40,"1,014",950,"1,000","1,100"
+RM13,Three Bedrooms,50,"1,301","1,200","1,300","1,350"
+RM13,Four or More Bedrooms,10,"1,592","1,600","1,600","1,700"
+RM14,Room,-,..,..,..,..
+RM14,Studio,0,.,.,.,.
+RM14,One Bedroom,-,..,..,..,..
+RM14,Two Bedrooms,40,"1,189","1,050","1,200","1,300"
+RM14,Three Bedrooms,20,"1,525","1,373","1,550","1,700"
+RM14,Four or More Bedrooms,-,..,..,..,..
+RM15,Room,0,.,.,.,.
+RM15,Studio,0,.,.,.,.
+RM15,One Bedroom,0,.,.,.,.
+RM15,Two Bedrooms,0,.,.,.,.
+RM15,Three Bedrooms,0,.,.,.,.
+RM15,Four or More Bedrooms,0,.,.,.,.
+RM2,Room,-,..,..,..,..
+RM2,Studio,-,..,..,..,..
+RM2,One Bedroom,10,872,825,850,900
+RM2,Two Bedrooms,20,"1,146","1,050","1,175","1,215"
+RM2,Three Bedrooms,10,"1,461","1,300","1,400","1,650"
+RM2,Four or More Bedrooms,-,..,..,..,..
+RM3,Room,-,..,..,..,..
+RM3,Studio,-,..,..,..,..
+RM3,One Bedroom,30,864,775,850,900
+RM3,Two Bedrooms,40,"1,116","1,000","1,100","1,240"
+RM3,Three Bedrooms,40,"1,339","1,250","1,300","1,450"
+RM3,Four or More Bedrooms,20,"1,702","1,395","1,500","2,000"
+RM4,Room,0,.,.,.,.
+RM4,Studio,-,..,..,..,..
+RM4,One Bedroom,0,.,.,.,.
+RM4,Two Bedrooms,0,.,.,.,.
+RM4,Three Bedrooms,0,.,.,.,.
+RM4,Four or More Bedrooms,0,.,.,.,.
+RM5,Room,0,.,.,.,.
+RM5,Studio,0,.,.,.,.
+RM5,One Bedroom,10,844,800,850,850
+RM5,Two Bedrooms,20,"1,072",965,"1,100","1,175"
+RM5,Three Bedrooms,30,"1,358","1,300","1,350","1,400"
+RM5,Four or More Bedrooms,-,..,..,..,..
+RM50,Room,0,.,.,.,.
+RM50,Studio,0,.,.,.,.
+RM50,One Bedroom,0,.,.,.,.
+RM50,Two Bedrooms,0,.,.,.,.
+RM50,Three Bedrooms,0,.,.,.,.
+RM50,Four or More Bedrooms,0,.,.,.,.
+RM6,Room,-,..,..,..,..
+RM6,Studio,10,797,750,825,825
+RM6,One Bedroom,30,865,812,875,935
+RM6,Two Bedrooms,70,"1,117","1,050","1,100","1,200"
+RM6,Three Bedrooms,50,"1,436","1,373","1,450","1,500"
+RM6,Four or More Bedrooms,10,"1,643","1,500","1,650","1,750"
+RM7,Room,-,..,..,..,..
+RM7,Studio,-,..,..,..,..
+RM7,One Bedroom,50,905,850,900,975
+RM7,Two Bedrooms,50,"1,158","1,100","1,150","1,250"
+RM7,Three Bedrooms,40,"1,351","1,300","1,350","1,425"
+RM7,Four or More Bedrooms,10,"1,731","1,498","1,650","1,825"
+RM8,Room,10,380,342,367,400
+RM8,Studio,10,688,600,700,731
+RM8,One Bedroom,30,884,827,900,952
+RM8,Two Bedrooms,60,"1,162","1,100","1,200","1,250"
+RM8,Three Bedrooms,40,"1,352","1,250","1,350","1,450"
+RM8,Four or More Bedrooms,10,"1,546","1,450","1,625","1,700"
+RM9,Room,-,..,..,..,..
+RM9,Studio,-,..,..,..,..
+RM9,One Bedroom,20,855,825,850,900
+RM9,Two Bedrooms,60,"1,162","1,100","1,150","1,200"
+RM9,Three Bedrooms,40,"1,398","1,350","1,400","1,450"
+RM9,Four or More Bedrooms,-,..,..,..,..
+SE1,Room,-,..,..,..,..
+SE1,Studio,50,"1,277","1,148","1,222","1,365"
+SE1,One Bedroom,360,"1,631","1,300","1,575","1,842"
+SE1,Two Bedrooms,410,"2,012","1,560","1,863","2,350"
+SE1,Three Bedrooms,100,"2,303","1,850","2,125","2,730"
+SE1,Four or More Bedrooms,10,"4,005","2,758","3,001","3,358"
+SE10,Room,10,807,777,817,882
+SE10,Studio,10,967,800,825,"1,300"
+SE10,One Bedroom,100,"1,388","1,300","1,378","1,452"
+SE10,Two Bedrooms,160,"1,688","1,500","1,675","1,800"
+SE10,Three Bedrooms,50,"2,229","2,000","2,200","2,375"
+SE10,Four or More Bedrooms,10,"2,771","2,350","2,550","3,300"
+SE11,Room,-,..,..,..,..
+SE11,Studio,-,..,..,..,..
+SE11,One Bedroom,30,"1,438","1,350","1,408","1,517"
+SE11,Two Bedrooms,20,"1,939","1,690","1,850","1,993"
+SE11,Three Bedrooms,10,"2,124","1,950","2,167","2,200"
+SE11,Four or More Bedrooms,-,..,..,..,..
+SE12,Room,-,..,..,..,..
+SE12,Studio,0,.,.,.,.
+SE12,One Bedroom,40,982,900,975,"1,025"
+SE12,Two Bedrooms,90,"1,204","1,100","1,200","1,300"
+SE12,Three Bedrooms,30,"1,556","1,450","1,550","1,699"
+SE12,Four or More Bedrooms,10,"1,710","1,500","1,700","1,750"
+SE13,Room,10,596,550,600,675
+SE13,Studio,30,942,850,897,"1,148"
+SE13,One Bedroom,130,"1,144","1,050","1,150","1,275"
+SE13,Two Bedrooms,150,"1,379","1,250","1,375","1,500"
+SE13,Three Bedrooms,40,"1,676","1,575","1,650","1,800"
+SE13,Four or More Bedrooms,10,"2,272","1,850","2,362","2,500"
+SE14,Room,10,547,400,541,592
+SE14,Studio,20,883,850,895,950
+SE14,One Bedroom,50,"1,075",975,"1,050","1,150"
+SE14,Two Bedrooms,50,"1,363","1,250","1,350","1,450"
+SE14,Three Bedrooms,10,"1,854","1,700","1,800","1,950"
+SE14,Four or More Bedrooms,30,"2,816","2,495","2,563","3,300"
+SE15,Room,20,557,550,567,592
+SE15,Studio,10,863,825,875,895
+SE15,One Bedroom,110,"1,232","1,150","1,250","1,325"
+SE15,Two Bedrooms,120,"1,513","1,400","1,500","1,600"
+SE15,Three Bedrooms,40,"2,053","1,820","2,000","2,300"
+SE15,Four or More Bedrooms,30,"2,649","2,400","2,600","2,800"
+SE16,Room,10,808,780,791,817
+SE16,Studio,10,"1,047",975,988,"1,138"
+SE16,One Bedroom,150,"1,380","1,250","1,322","1,560"
+SE16,Two Bedrooms,240,"1,719","1,500","1,650","1,885"
+SE16,Three Bedrooms,40,"2,200","1,950","2,173","2,400"
+SE16,Four or More Bedrooms,20,"2,843","2,488","2,679","3,031"
+SE17,Room,-,..,..,..,..
+SE17,Studio,30,"1,013",997,"1,000","1,022"
+SE17,One Bedroom,140,"1,247","1,185","1,273","1,333"
+SE17,Two Bedrooms,140,"1,442","1,278","1,495","1,575"
+SE17,Three Bedrooms,50,"1,783","1,550","1,840","2,102"
+SE17,Four or More Bedrooms,30,"2,240","1,940","2,255","2,500"
+SE18,Room,20,524,475,521,600
+SE18,Studio,30,805,675,800,900
+SE18,One Bedroom,110,"1,054",890,983,"1,248"
+SE18,Two Bedrooms,170,"1,254","1,100","1,200","1,325"
+SE18,Three Bedrooms,60,"1,428","1,300","1,400","1,500"
+SE18,Four or More Bedrooms,20,"1,765","1,600","1,700","1,850"
+SE19,Room,-,..,..,..,..
+SE19,Studio,10,839,800,850,875
+SE19,One Bedroom,60,"1,021",950,"1,000","1,100"
+SE19,Two Bedrooms,80,"1,332","1,200","1,300","1,400"
+SE19,Three Bedrooms,20,"1,642","1,442","1,625","1,750"
+SE19,Four or More Bedrooms,10,"2,000","1,825","1,850","2,000"
+SE1P,Room,0,.,.,.,.
+SE1P,Studio,0,.,.,.,.
+SE1P,One Bedroom,0,.,.,.,.
+SE1P,Two Bedrooms,0,.,.,.,.
+SE1P,Three Bedrooms,0,.,.,.,.
+SE1P,Four or More Bedrooms,0,.,.,.,.
+SE2,Room,-,..,..,..,..
+SE2,Studio,-,..,..,..,..
+SE2,One Bedroom,30,789,750,800,850
+SE2,Two Bedrooms,30,"1,072","1,000","1,050","1,200"
+SE2,Three Bedrooms,60,"1,285","1,150","1,300","1,350"
+SE2,Four or More Bedrooms,10,"1,355","1,200","1,255","1,598"
+SE20,Room,10,489,442,492,508
+SE20,Studio,20,844,800,825,875
+SE20,One Bedroom,80,947,875,949,"1,000"
+SE20,Two Bedrooms,70,"1,234","1,150","1,200","1,350"
+SE20,Three Bedrooms,20,"1,424","1,313","1,438","1,500"
+SE20,Four or More Bedrooms,10,"1,980","1,750","2,100","2,150"
+SE21,Room,-,..,..,..,..
+SE21,Studio,10,845,750,750,950
+SE21,One Bedroom,20,"1,183","1,050","1,213","1,300"
+SE21,Two Bedrooms,100,"1,362","1,150","1,325","1,675"
+SE21,Three Bedrooms,30,"1,990","1,750","1,900","2,400"
+SE21,Four or More Bedrooms,20,"2,853","2,300","2,850","3,000"
+SE22,Room,10,556,492,542,625
+SE22,Studio,10,956,925,975,995
+SE22,One Bedroom,100,"1,238","1,150","1,250","1,300"
+SE22,Two Bedrooms,150,"1,569","1,400","1,550","1,700"
+SE22,Three Bedrooms,50,"1,957","1,775","1,995","2,200"
+SE22,Four or More Bedrooms,20,"2,965","2,588","2,800","3,050"
+SE23,Room,10,552,492,509,600
+SE23,Studio,30,766,700,800,800
+SE23,One Bedroom,70,"1,057",995,"1,050","1,150"
+SE23,Two Bedrooms,100,"1,339","1,250","1,300","1,400"
+SE23,Three Bedrooms,30,"1,703","1,500","1,700","1,875"
+SE23,Four or More Bedrooms,20,"2,345","2,000","2,250","2,800"
+SE24,Room,0,.,.,.,.
+SE24,Studio,10,809,695,850,"1,000"
+SE24,One Bedroom,30,"1,246","1,150","1,250","1,350"
+SE24,Two Bedrooms,60,"1,576","1,463","1,550","1,698"
+SE24,Three Bedrooms,20,"2,219","1,950","2,300","2,500"
+SE24,Four or More Bedrooms,10,"2,902","2,500","2,800","3,350"
+SE25,Room,10,450,392,417,550
+SE25,Studio,20,728,700,725,750
+SE25,One Bedroom,80,904,850,900,925
+SE25,Two Bedrooms,70,"1,176","1,100","1,175","1,250"
+SE25,Three Bedrooms,20,"1,415","1,325","1,450","1,550"
+SE25,Four or More Bedrooms,-,..,..,..,..
+SE26,Room,10,456,392,492,500
+SE26,Studio,10,866,775,815,950
+SE26,One Bedroom,50,"1,039",925,"1,010","1,100"
+SE26,Two Bedrooms,120,"1,242","1,175","1,250","1,350"
+SE26,Three Bedrooms,30,"1,554","1,350","1,500","1,700"
+SE26,Four or More Bedrooms,10,"2,125","2,100","2,200","2,300"
+SE27,Room,-,..,..,..,..
+SE27,Studio,20,664,575,650,773
+SE27,One Bedroom,30,"1,080","1,000","1,075","1,200"
+SE27,Two Bedrooms,30,"1,357","1,238","1,350","1,450"
+SE27,Three Bedrooms,10,"1,798","1,600","1,750","2,000"
+SE27,Four or More Bedrooms,10,"2,408","2,200","2,350","2,500"
+SE28,Room,-,..,..,..,..
+SE28,Studio,-,..,..,..,..
+SE28,One Bedroom,10,885,830,850,"1,000"
+SE28,Two Bedrooms,40,"1,155","1,100","1,150","1,200"
+SE28,Three Bedrooms,20,"1,292","1,225","1,275","1,350"
+SE28,Four or More Bedrooms,-,..,..,..,..
+SE3,Room,10,580,570,570,570
+SE3,Studio,10,945,867,953,"1,000"
+SE3,One Bedroom,60,"1,238","1,150","1,225","1,300"
+SE3,Two Bedrooms,90,"1,491","1,334","1,438","1,650"
+SE3,Three Bedrooms,60,"1,808","1,563","1,675","2,050"
+SE3,Four or More Bedrooms,10,"2,443","2,100","2,250","2,850"
+SE4,Room,-,..,..,..,..
+SE4,Studio,10,807,700,825,926
+SE4,One Bedroom,60,"1,093","1,000","1,100","1,200"
+SE4,Two Bedrooms,80,"1,347","1,250","1,375","1,450"
+SE4,Three Bedrooms,30,"1,754","1,550","1,800","2,000"
+SE4,Four or More Bedrooms,10,"2,243","1,850","2,275","2,500"
+SE5,Room,10,525,442,552,575
+SE5,Studio,-,..,..,..,..
+SE5,One Bedroom,70,"1,260","1,150","1,250","1,350"
+SE5,Two Bedrooms,90,"1,507","1,400","1,500","1,600"
+SE5,Three Bedrooms,30,"1,980","1,800","2,000","2,150"
+SE5,Four or More Bedrooms,10,"2,748","2,400","2,775","3,000"
+SE6,Room,20,516,442,500,598
+SE6,Studio,20,712,650,720,818
+SE6,One Bedroom,70,984,900,950,"1,050"
+SE6,Two Bedrooms,110,"1,225","1,150","1,213","1,300"
+SE6,Three Bedrooms,50,"1,501","1,400","1,500","1,600"
+SE6,Four or More Bedrooms,20,"1,934","1,700","1,850","2,100"
+SE7,Room,10,622,542,621,700
+SE7,Studio,0,.,.,.,.
+SE7,One Bedroom,10,"1,028",900,995,"1,100"
+SE7,Two Bedrooms,20,"1,275","1,250","1,295","1,350"
+SE7,Three Bedrooms,20,"1,612","1,495","1,600","1,750"
+SE7,Four or More Bedrooms,10,"2,083","1,800","1,900","2,400"
+SE8,Room,20,569,517,517,692
+SE8,Studio,20,961,900,925,"1,031"
+SE8,One Bedroom,70,"1,193","1,100","1,200","1,300"
+SE8,Two Bedrooms,80,"1,499","1,270","1,500","1,755"
+SE8,Three Bedrooms,20,"1,872","1,700","1,868","2,200"
+SE8,Four or More Bedrooms,10,"1,808","1,500","1,853","2,167"
+SE9,Room,-,..,..,..,..
+SE9,Studio,10,894,850,875,925
+SE9,One Bedroom,50,988,900,950,"1,075"
+SE9,Two Bedrooms,60,"1,210","1,100","1,200","1,300"
+SE9,Three Bedrooms,60,"1,500","1,350","1,500","1,600"
+SE9,Four or More Bedrooms,20,"1,724","1,450","1,650","1,950"
+SE99,Room,0,.,.,.,.
+SE99,Studio,0,.,.,.,.
+SE99,One Bedroom,0,.,.,.,.
+SE99,Two Bedrooms,0,.,.,.,.
+SE99,Three Bedrooms,0,.,.,.,.
+SE99,Four or More Bedrooms,0,.,.,.,.
+SM1,Room,-,..,..,..,..
+SM1,Studio,20,760,695,725,800
+SM1,One Bedroom,80,934,850,925,975
+SM1,Two Bedrooms,110,"1,161","1,100","1,150","1,200"
+SM1,Three Bedrooms,40,"1,446","1,350","1,450","1,600"
+SM1,Four or More Bedrooms,20,"1,809","1,700","1,750","1,995"
+SM2,Room,0,.,.,.,.
+SM2,Studio,20,770,725,775,800
+SM2,One Bedroom,160,925,900,925,950
+SM2,Two Bedrooms,150,"1,183","1,125","1,200","1,225"
+SM2,Three Bedrooms,10,"1,547","1,400","1,625","1,650"
+SM2,Four or More Bedrooms,10,"2,205","1,800","2,150","2,600"
+SM3,Room,-,..,..,..,..
+SM3,Studio,-,..,..,..,..
+SM3,One Bedroom,10,906,825,850,"1,000"
+SM3,Two Bedrooms,20,"1,173","1,100","1,187","1,250"
+SM3,Three Bedrooms,20,"1,523","1,500","1,500","1,600"
+SM3,Four or More Bedrooms,10,"1,786","1,650","1,800","1,850"
+SM4,Room,10,553,450,550,650
+SM4,Studio,-,..,..,..,..
+SM4,One Bedroom,10,"1,013",938,"1,050","1,100"
+SM4,Two Bedrooms,40,"1,262","1,200","1,250","1,350"
+SM4,Three Bedrooms,20,"1,543","1,500","1,550","1,600"
+SM4,Four or More Bedrooms,10,"1,713","1,600","1,750","1,850"
+SM5,Room,-,..,..,..,..
+SM5,Studio,0,.,.,.,.
+SM5,One Bedroom,20,911,850,900,975
+SM5,Two Bedrooms,30,"1,176","1,100","1,195","1,250"
+SM5,Three Bedrooms,10,"1,479","1,385","1,450","1,550"
+SM5,Four or More Bedrooms,10,"1,700","1,575","1,700","1,800"
+SM6,Room,-,..,..,..,..
+SM6,Studio,10,684,597,650,750
+SM6,One Bedroom,20,894,850,900,930
+SM6,Two Bedrooms,50,"1,136","1,050","1,100","1,250"
+SM6,Three Bedrooms,10,"1,476","1,425","1,475","1,531"
+SM6,Four or More Bedrooms,10,"1,835","1,750","1,800","1,875"
+SM7,Room,0,.,.,.,.
+SM7,Studio,0,.,.,.,.
+SM7,One Bedroom,0,.,.,.,.
+SM7,Two Bedrooms,0,.,.,.,.
+SM7,Three Bedrooms,0,.,.,.,.
+SM7,Four or More Bedrooms,0,.,.,.,.
+SW10,Room,0,.,.,.,.
+SW10,Studio,10,"1,438","1,365","1,430","1,500"
+SW10,One Bedroom,80,"1,901","1,647","1,733","2,145"
+SW10,Two Bedrooms,80,"2,565","2,015","2,340","2,817"
+SW10,Three Bedrooms,20,"4,325","3,142","3,683","5,633"
+SW10,Four or More Bedrooms,10,"6,783","3,900","5,417","6,067"
+SW11,Room,-,..,..,..,..
+SW11,Studio,30,"1,244","1,148","1,200","1,408"
+SW11,One Bedroom,270,"1,476","1,332","1,452","1,625"
+SW11,Two Bedrooms,400,"1,968","1,712","1,900","2,145"
+SW11,Three Bedrooms,140,"2,482","2,102","2,500","2,800"
+SW11,Four or More Bedrooms,90,"3,799","3,150","3,690","4,250"
+SW12,Room,0,.,.,.,.
+SW12,Studio,10,"1,112","1,025","1,190","1,192"
+SW12,One Bedroom,60,"1,428","1,300","1,408","1,517"
+SW12,Two Bedrooms,130,"1,904","1,699","1,850","2,058"
+SW12,Three Bedrooms,40,"2,403","2,100","2,475","2,600"
+SW12,Four or More Bedrooms,30,"3,365","3,000","3,400","3,700"
+SW13,Room,0,.,.,.,.
+SW13,Studio,10,"1,146","1,055","1,103","1,232"
+SW13,One Bedroom,80,"1,376","1,250","1,395","1,500"
+SW13,Two Bedrooms,140,"1,851","1,500","1,750","2,000"
+SW13,Three Bedrooms,80,"2,483","1,825","2,250","2,950"
+SW13,Four or More Bedrooms,40,"4,592","2,995","3,875","5,600"
+SW14,Room,0,.,.,.,.
+SW14,Studio,10,"1,162",980,"1,013","1,400"
+SW14,One Bedroom,90,"1,281","1,150","1,250","1,375"
+SW14,Two Bedrooms,230,"1,642","1,400","1,600","1,775"
+SW14,Three Bedrooms,110,"2,315","1,750","2,175","2,600"
+SW14,Four or More Bedrooms,90,"3,696","2,850","3,375","4,250"
+SW15,Room,-,..,..,..,..
+SW15,Studio,30,"1,053",975,"1,050","1,150"
+SW15,One Bedroom,180,"1,394","1,295","1,395","1,500"
+SW15,Two Bedrooms,310,"1,742","1,500","1,700","1,900"
+SW15,Three Bedrooms,90,"2,182","1,850","2,200","2,450"
+SW15,Four or More Bedrooms,70,"3,391","2,200","3,075","4,100"
+SW16,Room,10,579,521,567,628
+SW16,Studio,20,798,725,800,852
+SW16,One Bedroom,120,"1,096","1,050","1,050","1,195"
+SW16,Two Bedrooms,110,"1,350","1,275","1,350","1,400"
+SW16,Three Bedrooms,70,"1,605","1,500","1,600","1,700"
+SW16,Four or More Bedrooms,50,"2,161","1,750","2,100","2,500"
+SW17,Room,40,614,579,642,671
+SW17,Studio,60,967,926,975,"1,024"
+SW17,One Bedroom,150,"1,291","1,192","1,295","1,400"
+SW17,Two Bedrooms,210,"1,528","1,400","1,500","1,615"
+SW17,Three Bedrooms,110,"1,986","1,750","1,900","2,200"
+SW17,Four or More Bedrooms,90,"2,601","2,427","2,600","2,800"
+SW18,Room,0,.,.,.,.
+SW18,Studio,-,..,..,..,..
+SW18,One Bedroom,120,"1,418","1,275","1,400","1,500"
+SW18,Two Bedrooms,240,"1,695","1,500","1,650","1,800"
+SW18,Three Bedrooms,80,"2,295","1,972","2,200","2,500"
+SW18,Four or More Bedrooms,50,"3,136","2,650","3,000","3,400"
+SW19,Room,30,668,550,692,750
+SW19,Studio,30,977,900,980,"1,025"
+SW19,One Bedroom,280,"1,257","1,150","1,250","1,350"
+SW19,Two Bedrooms,380,"1,577","1,395","1,500","1,700"
+SW19,Three Bedrooms,100,"2,049","1,800","1,900","2,250"
+SW19,Four or More Bedrooms,80,"2,832","2,300","2,750","3,000"
+SW1A,Room,0,.,.,.,.
+SW1A,Studio,0,.,.,.,.
+SW1A,One Bedroom,-,..,..,..,..
+SW1A,Two Bedrooms,-,..,..,..,..
+SW1A,Three Bedrooms,-,..,..,..,..
+SW1A,Four or More Bedrooms,0,.,.,.,.
+SW1E,Room,0,.,.,.,.
+SW1E,Studio,-,..,..,..,..
+SW1E,One Bedroom,-,..,..,..,..
+SW1E,Two Bedrooms,10,"4,639","4,257","4,550","4,766"
+SW1E,Three Bedrooms,-,..,..,..,..
+SW1E,Four or More Bedrooms,0,.,.,.,.
+SW1H,Room,0,.,.,.,.
+SW1H,Studio,0,.,.,.,.
+SW1H,One Bedroom,-,..,..,..,..
+SW1H,Two Bedrooms,-,..,..,..,..
+SW1H,Three Bedrooms,-,..,..,..,..
+SW1H,Four or More Bedrooms,0,.,.,.,.
+SW1P,Room,0,.,.,.,.
+SW1P,Studio,10,"1,401","1,235","1,343","1,625"
+SW1P,One Bedroom,50,"2,002","1,798","1,863","2,145"
+SW1P,Two Bedrooms,80,"2,595","2,145","2,383","2,968"
+SW1P,Three Bedrooms,20,"3,766","3,142","3,684","4,279"
+SW1P,Four or More Bedrooms,-,..,..,..,..
+SW1V,Room,0,.,.,.,.
+SW1V,Studio,20,"1,456","1,343","1,430","1,517"
+SW1V,One Bedroom,100,"1,771","1,600","1,733","1,885"
+SW1V,Two Bedrooms,90,"2,364","2,080","2,297","2,492"
+SW1V,Three Bedrooms,20,"3,208","2,578","3,250","3,683"
+SW1V,Four or More Bedrooms,10,"5,370","4,312","4,767","5,200"
+SW1W,Room,0,.,.,.,.
+SW1W,Studio,10,"1,692","1,495","1,755","1,838"
+SW1W,One Bedroom,60,"2,137","1,842","2,188","2,383"
+SW1W,Two Bedrooms,60,"3,488","2,817","3,200","3,794"
+SW1W,Three Bedrooms,20,"7,067","3,467","5,200","10,812"
+SW1W,Four or More Bedrooms,10,"9,799","6,067","10,833","13,000"
+SW1X,Room,0,.,.,.,.
+SW1X,Studio,-,..,..,..,..
+SW1X,One Bedroom,30,"3,322","2,275","2,504","3,142"
+SW1X,Two Bedrooms,50,"4,521","3,467","4,366","5,308"
+SW1X,Three Bedrooms,20,"7,753","5,092","7,475","10,833"
+SW1X,Four or More Bedrooms,20,"12,029","7,800","10,833","15,167"
+SW1Y,Room,0,.,.,.,.
+SW1Y,Studio,0,.,.,.,.
+SW1Y,One Bedroom,-,..,..,..,..
+SW1Y,Two Bedrooms,20,"7,105","5,200","6,717","7,583"
+SW1Y,Three Bedrooms,-,..,..,..,..
+SW1Y,Four or More Bedrooms,0,.,.,.,.
+SW2,Room,-,..,..,..,..
+SW2,Studio,10,844,700,793,975
+SW2,One Bedroom,70,"1,257","1,175","1,250","1,347"
+SW2,Two Bedrooms,90,"1,550","1,400","1,500","1,700"
+SW2,Three Bedrooms,30,"2,148","1,800","2,100","2,500"
+SW2,Four or More Bedrooms,20,"2,872","2,600","2,800","3,275"
+SW20,Room,0,.,.,.,.
+SW20,Studio,10,918,875,911,963
+SW20,One Bedroom,70,"1,243","1,085","1,195","1,300"
+SW20,Two Bedrooms,90,"1,433","1,300","1,400","1,550"
+SW20,Three Bedrooms,40,"1,918","1,797","1,932","2,088"
+SW20,Four or More Bedrooms,40,"2,939","2,195","2,700","3,200"
+SW3,Room,0,.,.,.,.
+SW3,Studio,100,"1,407","1,192","1,343","1,625"
+SW3,One Bedroom,260,"2,035","1,712","1,950","2,275"
+SW3,Two Bedrooms,230,"3,334","2,600","3,142","3,683"
+SW3,Three Bedrooms,70,"5,060","3,900","4,712","6,067"
+SW3,Four or More Bedrooms,40,"10,343","5,850","8,559","13,433"
+SW4,Room,-,..,..,..,..
+SW4,Studio,10,"1,148","1,100","1,125","1,235"
+SW4,One Bedroom,90,"1,511","1,350","1,495","1,647"
+SW4,Two Bedrooms,130,"1,874","1,650","1,800","2,050"
+SW4,Three Bedrooms,40,"2,456","2,200","2,300","2,600"
+SW4,Four or More Bedrooms,20,"3,796","3,000","3,467","4,333"
+SW5,Room,0,.,.,.,.
+SW5,Studio,20,"1,506","1,257","1,500","1,733"
+SW5,One Bedroom,60,"1,946","1,647","1,900","2,058"
+SW5,Two Bedrooms,100,"2,697","2,054","2,492","2,990"
+SW5,Three Bedrooms,30,"3,797","3,207","3,445","4,312"
+SW5,Four or More Bedrooms,10,"6,129","4,642","5,558","5,958"
+SW6,Room,10,734,650,750,800
+SW6,Studio,10,"1,132",950,"1,100","1,250"
+SW6,One Bedroom,170,"1,471","1,200","1,430","1,650"
+SW6,Two Bedrooms,140,"1,948","1,600","1,850","2,210"
+SW6,Three Bedrooms,50,"2,848","2,232","2,752","3,048"
+SW6,Four or More Bedrooms,50,"4,421","3,250","3,792","5,200"
+SW7,Room,0,.,.,.,.
+SW7,Studio,10,"1,464","1,400","1,434","1,647"
+SW7,One Bedroom,90,"2,362","1,777","2,167","2,687"
+SW7,Two Bedrooms,140,"3,610","2,578","3,012","3,878"
+SW7,Three Bedrooms,60,"5,781","3,813","5,417","6,500"
+SW7,Four or More Bedrooms,30,"9,859","5,633","7,367","12,350"
+SW8,Room,0,.,.,.,.
+SW8,Studio,-,..,..,..,..
+SW8,One Bedroom,70,"1,515","1,323","1,473","1,582"
+SW8,Two Bedrooms,100,"2,104","1,603","1,733","2,000"
+SW8,Three Bedrooms,40,"3,074","1,972","2,275","2,600"
+SW8,Four or More Bedrooms,10,"3,062","2,600","3,283","3,405"
+SW9,Room,-,..,..,..,..
+SW9,Studio,20,"1,067",925,"1,025","1,192"
+SW9,One Bedroom,30,"1,423","1,330","1,450","1,525"
+SW9,Two Bedrooms,40,"1,682","1,600","1,700","1,780"
+SW9,Three Bedrooms,30,"2,288","1,950","2,284","2,470"
+SW9,Four or More Bedrooms,10,"2,816","2,495","2,950","3,250"
+SW95,Room,0,.,.,.,.
+SW95,Studio,0,.,.,.,.
+SW95,One Bedroom,0,.,.,.,.
+SW95,Two Bedrooms,0,.,.,.,.
+SW95,Three Bedrooms,0,.,.,.,.
+SW95,Four or More Bedrooms,0,.,.,.,.
+SW99,Room,0,.,.,.,.
+SW99,Studio,0,.,.,.,.
+SW99,One Bedroom,0,.,.,.,.
+SW99,Two Bedrooms,0,.,.,.,.
+SW99,Three Bedrooms,0,.,.,.,.
+SW99,Four or More Bedrooms,0,.,.,.,.
+TN14,Room,0,.,.,.,.
+TN14,Studio,0,.,.,.,.
+TN14,One Bedroom,0,.,.,.,.
+TN14,Two Bedrooms,0,.,.,.,.
+TN14,Three Bedrooms,0,.,.,.,.
+TN14,Four or More Bedrooms,0,.,.,.,.
+TN16,Room,0,.,.,.,.
+TN16,Studio,0,.,.,.,.
+TN16,One Bedroom,-,..,..,..,..
+TN16,Two Bedrooms,10,"1,274","1,250","1,300","1,300"
+TN16,Three Bedrooms,10,"1,492","1,400","1,500","1,600"
+TN16,Four or More Bedrooms,-,..,..,..,..
+TW1,Room,0,.,.,.,.
+TW1,Studio,10,854,680,895,995
+TW1,One Bedroom,60,"1,216","1,100","1,175","1,300"
+TW1,Two Bedrooms,100,"1,728","1,350","1,575","1,860"
+TW1,Three Bedrooms,30,"2,084","1,650","1,895","2,235"
+TW1,Four or More Bedrooms,10,"4,614","2,995","4,225","6,000"
+TW10,Room,-,..,..,..,..
+TW10,Studio,-,..,..,..,..
+TW10,One Bedroom,40,"1,293","1,150","1,275","1,400"
+TW10,Two Bedrooms,100,"1,752","1,500","1,750","1,900"
+TW10,Three Bedrooms,40,"2,411","1,725","2,225","2,900"
+TW10,Four or More Bedrooms,30,"3,994","2,900","3,500","4,800"
+TW11,Room,0,.,.,.,.
+TW11,Studio,-,..,..,..,..
+TW11,One Bedroom,60,"1,135","1,050","1,100","1,250"
+TW11,Two Bedrooms,80,"1,440","1,295","1,435","1,600"
+TW11,Three Bedrooms,20,"1,925","1,675","1,773","2,100"
+TW11,Four or More Bedrooms,10,"3,157","2,600","2,950","3,450"
+TW12,Room,0,.,.,.,.
+TW12,Studio,-,..,..,..,..
+TW12,One Bedroom,30,976,895,975,"1,050"
+TW12,Two Bedrooms,40,"1,335","1,195","1,350","1,400"
+TW12,Three Bedrooms,10,"1,680","1,495","1,695","1,900"
+TW12,Four or More Bedrooms,-,..,..,..,..
+TW13,Room,-,..,..,..,..
+TW13,Studio,10,736,650,750,800
+TW13,One Bedroom,50,935,875,970,"1,000"
+TW13,Two Bedrooms,90,"1,189","1,100","1,200","1,250"
+TW13,Three Bedrooms,50,"1,409","1,317","1,400","1,500"
+TW13,Four or More Bedrooms,10,"1,524","1,500","1,550","1,550"
+TW14,Room,-,..,..,..,..
+TW14,Studio,10,785,750,750,750
+TW14,One Bedroom,30,949,900,950,995
+TW14,Two Bedrooms,40,"1,179","1,150","1,198","1,250"
+TW14,Three Bedrooms,20,"1,423","1,390","1,400","1,500"
+TW14,Four or More Bedrooms,-,..,..,..,..
+TW15,Room,0,.,.,.,.
+TW15,Studio,0,.,.,.,.
+TW15,One Bedroom,0,.,.,.,.
+TW15,Two Bedrooms,-,..,..,..,..
+TW15,Three Bedrooms,0,.,.,.,.
+TW15,Four or More Bedrooms,0,.,.,.,.
+TW19,Room,0,.,.,.,.
+TW19,Studio,0,.,.,.,.
+TW19,One Bedroom,0,.,.,.,.
+TW19,Two Bedrooms,0,.,.,.,.
+TW19,Three Bedrooms,0,.,.,.,.
+TW19,Four or More Bedrooms,0,.,.,.,.
+TW2,Room,0,.,.,.,.
+TW2,Studio,-,..,..,..,..
+TW2,One Bedroom,30,"1,057",900,"1,050","1,150"
+TW2,Two Bedrooms,50,"1,341","1,195","1,300","1,475"
+TW2,Three Bedrooms,60,"1,830","1,568","1,695","1,873"
+TW2,Four or More Bedrooms,20,"2,067","1,850","2,150","2,300"
+TW3,Room,10,566,483,558,638
+TW3,Studio,30,782,711,775,900
+TW3,One Bedroom,70,"1,054",995,"1,050","1,100"
+TW3,Two Bedrooms,100,"1,243","1,150","1,250","1,350"
+TW3,Three Bedrooms,50,"1,556","1,450","1,550","1,650"
+TW3,Four or More Bedrooms,10,"1,904","1,750","1,875","2,000"
+TW4,Room,-,..,..,..,..
+TW4,Studio,10,737,681,750,768
+TW4,One Bedroom,30,972,875,950,"1,050"
+TW4,Two Bedrooms,20,"1,240","1,175","1,250","1,313"
+TW4,Three Bedrooms,30,"1,624","1,575","1,650","1,695"
+TW4,Four or More Bedrooms,10,"1,880","1,750","1,850","2,000"
+TW5,Room,-,..,..,..,..
+TW5,Studio,20,778,700,751,875
+TW5,One Bedroom,20,955,850,938,"1,000"
+TW5,Two Bedrooms,40,"1,186","1,100","1,200","1,275"
+TW5,Three Bedrooms,30,"1,592","1,475","1,600","1,650"
+TW5,Four or More Bedrooms,10,"1,775","1,650","1,750","1,900"
+TW6,Room,0,.,.,.,.
+TW6,Studio,0,.,.,.,.
+TW6,One Bedroom,0,.,.,.,.
+TW6,Two Bedrooms,0,.,.,.,.
+TW6,Three Bedrooms,0,.,.,.,.
+TW6,Four or More Bedrooms,0,.,.,.,.
+TW7,Room,10,575,500,600,642
+TW7,Studio,10,772,721,800,850
+TW7,One Bedroom,50,"1,107","1,000","1,125","1,150"
+TW7,Two Bedrooms,80,"1,337","1,250","1,345","1,395"
+TW7,Three Bedrooms,40,"1,586","1,430","1,585","1,695"
+TW7,Four or More Bedrooms,30,"2,001","1,800","1,925","2,000"
+TW8,Room,0,.,.,.,.
+TW8,Studio,10,"1,019",875,"1,096","1,100"
+TW8,One Bedroom,110,"1,335","1,200","1,350","1,450"
+TW8,Two Bedrooms,160,"1,662","1,500","1,650","1,750"
+TW8,Three Bedrooms,30,"2,128","1,700","2,000","2,200"
+TW8,Four or More Bedrooms,10,"3,320","2,900","3,000","3,650"
+TW9,Room,-,..,..,..,..
+TW9,Studio,20,918,850,950,"1,000"
+TW9,One Bedroom,90,"1,302","1,200","1,255","1,350"
+TW9,Two Bedrooms,80,"1,634","1,450","1,588","1,788"
+TW9,Three Bedrooms,20,"2,408","1,798","2,375","2,850"
+TW9,Four or More Bedrooms,20,"4,701","2,700","3,750","4,500"
+UB1,Room,10,831,600,780,"1,062"
+UB1,Studio,10,730,675,745,775
+UB1,One Bedroom,-,..,..,..,..
+UB1,Two Bedrooms,30,"1,260","1,200","1,275","1,300"
+UB1,Three Bedrooms,20,"1,538","1,500","1,550","1,650"
+UB1,Four or More Bedrooms,10,"1,983","1,713","1,758","2,300"
+UB10,Room,10,481,350,521,550
+UB10,Studio,10,738,700,726,800
+UB10,One Bedroom,40,"1,009",920,995,"1,100"
+UB10,Two Bedrooms,60,"1,290","1,200","1,250","1,375"
+UB10,Three Bedrooms,80,"1,320","1,200","1,295","1,450"
+UB10,Four or More Bedrooms,30,"2,083","1,750","1,975","2,395"
+UB11,Room,0,.,.,.,.
+UB11,Studio,0,.,.,.,.
+UB11,One Bedroom,0,.,.,.,.
+UB11,Two Bedrooms,0,.,.,.,.
+UB11,Three Bedrooms,0,.,.,.,.
+UB11,Four or More Bedrooms,0,.,.,.,.
+UB18,Room,0,.,.,.,.
+UB18,Studio,0,.,.,.,.
+UB18,One Bedroom,0,.,.,.,.
+UB18,Two Bedrooms,0,.,.,.,.
+UB18,Three Bedrooms,0,.,.,.,.
+UB18,Four or More Bedrooms,0,.,.,.,.
+UB2,Room,-,..,..,..,..
+UB2,Studio,10,821,800,850,850
+UB2,One Bedroom,20,972,898,950,"1,050"
+UB2,Two Bedrooms,30,"1,261","1,200","1,300","1,325"
+UB2,Three Bedrooms,20,"1,479","1,400","1,550","1,595"
+UB2,Four or More Bedrooms,10,"1,658","1,650","1,673","1,725"
+UB3,Room,10,944,592,642,"1,668"
+UB3,Studio,60,809,700,790,950
+UB3,One Bedroom,120,"1,050",900,"1,088","1,175"
+UB3,Two Bedrooms,60,"1,251","1,198","1,250","1,350"
+UB3,Three Bedrooms,50,"1,502","1,450","1,500","1,600"
+UB3,Four or More Bedrooms,20,"1,880","1,700","1,750","1,900"
+UB4,Room,0,.,.,.,.
+UB4,Studio,10,718,650,700,787
+UB4,One Bedroom,20,992,900,950,"1,050"
+UB4,Two Bedrooms,50,"1,245","1,200","1,263","1,338"
+UB4,Three Bedrooms,70,"1,244","1,050","1,175","1,450"
+UB4,Four or More Bedrooms,10,"1,829","1,575","1,625","2,000"
+UB5,Room,0,.,.,.,.
+UB5,Studio,-,..,..,..,..
+UB5,One Bedroom,30,926,875,905,950
+UB5,Two Bedrooms,50,"1,229","1,175","1,200","1,300"
+UB5,Three Bedrooms,30,"1,515","1,500","1,525","1,600"
+UB5,Four or More Bedrooms,10,"2,166","1,800","2,050","2,400"
+UB6,Room,-,..,..,..,..
+UB6,Studio,-,..,..,..,..
+UB6,One Bedroom,20,"1,109","1,000","1,063","1,150"
+UB6,Two Bedrooms,30,"1,304","1,200","1,288","1,325"
+UB6,Three Bedrooms,30,"1,642","1,600","1,650","1,700"
+UB6,Four or More Bedrooms,10,"1,987","1,750","1,900","2,150"
+UB7,Room,10,556,442,542,592
+UB7,Studio,20,704,675,695,700
+UB7,One Bedroom,60,"1,004",900,"1,030","1,100"
+UB7,Two Bedrooms,70,"1,218","1,100","1,208","1,350"
+UB7,Three Bedrooms,40,"1,431","1,300","1,400","1,500"
+UB7,Four or More Bedrooms,10,"1,899","1,600","1,850","2,198"
+UB8,Room,20,639,442,546,630
+UB8,Studio,20,707,675,695,738
+UB8,One Bedroom,70,981,900,950,"1,050"
+UB8,Two Bedrooms,70,"1,233","1,150","1,220","1,300"
+UB8,Three Bedrooms,30,"1,473","1,350","1,475","1,600"
+UB8,Four or More Bedrooms,50,"2,097","1,800","2,000","2,350"
+UB9,Room,0,.,.,.,.
+UB9,Studio,0,.,.,.,.
+UB9,One Bedroom,-,..,..,..,..
+UB9,Two Bedrooms,10,"1,429","1,080","1,200","1,450"
+UB9,Three Bedrooms,-,..,..,..,..
+UB9,Four or More Bedrooms,0,.,.,.,.
+W1,Room,0,.,.,.,.
+W1,Studio,0,.,.,.,.
+W1,One Bedroom,0,.,.,.,.
+W1,Two Bedrooms,0,.,.,.,.
+W1,Three Bedrooms,0,.,.,.,.
+W1,Four or More Bedrooms,0,.,.,.,.
+W10,Room,0,.,.,.,.
+W10,Studio,10,"1,175","1,074","1,083","1,408"
+W10,One Bedroom,40,"1,728","1,365","1,499","1,798"
+W10,Two Bedrooms,30,"1,873","1,636","1,831","2,148"
+W10,Three Bedrooms,20,"3,101","2,145","2,492","2,900"
+W10,Four or More Bedrooms,10,"4,318","2,535","3,120","6,500"
+W11,Room,0,.,.,.,.
+W11,Studio,10,"1,484","1,343","1,480","1,603"
+W11,One Bedroom,60,"2,020","1,560","1,842","2,145"
+W11,Two Bedrooms,80,"2,612","2,123","2,448","2,977"
+W11,Three Bedrooms,20,"4,184","2,275","3,033","5,200"
+W11,Four or More Bedrooms,-,..,..,..,..
+W12,Room,0,.,.,.,.
+W12,Studio,-,..,..,..,..
+W12,One Bedroom,80,"1,293","1,218","1,298","1,350"
+W12,Two Bedrooms,60,"1,688","1,375","1,495","1,777"
+W12,Three Bedrooms,10,"2,247","1,900","2,058","2,700"
+W12,Four or More Bedrooms,10,"2,942","2,340","2,650","2,850"
+W13,Room,10,809,692,758,910
+W13,Studio,40,916,875,900,950
+W13,One Bedroom,160,"1,236","1,175","1,250","1,295"
+W13,Two Bedrooms,190,"1,395","1,325","1,420","1,495"
+W13,Three Bedrooms,30,"1,966","1,895","1,995","2,000"
+W13,Four or More Bedrooms,20,"2,512","2,000","2,400","2,994"
+W14,Room,0,.,.,.,.
+W14,Studio,30,"1,153",931,"1,148","1,300"
+W14,One Bedroom,100,"1,488","1,365","1,495","1,560"
+W14,Two Bedrooms,80,"2,085","1,683","1,820","2,123"
+W14,Three Bedrooms,30,"2,754","2,171","2,297","2,681"
+W14,Four or More Bedrooms,20,"5,295","2,500","2,952","5,850"
+W1A,Room,0,.,.,.,.
+W1A,Studio,0,.,.,.,.
+W1A,One Bedroom,0,.,.,.,.
+W1A,Two Bedrooms,0,.,.,.,.
+W1A,Three Bedrooms,0,.,.,.,.
+W1A,Four or More Bedrooms,0,.,.,.,.
+W1B,Room,0,.,.,.,.
+W1B,Studio,0,.,.,.,.
+W1B,One Bedroom,-,..,..,..,..
+W1B,Two Bedrooms,0,.,.,.,.
+W1B,Three Bedrooms,-,..,..,..,..
+W1B,Four or More Bedrooms,0,.,.,.,.
+W1C,Room,0,.,.,.,.
+W1C,Studio,0,.,.,.,.
+W1C,One Bedroom,0,.,.,.,.
+W1C,Two Bedrooms,0,.,.,.,.
+W1C,Three Bedrooms,0,.,.,.,.
+W1C,Four or More Bedrooms,0,.,.,.,.
+W1D,Room,0,.,.,.,.
+W1D,Studio,-,..,..,..,..
+W1D,One Bedroom,10,"2,753","2,102","2,947","3,163"
+W1D,Two Bedrooms,10,"6,005","4,658","4,875","6,717"
+W1D,Three Bedrooms,-,..,..,..,..
+W1D,Four or More Bedrooms,0,.,.,.,.
+W1F,Room,0,.,.,.,.
+W1F,Studio,0,.,.,.,.
+W1F,One Bedroom,-,..,..,..,..
+W1F,Two Bedrooms,0,.,.,.,.
+W1F,Three Bedrooms,0,.,.,.,.
+W1F,Four or More Bedrooms,0,.,.,.,.
+W1G,Room,0,.,.,.,.
+W1G,Studio,0,.,.,.,.
+W1G,One Bedroom,10,"2,483","2,080","2,429","2,990"
+W1G,Two Bedrooms,-,..,..,..,..
+W1G,Three Bedrooms,-,..,..,..,..
+W1G,Four or More Bedrooms,0,.,.,.,.
+W1H,Room,10,836,845,845,888
+W1H,Studio,30,"1,543","1,404","1,506","1,695"
+W1H,One Bedroom,100,"2,309","1,842","2,297","2,600"
+W1H,Two Bedrooms,110,"3,454","2,817","3,235","3,965"
+W1H,Three Bedrooms,30,"4,158","3,448","4,117","4,487"
+W1H,Four or More Bedrooms,-,..,..,..,..
+W1J,Room,0,.,.,.,.
+W1J,Studio,-,..,..,..,..
+W1J,One Bedroom,30,"3,018","2,860","2,903","3,207"
+W1J,Two Bedrooms,10,"3,908","3,683","4,160","4,203"
+W1J,Three Bedrooms,-,..,..,..,..
+W1J,Four or More Bedrooms,0,.,.,.,.
+W1K,Room,0,.,.,.,.
+W1K,Studio,-,..,..,..,..
+W1K,One Bedroom,20,"3,919","2,513","2,817","3,683"
+W1K,Two Bedrooms,30,"5,723","2,990","4,117","7,800"
+W1K,Three Bedrooms,20,"13,700","10,400","15,167","16,250"
+W1K,Four or More Bedrooms,10,"20,518","15,925","23,833","26,000"
+W1M,Room,0,.,.,.,.
+W1M,Studio,0,.,.,.,.
+W1M,One Bedroom,0,.,.,.,.
+W1M,Two Bedrooms,0,.,.,.,.
+W1M,Three Bedrooms,0,.,.,.,.
+W1M,Four or More Bedrooms,0,.,.,.,.
+W1N,Room,0,.,.,.,.
+W1N,Studio,0,.,.,.,.
+W1N,One Bedroom,0,.,.,.,.
+W1N,Two Bedrooms,0,.,.,.,.
+W1N,Three Bedrooms,0,.,.,.,.
+W1N,Four or More Bedrooms,0,.,.,.,.
+W1P,Room,0,.,.,.,.
+W1P,Studio,0,.,.,.,.
+W1P,One Bedroom,0,.,.,.,.
+W1P,Two Bedrooms,0,.,.,.,.
+W1P,Three Bedrooms,0,.,.,.,.
+W1P,Four or More Bedrooms,0,.,.,.,.
+W1R,Room,0,.,.,.,.
+W1R,Studio,0,.,.,.,.
+W1R,One Bedroom,0,.,.,.,.
+W1R,Two Bedrooms,0,.,.,.,.
+W1R,Three Bedrooms,0,.,.,.,.
+W1R,Four or More Bedrooms,0,.,.,.,.
+W1S,Room,0,.,.,.,.
+W1S,Studio,0,.,.,.,.
+W1S,One Bedroom,-,..,..,..,..
+W1S,Two Bedrooms,-,..,..,..,..
+W1S,Three Bedrooms,0,.,.,.,.
+W1S,Four or More Bedrooms,0,.,.,.,.
+W1T,Room,0,.,.,.,.
+W1T,Studio,-,..,..,..,..
+W1T,One Bedroom,10,"1,871","1,668","1,679","1,850"
+W1T,Two Bedrooms,10,"2,773","2,275","2,524","3,142"
+W1T,Three Bedrooms,-,..,..,..,..
+W1T,Four or More Bedrooms,-,..,..,..,..
+W1U,Room,-,..,..,..,..
+W1U,Studio,20,"1,780","1,647","1,777","1,863"
+W1U,One Bedroom,80,"2,509","2,275","2,481","2,681"
+W1U,Two Bedrooms,80,"3,312","2,665","3,033","3,618"
+W1U,Three Bedrooms,30,"4,869","4,008","4,333","5,178"
+W1U,Four or More Bedrooms,10,"6,821","4,247","4,312","6,390"
+W1V,Room,0,.,.,.,.
+W1V,Studio,0,.,.,.,.
+W1V,One Bedroom,0,.,.,.,.
+W1V,Two Bedrooms,0,.,.,.,.
+W1V,Three Bedrooms,0,.,.,.,.
+W1V,Four or More Bedrooms,0,.,.,.,.
+W1W,Room,0,.,.,.,.
+W1W,Studio,-,..,..,..,..
+W1W,One Bedroom,10,"3,110","2,550","3,467","3,673"
+W1W,Two Bedrooms,20,"3,839","3,293","4,117","4,312"
+W1W,Three Bedrooms,10,"6,362","4,113","7,041","8,667"
+W1W,Four or More Bedrooms,-,..,..,..,..
+W1X,Room,0,.,.,.,.
+W1X,Studio,0,.,.,.,.
+W1X,One Bedroom,0,.,.,.,.
+W1X,Two Bedrooms,0,.,.,.,.
+W1X,Three Bedrooms,0,.,.,.,.
+W1X,Four or More Bedrooms,0,.,.,.,.
+W1Y,Room,0,.,.,.,.
+W1Y,Studio,0,.,.,.,.
+W1Y,One Bedroom,0,.,.,.,.
+W1Y,Two Bedrooms,0,.,.,.,.
+W1Y,Three Bedrooms,0,.,.,.,.
+W1Y,Four or More Bedrooms,0,.,.,.,.
+W2,Room,40,847,700,808,960
+W2,Studio,80,"1,160",997,"1,148","1,300"
+W2,One Bedroom,180,"2,047","1,560","1,900","2,383"
+W2,Two Bedrooms,200,"2,783","2,134","2,708","3,250"
+W2,Three Bedrooms,90,"4,463","3,467","4,117","5,460"
+W2,Four or More Bedrooms,20,"5,415","3,250","4,724","8,212"
+W3,Room,-,..,..,..,..
+W3,Studio,10,981,900,900,"1,125"
+W3,One Bedroom,30,"1,287","1,200","1,300","1,350"
+W3,Two Bedrooms,50,"1,590","1,410","1,600","1,750"
+W3,Three Bedrooms,20,"2,237","1,850","2,173","2,600"
+W3,Four or More Bedrooms,20,"2,474","2,150","2,310","2,600"
+W4,Room,10,973,585,709,"1,062"
+W4,Studio,10,944,910,950,"1,010"
+W4,One Bedroom,90,"1,418","1,274","1,387","1,499"
+W4,Two Bedrooms,140,"1,726","1,542","1,655","1,813"
+W4,Three Bedrooms,50,"2,321","1,830","1,993","2,574"
+W4,Four or More Bedrooms,40,"4,447","3,100","4,038","6,000"
+W5,Room,10,638,550,658,700
+W5,Studio,70,931,856,943,975
+W5,One Bedroom,230,"1,264","1,150","1,225","1,350"
+W5,Two Bedrooms,310,"1,580","1,400","1,500","1,700"
+W5,Three Bedrooms,100,"2,050","1,700","1,950","2,200"
+W5,Four or More Bedrooms,70,"2,789","2,200","2,500","2,997"
+W6,Room,0,.,.,.,.
+W6,Studio,20,"1,070",950,"1,027","1,148"
+W6,One Bedroom,60,"1,570","1,250","1,450","1,582"
+W6,Two Bedrooms,70,"2,618","1,723","2,183","3,402"
+W6,Three Bedrooms,40,"3,357","2,415","2,925","3,813"
+W6,Four or More Bedrooms,10,"3,670","3,330","3,716","3,878"
+W7,Room,-,..,..,..,..
+W7,Studio,10,790,731,800,850
+W7,One Bedroom,30,"1,136","1,050","1,150","1,200"
+W7,Two Bedrooms,40,"1,361","1,300","1,350","1,450"
+W7,Three Bedrooms,10,"1,635","1,450","1,638","1,750"
+W7,Four or More Bedrooms,10,"2,106","1,800","2,150","2,200"
+W8,Room,0,.,.,.,.
+W8,Studio,30,"1,308","1,101","1,257","1,430"
+W8,One Bedroom,130,"2,258","1,757","2,058","2,383"
+W8,Two Bedrooms,210,"3,662","2,492","3,163","3,770"
+W8,Three Bedrooms,50,"5,683","3,467","4,767","7,150"
+W8,Four or More Bedrooms,30,"10,090","6,834","9,037","13,108"
+W9,Room,-,..,..,..,..
+W9,Studio,30,"1,158",997,"1,224","1,300"
+W9,One Bedroom,150,"1,625","1,408","1,560","1,777"
+W9,Two Bedrooms,200,"2,055","1,712","1,928","2,375"
+W9,Three Bedrooms,100,"2,876","2,383","2,578","3,012"
+W9,Four or More Bedrooms,20,"4,744","2,839","3,023","4,767"
+WC1A,Room,0,.,.,.,.
+WC1A,Studio,-,..,..,..,..
+WC1A,One Bedroom,10,"2,128","2,080","2,145","2,400"
+WC1A,Two Bedrooms,10,"2,621","2,555","2,795","2,817"
+WC1A,Three Bedrooms,-,..,..,..,..
+WC1A,Four or More Bedrooms,0,.,.,.,.
+WC1B,Room,0,.,.,.,.
+WC1B,Studio,0,.,.,.,.
+WC1B,One Bedroom,20,"2,120","1,993","2,100","2,275"
+WC1B,Two Bedrooms,10,"2,716","2,372","2,871","2,990"
+WC1B,Three Bedrooms,10,"3,964","3,683","4,225","4,312"
+WC1B,Four or More Bedrooms,0,.,.,.,.
+WC1E,Room,20,985,817,"1,012","1,164"
+WC1E,Studio,10,"1,439","1,391","1,456","1,478"
+WC1E,One Bedroom,30,"2,061","1,907","2,033","2,145"
+WC1E,Two Bedrooms,60,"2,557","2,286","2,498","2,903"
+WC1E,Three Bedrooms,10,"3,909","3,640","3,841","4,117"
+WC1E,Four or More Bedrooms,0,.,.,.,.
+WC1H,Room,0,.,.,.,.
+WC1H,Studio,10,"1,418","1,278","1,395","1,560"
+WC1H,One Bedroom,-,..,..,..,..
+WC1H,Two Bedrooms,10,"2,176","1,817","2,058","2,600"
+WC1H,Three Bedrooms,-,..,..,..,..
+WC1H,Four or More Bedrooms,10,"3,250","3,142","3,250","3,467"
+WC1N,Room,0,.,.,.,.
+WC1N,Studio,10,"1,384","1,326","1,430","1,473"
+WC1N,One Bedroom,-,..,..,..,..
+WC1N,Two Bedrooms,-,..,..,..,..
+WC1N,Three Bedrooms,-,..,..,..,..
+WC1N,Four or More Bedrooms,-,..,..,..,..
+WC1R,Room,0,.,.,.,.
+WC1R,Studio,0,.,.,.,.
+WC1R,One Bedroom,-,..,..,..,..
+WC1R,Two Bedrooms,10,"2,134","1,798","2,000","2,578"
+WC1R,Three Bedrooms,0,.,.,.,.
+WC1R,Four or More Bedrooms,0,.,.,.,.
+WC1V,Room,0,.,.,.,.
+WC1V,Studio,0,.,.,.,.
+WC1V,One Bedroom,-,..,..,..,..
+WC1V,Two Bedrooms,0,.,.,.,.
+WC1V,Three Bedrooms,0,.,.,.,.
+WC1V,Four or More Bedrooms,0,.,.,.,.
+WC1X,Room,0,.,.,.,.
+WC1X,Studio,-,..,..,..,..
+WC1X,One Bedroom,20,"1,580","1,473","1,560","1,712"
+WC1X,Two Bedrooms,20,"2,408","1,950","2,318","2,600"
+WC1X,Three Bedrooms,-,..,..,..,..
+WC1X,Four or More Bedrooms,10,"3,623","3,380","3,553","3,618"
+WC2A,Room,0,.,.,.,.
+WC2A,Studio,0,.,.,.,.
+WC2A,One Bedroom,-,..,..,..,..
+WC2A,Two Bedrooms,-,..,..,..,..
+WC2A,Three Bedrooms,0,.,.,.,.
+WC2A,Four or More Bedrooms,0,.,.,.,.
+WC2B,Room,0,.,.,.,.
+WC2B,Studio,-,..,..,..,..
+WC2B,One Bedroom,0,.,.,.,.
+WC2B,Two Bedrooms,-,..,..,..,..
+WC2B,Three Bedrooms,0,.,.,.,.
+WC2B,Four or More Bedrooms,0,.,.,.,.
+WC2E,Room,0,.,.,.,.
+WC2E,Studio,0,.,.,.,.
+WC2E,One Bedroom,0,.,.,.,.
+WC2E,Two Bedrooms,0,.,.,.,.
+WC2E,Three Bedrooms,0,.,.,.,.
+WC2E,Four or More Bedrooms,0,.,.,.,.
+WC2H,Room,0,.,.,.,.
+WC2H,Studio,-,..,..,..,..
+WC2H,One Bedroom,-,..,..,..,..
+WC2H,Two Bedrooms,-,..,..,..,..
+WC2H,Three Bedrooms,0,.,.,.,.
+WC2H,Four or More Bedrooms,0,.,.,.,.
+WC2N,Room,0,.,.,.,.
+WC2N,Studio,0,.,.,.,.
+WC2N,One Bedroom,0,.,.,.,.
+WC2N,Two Bedrooms,-,..,..,..,..
+WC2N,Three Bedrooms,0,.,.,.,.
+WC2N,Four or More Bedrooms,0,.,.,.,.
+WC2R,Room,0,.,.,.,.
+WC2R,Studio,0,.,.,.,.
+WC2R,One Bedroom,-,..,..,..,..
+WC2R,Two Bedrooms,-,..,..,..,..
+WC2R,Three Bedrooms,0,.,.,.,.
+WC2R,Four or More Bedrooms,0,.,.,.,.
+WC99,Room,0,.,.,.,.
+WC99,Studio,0,.,.,.,.
+WC99,One Bedroom,0,.,.,.,.
+WC99,Two Bedrooms,0,.,.,.,.
+WC99,Three Bedrooms,0,.,.,.,.
+WC99,Four or More Bedrooms,0,.,.,.,.
+WD2,Room,0,.,.,.,.
+WD2,Studio,0,.,.,.,.
+WD2,One Bedroom,0,.,.,.,.
+WD2,Two Bedrooms,0,.,.,.,.
+WD2,Three Bedrooms,0,.,.,.,.
+WD2,Four or More Bedrooms,0,.,.,.,.
+WD23,Room,0,.,.,.,.
+WD23,Studio,0,.,.,.,.
+WD23,One Bedroom,0,.,.,.,.
+WD23,Two Bedrooms,0,.,.,.,.
+WD23,Three Bedrooms,0,.,.,.,.
+WD23,Four or More Bedrooms,0,.,.,.,.
+WD3,Room,0,.,.,.,.
+WD3,Studio,0,.,.,.,.
+WD3,One Bedroom,0,.,.,.,.
+WD3,Two Bedrooms,-,..,..,..,..
+WD3,Three Bedrooms,0,.,.,.,.
+WD3,Four or More Bedrooms,0,.,.,.,.
+WD6,Room,0,.,.,.,.
+WD6,Studio,0,.,.,.,.
+WD6,One Bedroom,0,.,.,.,.
+WD6,Two Bedrooms,0,.,.,.,.
+WD6,Three Bedrooms,0,.,.,.,.
+WD6,Four or More Bedrooms,0,.,.,.,.

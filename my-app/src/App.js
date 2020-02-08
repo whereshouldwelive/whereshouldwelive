@@ -1,8 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import { Input, Button } from '@material-ui/core';
+import GoogleMapReact from 'google-map-react';
 
 import './App.css';
+
+const Marker = props => {
+  return <>
+    <div className="pin"></div>
+    <div className="pulse"></div>
+  </>
+}
 
 class App extends React.Component {
   constructor(props) {
@@ -11,7 +19,11 @@ class App extends React.Component {
       loc1: "SW7",
       loc2: "N16",
       loc3: "W2 1UF",
-      page1: false
+      page1: false,
+      center: {
+        lat:51.5074,
+        lng:0.1278
+      },
     };
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
@@ -43,6 +55,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+
         {this.state.page1 && (
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
@@ -59,13 +72,19 @@ class App extends React.Component {
             </p>
         </header>)}
         {!this.state.page1 && (
-          <div>
+          <div className="page2">
             <div className="header-wrapper">
               This is the header
             </div>
             <div className="wrapper">
               <div className="map">
-                Sup
+                <GoogleMapReact
+                  bootstrapURLKeys={{key:"AIzaSyBUajMUOmaG_OFJFtVI-Fb2rtTQkeWzbUg"}}
+                  defaultCenter={this.state.center}
+                  defaultZoom={11}
+                >
+                  <Marker lat={this.state.center.lat} lng={this.state.center.lng} />
+                </GoogleMapReact>
               </div>
               <div className="sidebar">
               <h2 className="hhh">

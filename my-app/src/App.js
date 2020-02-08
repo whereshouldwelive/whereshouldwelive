@@ -16,6 +16,22 @@ const Marker = props => {
 }
 
 class App extends React.Component {
+
+  // makeMarkers = (resp) => {
+  //   let table = []
+  //
+  //   // Outer loop to create parent
+  //   for (let i = 0; i < resp.length; i++) {
+  //     //Inner loop to create children
+  //       // <Marker lat={this.state.center.lat} lng={this.state.center.lng} />
+  //     table.push(<Marker lat={resp[i].lat} lng={resp[i].long} />)
+  //
+  //     //Create the parent and add the children
+  //   }
+  //   console.log(table)
+  //   return (<div>{table}</div>)
+  // }
+
   constructor(props) {
     super(props)
     this.state = {
@@ -46,10 +62,9 @@ class App extends React.Component {
     })
       .then(response => {return response.json();})
       .then(response => {
-        console.log(response.postcodes[0])
         this.setState({
           ...this.state,
-          resp: response.postcodes[0].code,
+          resp: response.postcodes,
           page1: false
         });
         console.log(response)
@@ -77,7 +92,14 @@ class App extends React.Component {
         {!this.state.page1 && (
           <div className="page2">
             <div className="header-wrapper">
-              This is the header
+              <h1 className="title">
+                WhereShouldWeLive.com
+                <form className="form"  onSubmit={this.handleSubmit}>
+                <Button type="submit" variant="contained" color="secondary">
+                  Find flats!!
+                </Button>
+              </form>
+              </h1>
             </div>
             <div className="wrapper">
               <div className="map">
@@ -86,7 +108,12 @@ class App extends React.Component {
                   defaultCenter={this.state.center}
                   defaultZoom={11}
                 >
-                  <Marker lat={this.state.center.lat} lng={this.state.center.lng} />
+                  {this.state.resp && this.state.resp[0] && (<Marker lat={this.state.resp[0].lat} lng={this.state.resp[0].long} />)}
+                  {this.state.resp && this.state.resp[1] && (<Marker lat={this.state.resp[1].lat} lng={this.state.resp[1].long} />)}
+                  {this.state.resp && this.state.resp[2] && (<Marker lat={this.state.resp[2].lat} lng={this.state.resp[2].long} />)}
+                  {this.state.resp && this.state.resp[3] && (<Marker lat={this.state.resp[3].lat} lng={this.state.resp[3].long} />)}
+                  {this.state.resp && this.state.resp[4] && (<Marker lat={this.state.resp[4].lat} lng={this.state.resp[4].long} />)}
+                  {this.state.resp && this.state.resp[5] && (<Marker lat={this.state.resp[5].lat} lng={this.state.resp[5].long} />)}
                 </GoogleMapReact>
               </div>
               <div className="sidebar">

@@ -41,6 +41,14 @@ body {
 .header-wrapper {
   background-color: red;
   height:100px;
+  margin:0;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.title {
+  margin: auto
 }
 
 .info {

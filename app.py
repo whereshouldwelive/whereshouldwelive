@@ -9,6 +9,7 @@ ppl_idx=['person 1','person 2','person 3']
 def my_form():
     return render_template('index.html',ppl_idx=ppl_idx)
 
+# er
 @app.route('/usr_list', methods=['POST'])
 def my_form_post():
     # ppl_idx=['1','2','3']

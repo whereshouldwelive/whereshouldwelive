@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 1000px
 }
 
 .App-logo {
@@ -21,7 +22,39 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+}
+
+.header-wrapper {
+  background-color: red;
+  height:100px;
+}
+
+.info {
+  color: #717171 !important;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-seri;
+  text-align: left;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.map {
+  background-color: blue;
+  width:65%;
+}
+
+.sidebar {
+  width:35%;
+}
+
+.hhh {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-weight: 400 !important;
+    color: rgb(34, 34, 34) !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
 }
 
 .form {

@@ -107,7 +107,7 @@ class App extends React.Component {
                 <div className="map">
                   Sup
                 </div>
-                <div className="sidebar">
+                <div className="sidebar2">
                   <CardDeck>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
@@ -120,6 +120,32 @@ class App extends React.Component {
                               £225,000,000
                             </Card.Text>
                             <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/0d4f63d83077588bf82306da9c853e793d24152d.jpg" />
+                          </Card.Body>
+                        </Card>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                          <Card.Body>
+                            <Card.Title>
+                              Wilton Crescent, London SW1X
+                            </Card.Title>
+                            <Card.Text>
+                              £82,500,000
+                            </Card.Text>
+                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
+                          </Card.Body>
+                        </Card>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                          <Card.Body>
+                            <Card.Title>
+                              Wilton Crescent, London SW1X
+                            </Card.Title>
+                            <Card.Text>
+                              £82,500,000
+                            </Card.Text>
+                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
                           </Card.Body>
                         </Card>
                       </ListGroup.Item>

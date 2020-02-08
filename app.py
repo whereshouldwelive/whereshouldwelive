@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request
+from flask import Flask
+from geocoding import get_lat_long
 app = Flask(__name__)
 
 
@@ -16,6 +17,10 @@ def my_form_post():
     # text = request.form['text']
     # processed_text = text.upper()
     return render_template('usr_list.html',ppl_idx=ppl_idx,ppl_dat=ppl_dat)
+
+@app.route('/find')
+def find():
+    return get_lat_long("SW7")
 
 if __name__ == '__main__':
     app.run(debug=True)

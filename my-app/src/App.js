@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import { Input} from '@material-ui/core';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck';
+import ListGroup from 'react-bootstrap/ListGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
@@ -14,7 +16,8 @@ class App extends React.Component {
       loc1: "SW7",
       loc2: "N16",
       loc3: "W2 1UF",
-      page1: false
+      page1: false,
+      page2: false
     };
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
@@ -61,7 +64,7 @@ class App extends React.Component {
             This is {this.state.resp}
             </p>
         </header>)}
-        {!this.state.page1 && (
+        {!this.state.page1 && this.state.page2 && (
           <div>
             <div className="header-wrapper">
               This is the header
@@ -94,6 +97,50 @@ class App extends React.Component {
               </div>
             </div>
           </div>
+        )}
+        {!this.state.page1 && !this.state.page2 && (
+            <div>
+              <div className="header-wrapper">
+                This is the header
+              </div>
+              <div className="wrapper">
+                <div className="map">
+                  Sup
+                </div>
+                <div className="sidebar">
+                  <CardDeck>
+                    <ListGroup variant="flush">
+                      <ListGroup.Item>
+                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                          <Card.Body>
+                            <Card.Title>
+                              Hyde Park, London W2
+                            </Card.Title>
+                            <Card.Text>
+                              £225,000,000
+                            </Card.Text>
+                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/0d4f63d83077588bf82306da9c853e793d24152d.jpg" />
+                          </Card.Body>
+                        </Card>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                          <Card.Body>
+                            <Card.Title>
+                              Wilton Crescent, London SW1X
+                            </Card.Title>
+                            <Card.Text>
+                              £82,500,000
+                            </Card.Text>
+                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
+                          </Card.Body>
+                        </Card>
+                      </ListGroup.Item>
+                    </ListGroup>
+                  </CardDeck>
+                </div>
+              </div>
+            </div>
         )}
       </div>
     );

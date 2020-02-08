@@ -10,3 +10,10 @@ def get_lat_long(address):
     data = r.json()
     print(data)
     return str(data['results'][0]['geometry']['location']['lat']) + ", " + str(data['results'][0]['geometry']['location']['lng'])
+
+def get_equidistant_points(points):
+    lats = [l for (l, _) in points]
+    longs = [l for (_, l) in points]
+    mean_lat = sum(lats) / len(lats)
+    mean_long = sum(longs) / len(longs)
+    return mean_lat, mean_long

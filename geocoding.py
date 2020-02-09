@@ -129,7 +129,8 @@ def get_results(address, search_rad,bed_num):
                     "lat": coords[i][0], "lon":coords[i][1]})
     for i in range(len(res)):
         res[i].update({"travel_time": travel_time[i]})
-    return res
+    outs={"usr_input":start_list,"Postcodes":res}
+    return outs
 
 ###### API ##########
 def get_best_postcodes(locations):

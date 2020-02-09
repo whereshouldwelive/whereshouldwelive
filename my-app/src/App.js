@@ -4,12 +4,16 @@ import { Input, CircularProgress, TextField} from '@material-ui/core';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
+import Slider from "@material-ui/core/Slider";
 import ListGroup from 'react-bootstrap/ListGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import GoogleMapReact from 'google-map-react';
 import logo from './wswl-logo.png';
 import bluelogo from './blue_logo.png';
 import PrimarySearchAppBar from "./NavBar";
+import Typography from "@material-ui/core/Typography";
+import LinearProgress from "@material-ui/core/LinearProgress";
+import rotate from './rotate.png';
 import { shadows } from '@material-ui/system';
 import Box from '@material-ui/core/Box'
 
@@ -20,6 +24,29 @@ const Marker = props => {
     <div style={{opacity: props.op}} className="pin" onMouseEnter={() => props.click()}></div>
   </>
 }
+
+const marks = [
+  {
+    value: 1,
+    label: '1',
+  },
+  {
+    value: 2,
+    label: '2',
+  },
+  {
+    value: 3,
+    label: '3',
+  },
+  {
+    value: 4,
+    label: '4',
+  },
+  {
+    value: 5,
+    label: '5',
+  },
+];
 
 
 
@@ -46,13 +73,13 @@ class App extends React.Component {
       loc1: "SW7",
       loc2: "N16",
       loc3: "W2 1UF",
-      page1: true,
+      page1: 2,
       center: {
         lat:51.5074,
         lng:-0.1278
       },
       page2: 0,
-      spin: false
+      spin: false,
     };
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
@@ -126,6 +153,10 @@ class App extends React.Component {
   }
   handleSubmit(){
     // e.preventDefault();
+    this.setState({
+      ...this.state,
+      page1:1,
+    });
     fetch("http://whereshouldwelive.herokuapp.com/find", {
       method: 'GET',
       headers: { 'Content-Type': 'application/json'}
@@ -136,16 +167,17 @@ class App extends React.Component {
           ...this.state,
           resp: response.Postcodes,
           coords: response.usr_input,
-          page1: false
+          page1: 0
         });
         console.log(response)
       })
   }
+
   render() {
     return (
       <div className="App">
 
-        {this.state.page1 && (
+        {(this.state.page1 == 2) && (
           <header className="App-header">
               <img className={"bluelogo"} src={bluelogo} alt=""/>
               <div className="bigWrapper">
@@ -188,12 +220,12 @@ class App extends React.Component {
             // </form>
           }
         </header>)}
-        {!this.state.page1  && (
+        {(this.state.page1 == 0) && (
           <div className="page2">
             <div className="header-wrapper">
                 <PrimarySearchAppBar onButtonClick={() => this.handleSubmit()} loadHomePage={() => this.setState({
                     ...this.state,
-                    page1: true,
+                    page1: 2,
                 })}/>
 
             </div>
@@ -211,7 +243,7 @@ class App extends React.Component {
             </div>
               {(this.state.page2 == 0) && (
                 <div className="sidebar">
-                  Sup bro
+                  {/*Sup bro*/}
                 </div>)}
               {(this.state.page2 == 1) && (
                 <div className="sidebar sidebar1">
@@ -303,7 +335,13 @@ class App extends React.Component {
             </div>
           </div>
         )}
-        {false && !this.state.page1 && !this.state.page2 && (
+        {this.state.page1 == 1 && (
+            <div>
+            <LinearProgress variant="query" />
+            <img src={rotate} className="App-logo" alt="logo" />
+            </div>
+        )}
+        {false && (this.state.page1 == 0) && !this.state.page2 && (
             <div>
             <div className="header-wrapper">
                 <img src={logo} alt=""/>

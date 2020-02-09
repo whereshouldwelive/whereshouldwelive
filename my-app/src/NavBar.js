@@ -180,9 +180,6 @@ export default function PrimarySearchAppBar(props) {
                     </Typography>
                     <div className={classes.grow}/>
                     <div className={classes.sectionDesktop}>
-                        <IconButton aria-label="Drop pins" color="inherit" onClick={() => props.onButtonClick()}>
-                        <SearchIcon/>
-                        </IconButton>
                         <IconButton aria-label="Go back to home page" color="inherit" onClick={() => props.loadHomePage()}>
                             <HomeIcon/>
                         </IconButton>

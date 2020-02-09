@@ -101,7 +101,7 @@ def get_travel_times(start,end): # start is one point, end can be a list
               'destinations':destination,"key": KEY}
     dat = requests.get(url=URL, params=params).json()
 #     time.sleep(2)
-    r['rows'][0]['elements']
+    #r['rows'][0]['elements']
 #     print(dat)
     for i in range(len(dat['rows'][0]['elements'])):
         travel_time.append(dat['rows'][0]['elements'][i]['duration']['text'])

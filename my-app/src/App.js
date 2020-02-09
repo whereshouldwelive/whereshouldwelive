@@ -53,6 +53,7 @@ class App extends React.Component {
     };
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
+      this.handleSubmit2 = this.handleSubmit2.bind(this);
       this.hoverMarker = this.hoverMarker.bind(this);
       this.getFlatInfo = this.getFlatInfo.bind(this);
     }
@@ -64,7 +65,6 @@ class App extends React.Component {
       });
     }
   hoverMarker(p) {
-    alert(p)
     this.setState({
       ...this.state,
       page2: 1,
@@ -112,7 +112,10 @@ class App extends React.Component {
       spin:false
     }))
   }
-
+  handleSubmit2(e) {
+    e.preventDefault();
+    this.handleSubmit()
+  }
   handleSubmit(){
     // e.preventDefault();
     fetch("http://whereshouldwelive.herokuapp.com/find", {
@@ -143,14 +146,11 @@ class App extends React.Component {
                 Find flats!!
               </Button>
             </form>
-            <p>
-            This is {this.state.resp}
-            </p>
         </header>)}
         {!this.state.page1  && (
           <div className="page2">
             <div className="header-wrapper">
-                <PrimarySearchAppBar onButtonClick={() => this.handleSubmit()} loadHomePage={() => this.setState({
+                <PrimarySearchAppBar onButtonClick={() => this.handleSubmit2()} loadHomePage={() => this.setState({
                     ...this.state,
                     page1: true,
                 })}/>
@@ -164,18 +164,6 @@ class App extends React.Component {
               {/*  </Button>*/}
               {/*</form>*/}
               {/*</h1>*/}
-
-              <img className="image" src={logo} alt=""/>
-
-              <h1 className="title">
-                WhereShouldWeLive.com
-                <form className="form"  onSubmit={this.handleSubmit}>
-                <Button type="submit" variant="contained" color="secondary">
-                  Find flats!!
-                </Button>
-              </form>
-              </h1>
-
             </div>
             <div className="wrapper">
             <div className="map">

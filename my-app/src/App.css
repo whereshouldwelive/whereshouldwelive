@@ -38,10 +38,14 @@ body {
   color: black;
 }
 
-img {
+/* img {
   height:100%;
   width:100%;
   display: block;
+} */
+.image {
+  width: 65px;
+  height: 64px;
 }
 
 .header-wrapper {
@@ -63,6 +67,10 @@ img {
   text-align: left;
 }
 
+.cardWrapper{
+  padding: 12px 20px;
+}
+
 .page2 {
   height: 100%
 }
@@ -74,10 +82,11 @@ img {
 }
 
 .header-wrapper img {
-  width:5%;
-  height:70%;
+  width:65px;
+  height:65px;
   margin: auto;
-  margin-left: 400px;
+  margin-left: 350px;
+  margin-right: 20px;
 }
 
 .header-wrapper h1 {
@@ -91,11 +100,23 @@ img {
 
 .map {
   background-color: blue;
-  width:65%;
+  width:70%;
 }
 
 .sidebar {
-  width:35%;
+  width:30%;
+}
+
+
+.sidebar1 {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  max-width: 310px;
+  margin-bottom: 20px;
 }
 
 .hhh {

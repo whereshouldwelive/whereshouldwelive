@@ -9,6 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import GoogleMapReact from 'google-map-react';
 import logo from './wswl-logo.png';
 import PrimarySearchAppBar from "./NavBar";
+import { shadows } from '@material-ui/system';
+import Box from '@material-ui/core/Box'
 
 import './App.css';
 
@@ -43,7 +45,7 @@ class App extends React.Component {
       loc1: "SW7",
       loc2: "N16",
       loc3: "W2 1UF",
-      page1: false,
+      page1: true,
       center: {
         lat:51.5074,
         lng:-0.1278
@@ -138,12 +140,16 @@ class App extends React.Component {
 
         {this.state.page1 && (
           <header className="App-header">
+              <img src={logo} alt=""/>
             <form className="form"  onSubmit={this.handleSubmit}>
               <Input name="loc1" placeholder="Placeholder" inputProps={{ 'aria-label': 'description' }} value={this.state.loc1} onChange={this.handleChange}/>
               <Input name="loc2" placeholder="Post code" inputProps={{ 'aria-label': 'description' }} value={this.state.loc2} onChange={this.handleChange}/>
               <Input name="loc3" placeholder="Post code" inputProps={{ 'aria-label': 'description' }} value={this.state.loc3} onChange={this.handleChange}/>
-              <Button type="submit" variant="contained" color="secondary">
-                Find flats!!
+              <Button type="submit" variant="contained" color="secondary" onClick={() => this.setState({
+                  ...this.state,
+                  page1: false,
+              })}>
+                Search
               </Button>
             </form>
         </header>)}
@@ -154,16 +160,7 @@ class App extends React.Component {
                     ...this.state,
                     page1: true,
                 })}/>
-              {/*  <img src={logo} alt=""/>*/}
 
-              {/*<h1 className="title">*/}
-              {/*  WhereShouldWeLive.com*/}
-              {/*  <form className="form"  onSubmit={this.handleSubmit}>*/}
-              {/*  <Button type="submit" variant="contained" color="secondary">*/}
-              {/*    Find flats*/}
-              {/*  </Button>*/}
-              {/*</form>*/}
-              {/*</h1>*/}
             </div>
             <div className="wrapper">
             <div className="map">

@@ -8,6 +8,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import GoogleMapReact from 'google-map-react';
 import logo from './wswl-logo.png';
+import PrimarySearchAppBar from "./NavBar";
 
 import './App.css';
 
@@ -16,6 +17,8 @@ const Marker = props => {
     <div className="pin" onMouseEnter={() => props.click()}></div>
   </>
 }
+
+
 
 class App extends React.Component {
 
@@ -66,8 +69,8 @@ class App extends React.Component {
     })
   }
 
-  handleSubmit(e){
-    e.preventDefault();
+  handleSubmit(){
+    // e.preventDefault();
     fetch("http://whereshouldwelive.herokuapp.com/find", {
       method: 'GET',
       headers: { 'Content-Type': 'application/json'}
@@ -104,17 +107,20 @@ class App extends React.Component {
         {!this.state.page1  && (
           <div className="page2">
             <div className="header-wrapper">
+                <PrimarySearchAppBar onButtonClick={() => this.handleSubmit()} loadHomePage={() => this.setState({
+                    ...this.state,
+                    page1: true,
+                })}/>
+              {/*  <img src={logo} alt=""/>*/}
 
-                <img src="../src/wswl-logo.png" alt=""/>
-
-              <h1 className="title">
-                WhereShouldWeLive.com
-                <form className="form"  onSubmit={this.handleSubmit}>
-                <Button type="submit" variant="contained" color="secondary">
-                  Find flats!!
-                </Button>
-              </form>
-              </h1>
+              {/*<h1 className="title">*/}
+              {/*  WhereShouldWeLive.com*/}
+              {/*  <form className="form"  onSubmit={this.handleSubmit}>*/}
+              {/*  <Button type="submit" variant="contained" color="secondary">*/}
+              {/*    Find flats*/}
+              {/*  </Button>*/}
+              {/*</form>*/}
+              {/*</h1>*/}
             </div>
             <div className="wrapper">
             <div className="map">

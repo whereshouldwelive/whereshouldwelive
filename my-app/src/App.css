@@ -19,11 +19,14 @@ body {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin-top: 300px;
+  width: 5%;
+  height: 5%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
   }
 }
 
@@ -40,6 +43,10 @@ body {
 
 .App-header img {
   margin-bottom: 10px;
+}
+
+#discrete-slider-restrict {
+  margin-top: 10px;
 }
 /* img {
   height:100%;

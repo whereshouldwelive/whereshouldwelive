@@ -1,6 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
-import { Input, CircularProgress} from '@material-ui/core';
+import { Input, CircularProgress, TextField} from '@material-ui/core';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
@@ -8,6 +8,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import GoogleMapReact from 'google-map-react';
 import logo from './wswl-logo.png';
+import bluelogo from './blue_logo.png';
 import PrimarySearchAppBar from "./NavBar";
 import { shadows } from '@material-ui/system';
 import Box from '@material-ui/core/Box'
@@ -146,18 +147,46 @@ class App extends React.Component {
 
         {this.state.page1 && (
           <header className="App-header">
-              <img src={logo} alt=""/>
-            <form className="form"  onSubmit={this.handleSubmit}>
-              <Input name="loc1" placeholder="Placeholder" inputProps={{ 'aria-label': 'description' }} value={this.state.loc1} onChange={this.handleChange}/>
-              <Input name="loc2" placeholder="Post code" inputProps={{ 'aria-label': 'description' }} value={this.state.loc2} onChange={this.handleChange}/>
-              <Input name="loc3" placeholder="Post code" inputProps={{ 'aria-label': 'description' }} value={this.state.loc3} onChange={this.handleChange}/>
-              <Button type="submit" variant="contained" color="secondary" onClick={() => this.setState({
-                  ...this.state,
-                  page1: false,
-              })}>
-                Search
-              </Button>
-            </form>
+              <img className={"bluelogo"} src={bluelogo} alt=""/>
+              <div className="bigWrapper">
+              <p className={"ourtitle"}><strong>
+              where should we live</strong>
+              </p>
+              <div className="allTheText">
+              <div className="top4">
+                <div className="top2">
+                  <div className={"details ourtitle"}>No. of bedrooms </div>
+                  <TextField InputProps={{disableUnderline:true}}  className="smallfield"/>
+                </div>
+                <div className="bottom2">
+                <div className={"details ourtitle"}>Search radius</div>
+                <TextField InputProps={{disableUnderline:true}} className="smallfield"/>
+                </div>
+              </div>
+              <div >
+                <div className={"details ourtitle"}>Work locations</div>
+                <div className={"locs"}>
+                  <TextField InputProps={{disableUnderline:true}} className="bigfield"/>
+                  <TextField InputProps={{disableUnderline:true}} className="bigfield"/>
+                  <TextField InputProps={{disableUnderline:true}} className="bigfield"/>
+                  <TextField InputProps={{disableUnderline:true}} className="smallfield" defaultValue="+" />
+                </div>
+              </div>
+              </div>
+              </div>
+              {
+            // <form className="form"  onSubmit={this.handleSubmit}>
+            //   <Input name="loc1" placeholder="Placeholder" inputProps={{ 'aria-label': 'description' }} value={this.state.loc1} onChange={this.handleChange}/>
+            //   <Input name="loc2" placeholder="Post code" inputProps={{ 'aria-label': 'description' }} value={this.state.loc2} onChange={this.handleChange}/>
+            //   <Input name="loc3" placeholder="Post code" inputProps={{ 'aria-label': 'description' }} value={this.state.loc3} onChange={this.handleChange}/>
+            //   <Button type="submit" variant="contained" color="secondary" onClick={() => this.setState({
+            //       ...this.state,
+            //       page1: false,
+            //   })}>
+            //     Search
+            //   </Button>
+            // </form>
+          }
         </header>)}
         {!this.state.page1  && (
           <div className="page2">

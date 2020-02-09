@@ -1,5 +1,6 @@
 import requests
 import json
+from geo import GeoLocation
 
 def get_listings(addresses):
     points = []

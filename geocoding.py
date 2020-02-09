@@ -104,6 +104,26 @@ def get_travel_times(start,end): # start is one point, end can be a list
         travel_time.append(dat['rows'][0]['elements'][i]['duration']['text'])
     return travel_time
 
+def get_results(address, search_rad):
+    coordinates=[]
+    for i in address:
+        coordinates.append(get_lat_long(i))
+    center = get_equidistant_points(coordinates)
+    postcodes = get_surroundings(center, search_rad)
+    postcode_list=[]
+    for i in range(len(postcodes)):
+        postcode_list.append(get_postcode(postcodes[i]))
+    travel_time=[]
+    df3,coords=get_area_info(postcode_list,bed_num)
+    for i in coords:
+        travel_time.append(get_travel_times(i,start_list))
+    res=[]
+    for i in range(len(df3)):
+        res.append({"code": df3['Postcode District'][i], "price": df3['Mean'][i],
+                    "lat": coords[i][0], "lon":coords[i][1]})
+    for i in range(len(res)):
+        res[i].update({"travel_time": travel_time[i]})
+    return res
 
 ###### API ##########
 def get_best_postcodes(locations):
@@ -122,8 +142,9 @@ def get_average_prices(postcodes):
     return prices
 
 def get_result(postcodes):
-    result = {"postcodes": [{"code": "SW7", "distances": [50, 50, 100], "price": 1000, "lat": 51.4965, "long": -0.1732},
-                   {"code": "SW1", "distances": [50, 50, 100], "price": 1000, "lat": 51.4493, "long": -0.1201},
-                   {"code": "SW2", "distances": [50, 50, 100], "price": 1000, "lat": 51.4974, "long": -0.1378},
-                   {"code": "SW3", "distances": [50, 50, 100], "price": 1000, "lat": 51.4925, "long": -0.1923}]}
+    result = {"postcodes":
+    [{"code": "SW7", "distances": [50, 50, 100], "price": 1000, "lat": 51.4965, "long": -0.1732},
+     {"code": "SW1", "distances": [50, 50, 100], "price": 1000, "lat": 51.4493, "long": -0.1201},
+     {"code": "SW2", "distances": [50, 50, 100], "price": 1000, "lat": 51.4974, "long": -0.1378},
+     {"code": "SW3", "distances": [50, 50, 100], "price": 1000, "lat": 51.4925, "long": -0.1923}]}
     return json.dumps(result)

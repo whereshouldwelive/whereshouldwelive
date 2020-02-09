@@ -25,7 +25,7 @@ def my_form_post():
 
 @app.route('/find')
 def find():
-    return get_result(["SW7", "SW1", "SW2"])
+    return get_results(['SW7 2BU','WC1E 6BT','WC2A 2AE'],5.5)
     # return get_listings(["SW7", "23 Olympic Way"])
 
 

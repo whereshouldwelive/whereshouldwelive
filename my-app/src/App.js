@@ -185,16 +185,16 @@ class App extends React.Component {
               where should we live</strong>
               </p>
               <div className="allTheText">
-              <div className="top4">
-                <div className="top2">
+              <div>
+                <div>
                   <div className={"details ourtitle"}>No. of bedrooms </div>
-                  <TextField inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}}  className="smallfield"/>
+                  <TextField placeholder={3} inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}}  className="smallfield"/>
                 </div>
               </div>
               <div >
                 <div className={"details ourtitle"}>Work locations</div>
                 <div className={"locs"}>
-                  <TextField placeholder="W2 1UF" inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="bigfield"/>
+                  <TextField placeholder="SW1V 3HQ" inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="bigfield"/>
                   <TextField
                   placeholder="W2 1UF"
                   inputProps={{ style: {textAlign: 'center'} }}
@@ -343,7 +343,7 @@ class App extends React.Component {
         {false && (this.state.page1 == 0) && !this.state.page2 && (
             <div>
             <div className="header-wrapper">
-                <img src={logo} alt=""/>
+                <img src={bluelogo} alt=""/>
               <h1 className="title">
                 WhereShouldWeLive.com
                 <form className="form"  onSubmit={this.handleSubmit}>

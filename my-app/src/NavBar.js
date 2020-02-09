@@ -11,6 +11,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import HomeIcon from '@material-ui/icons/Home';
 import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
+import bluelogo from './blue_logo.png';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
@@ -174,7 +175,7 @@ export default function PrimarySearchAppBar(props) {
         <div className={classes.grow}>
             <AppBar position="static">
                 <Toolbar>
-                    <img id="logo" src={logo} alt=""/>
+                    <img id="logo" src={bluelogo} alt=""/>
                     <Typography className={classes.title} variant="h6" noWrap>
                         Where Should We Live?
                     </Typography>

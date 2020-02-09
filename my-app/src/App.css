@@ -38,6 +38,9 @@ body {
   color: black;
 }
 
+.App-header img {
+  margin-bottom: 10px;
+}
 /* img {
   height:100%;
   width:100%;

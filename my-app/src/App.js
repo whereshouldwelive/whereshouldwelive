@@ -13,8 +13,7 @@ import './App.css';
 
 const Marker = props => {
   return <>
-    <div className="pin"></div>
-    <div className="pulse"></div>
+    <div className="pin" onMouseEnter={() => props.click()}></div>
   </>
 }
 
@@ -46,10 +45,11 @@ class App extends React.Component {
         lat:51.5074,
         lng:0.1278
       },
-      page2: false
+      page2: 0
     };
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
+      this.hoverMarker = this.hoverMarker.bind(this);
     }
     handleChange(evt) {
       const value = evt.target.value;
@@ -58,6 +58,14 @@ class App extends React.Component {
         [evt.target.name]: value
       });
     }
+  hoverMarker(p) {
+    this.setState({
+      ...this.state,
+      page2: 1,
+      idx: p
+    })
+  }
+
   handleSubmit(e){
     e.preventDefault();
     fetch("http://whereshouldwelive.herokuapp.com/find", {
@@ -93,7 +101,7 @@ class App extends React.Component {
             This is {this.state.resp}
             </p>
         </header>)}
-        {!this.state.page1 && this.state.page2 && (
+        {!this.state.page1  && (
           <div className="page2">
             <div className="header-wrapper">
 
@@ -109,29 +117,106 @@ class App extends React.Component {
               </h1>
             </div>
             <div className="wrapper">
+            <div className="map">
+              <GoogleMapReact
+                bootstrapURLKeys={{key:"AIzaSyBUajMUOmaG_OFJFtVI-Fb2rtTQkeWzbUg"}}
+                defaultCenter={this.state.center}
+                defaultZoom={11}
+              >
+              {this.state.resp && this.state.resp[0] && (<Marker click={() => this.hoverMarker(0)} lat={this.state.resp[0].lat} lng={this.state.resp[0].long} />)}
+              {this.state.resp && this.state.resp[1] && (<Marker click={() => this.hoverMarker(1)} lat={this.state.resp[1].lat} lng={this.state.resp[1].long} />)}
+              {this.state.resp && this.state.resp[2] && (<Marker click={() => this.hoverMarker(2)} lat={this.state.resp[2].lat} lng={this.state.resp[2].long} />)}
+              {this.state.resp && this.state.resp[3] && (<Marker click={() => this.hoverMarker(3)} lat={this.state.resp[3].lat} lng={this.state.resp[3].long} />)}
+              {this.state.resp && this.state.resp[4] && (<Marker click={() => this.hoverMarker(4)} lat={this.state.resp[4].lat} lng={this.state.resp[4].long} />)}
 
-              <div className="sidebar">
-                <Card border="dark" style={{ width: '31rem' }} className={"bg-light text-dark"}>
-                  <Card.Header>
-                    Information for flats at SW7
-                  </Card.Header>
-                  <Card.Body>
-                    <Card.Text>
-                      Average price: £530
+              </GoogleMapReact>
+            </div>
+              {(this.state.page2 == 0) && (
+                <div className="sidebar">
+                  Sup bro
+                </div>)}
+              {(this.state.page2 == 1) && (
+                <div className="sidebar">
+                  <Card border="dark" style={{ width: '31rem' }} className={"bg-light text-dark"}>
+                    <Card.Header>
+                      Information for flats at {this.state.resp[this.state.idx].code}
+                    </Card.Header>
+                    <Card.Body>
+                      <Card.Text>
+                        Average price: £{this.state.resp[this.state.idx].price}
+                      </Card.Text>
+                      <Card.Text>
+                      Distance from A: {this.state.resp[this.state.idx].distances[0]}min
                     </Card.Text>
-                    <Card.Text>
-                    Distance from A: 35min
-                  </Card.Text>
-                    <Card.Text>
-                      Distance from B: 25min
-                    </Card.Text>
-                    <Card.Text>
-                      Distance from C: 40min
-                    </Card.Text>
-                    <Button variant="primary">Flats</Button>
-                  </Card.Body>
-                </Card>
-              </div>
+                      <Card.Text>
+                        Distance from B: {this.state.resp[this.state.idx].distances[1]}min
+                      </Card.Text>
+                      <Card.Text>
+                        Distance from C: {this.state.resp[this.state.idx].distances[2]}min
+                      </Card.Text>
+                      <Button variant="primary">Flats</Button>
+                    </Card.Body>
+                  </Card>
+                </div>)}
+                {(this.state.page2 == 2)  && (<div className="sidebar2">
+                    <CardDeck>
+                      <ListGroup variant="flush">
+                        <ListGroup.Item>
+                          <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                            <Card.Body>
+                              <Card.Title>
+                                Hyde Park, London W2
+                              </Card.Title>
+                              <Card.Text>
+                                £225,000,000
+                              </Card.Text>
+                              <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/0d4f63d83077588bf82306da9c853e793d24152d.jpg" />
+                            </Card.Body>
+                          </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                          <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                            <Card.Body>
+                              <Card.Title>
+                                Wilton Crescent, London SW1X
+                              </Card.Title>
+                              <Card.Text>
+                                £82,500,000
+                              </Card.Text>
+                              <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
+                            </Card.Body>
+                          </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                          <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                            <Card.Body>
+                              <Card.Title>
+                                Wilton Crescent, London SW1X
+                              </Card.Title>
+                              <Card.Text>
+                                £82,500,000
+                              </Card.Text>
+                              <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
+                            </Card.Body>
+                          </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                          <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                            <Card.Body>
+                              <Card.Title>
+                                Wilton Crescent, London SW1X
+                              </Card.Title>
+                              <Card.Text>
+                                £82,500,000
+                              </Card.Text>
+                              <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
+                            </Card.Body>
+                          </Card>
+                        </ListGroup.Item>
+                      </ListGroup>
+                    </CardDeck>
+                  </div>
+                )}
             </div>
           </div>
         )}
@@ -149,78 +234,8 @@ class App extends React.Component {
               </h1>
             </div>
               <div className="wrapper">
-              <div className="map">
-                <GoogleMapReact
-                  bootstrapURLKeys={{key:"AIzaSyBUajMUOmaG_OFJFtVI-Fb2rtTQkeWzbUg"}}
-                  defaultCenter={this.state.center}
-                  defaultZoom={11}
-                >
-                  {this.state.resp && this.state.resp[0] && (<Marker lat={this.state.resp[0].lat} lng={this.state.resp[0].long} />)}
-                  {this.state.resp && this.state.resp[1] && (<Marker lat={this.state.resp[1].lat} lng={this.state.resp[1].long} />)}
-                  {this.state.resp && this.state.resp[2] && (<Marker lat={this.state.resp[2].lat} lng={this.state.resp[2].long} />)}
-                  {this.state.resp && this.state.resp[3] && (<Marker lat={this.state.resp[3].lat} lng={this.state.resp[3].long} />)}
-                  {this.state.resp && this.state.resp[4] && (<Marker lat={this.state.resp[4].lat} lng={this.state.resp[4].long} />)}
-                  {this.state.resp && this.state.resp[5] && (<Marker lat={this.state.resp[5].lat} lng={this.state.resp[5].long} />)}
-                </GoogleMapReact>
-              </div>
-              <div className="sidebar2">
-                  <CardDeck>
-                    <ListGroup variant="flush">
-                      <ListGroup.Item>
-                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
-                          <Card.Body>
-                            <Card.Title>
-                              Hyde Park, London W2
-                            </Card.Title>
-                            <Card.Text>
-                              £225,000,000
-                            </Card.Text>
-                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/0d4f63d83077588bf82306da9c853e793d24152d.jpg" />
-                          </Card.Body>
-                        </Card>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
-                          <Card.Body>
-                            <Card.Title>
-                              Wilton Crescent, London SW1X
-                            </Card.Title>
-                            <Card.Text>
-                              £82,500,000
-                            </Card.Text>
-                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
-                          </Card.Body>
-                        </Card>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
-                          <Card.Body>
-                            <Card.Title>
-                              Wilton Crescent, London SW1X
-                            </Card.Title>
-                            <Card.Text>
-                              £82,500,000
-                            </Card.Text>
-                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
-                          </Card.Body>
-                        </Card>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
-                          <Card.Body>
-                            <Card.Title>
-                              Wilton Crescent, London SW1X
-                            </Card.Title>
-                            <Card.Text>
-                              £82,500,000
-                            </Card.Text>
-                            <Card.Img variant="top" src="https://lid.zoocdn.com/645/430/fd49855d55ea0eef657721d7ba17055a75f93f69.jpg" />
-                          </Card.Body>
-                        </Card>
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </CardDeck>
-                </div>
+
+
               </div>
             </div>
         )}

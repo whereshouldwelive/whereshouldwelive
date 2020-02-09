@@ -107,7 +107,7 @@ def get_travel_times(start,end): # start is one point, end can be a list
         travel_time.append(dat['rows'][0]['elements'][i]['duration']['text'])
     return travel_time
 
-def get_results(address, search_rad, bed_num):
+def get_result(address, search_rad,bed_num):
     coordinates=[]
     for i in address:
         coordinates.append(get_lat_long(i))
@@ -118,6 +118,9 @@ def get_results(address, search_rad, bed_num):
         postcode_list.append(get_postcode(postcodes[i]))
     travel_time=[]
     df3,coords=get_area_info(postcode_list,bed_num)
+    start_list=[]
+    for i in address:
+        start_list.append(get_lat_long(i))
     for i in coords:
         travel_time.append(get_travel_times(i,start_list))
     res=[]

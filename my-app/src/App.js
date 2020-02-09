@@ -16,7 +16,7 @@ import './App.css';
 
 const Marker = props => {
   return <>
-    <div className="pin" onMouseEnter={() => props.click()}></div>
+    <div style={{opacity: props.op}} className="pin" onMouseEnter={() => props.click()}></div>
   </>
 }
 
@@ -70,6 +70,7 @@ class App extends React.Component {
     this.setState({
       ...this.state,
       page2: 1,
+      link: null,
       idx: p
     });
   };
@@ -80,7 +81,9 @@ class App extends React.Component {
     console.log(obj)
       // Outer loop to create parent
     for (let flat of obj.listing) {
-
+      if (flat.displayable_address.includes('parking') || flat.displayable_address.includes('Parking')) {
+        continue;
+      }
         //Inner loop to create children
           // <Marker lat={this.state.center.lat} lng={this.state.center.lng} />
     table.push(
@@ -91,9 +94,11 @@ class App extends React.Component {
               {flat.displayable_address}
             </Card.Title>
             <Card.Text>
-              £{flat.rental_prices.per_week} per week
+              £{flat.rental_prices.per_month} per month
             </Card.Text>
-            <Card.Img variant="top" src={flat.image_645_430_url} />
+            <a href={flat.details_url}>
+              <Card.Img variant="top" src={flat.image_645_430_url} />
+            </a>
           </Card.Body>
         </Card>
       </ListGroup.Item>
@@ -105,7 +110,7 @@ class App extends React.Component {
 
   findFlats(p) {
     this.setState({...this.state, spin: true});
-    const link = "https://api.zoopla.co.uk/api/v1/property_listings.json?latitude=" + this.state.resp[this.state.idx].lat +  "&longitude=" + this.state.resp[this.state.idx].long + "&api_key=r69gx65afduas4x328vhqhf3&radius=1&listing_status=rent";
+    const link = "https://api.zoopla.co.uk/api/v1/property_listings.json?latitude=" + this.state.resp[this.state.idx].lat +  "&longitude=" + this.state.resp[this.state.idx].lon + "&api_key=9kqv4jsv6cw3y27jdpdrz7ve&radius=1&listing_status=rent&maximum_beds=3&order_by=price&ordering=ascending";
     fetch(link)
     .then(resp => resp.json())
     .then(resp => this.setState({
@@ -128,7 +133,8 @@ class App extends React.Component {
       .then(response => {
         this.setState({
           ...this.state,
-          resp: response.postcodes,
+          resp: response.Postcodes,
+          coords: response.usr_input,
           page1: false
         });
         console.log(response)
@@ -169,12 +175,9 @@ class App extends React.Component {
                 defaultCenter={this.state.center}
                 defaultZoom={12}
               >
-              {this.state.resp && this.state.resp[0] && (<Marker click={() => this.hoverMarker(0)} lat={this.state.resp[0].lat} lng={this.state.resp[0].long} />)}
-              {this.state.resp && this.state.resp[1] && (<Marker click={() => this.hoverMarker(1)} lat={this.state.resp[1].lat} lng={this.state.resp[1].long} />)}
-              {this.state.resp && this.state.resp[2] && (<Marker click={() => this.hoverMarker(2)} lat={this.state.resp[2].lat} lng={this.state.resp[2].long} />)}
-              {this.state.resp && this.state.resp[3] && (<Marker click={() => this.hoverMarker(3)} lat={this.state.resp[3].lat} lng={this.state.resp[3].long} />)}
-              {this.state.resp && this.state.resp[4] && (<Marker click={() => this.hoverMarker(4)} lat={this.state.resp[4].lat} lng={this.state.resp[4].long} />)}
-
+              {this.state.resp && this.state.resp.map((value, index) =>
+                <Marker op={1 - (parseInt(value.price.replace(',','')) - 1500)/1000} key={index.toString()} click={() => this.hoverMarker(index)} lat={value.lat} lng={value.lon} />
+              )}
               </GoogleMapReact>
             </div>
               {(this.state.page2 == 0) && (
@@ -190,16 +193,16 @@ class App extends React.Component {
                     </Card.Header>
                     <Card.Body>
                       <Card.Text>
-                        Average price: £{this.state.resp[this.state.idx].price}
+                        Average price: <strong>£{this.state.resp[this.state.idx].price}</strong>
                       </Card.Text>
                       <Card.Text>
-                      Distance from A: {this.state.resp[this.state.idx].distances[0]}min
+                      Distance from A: <strong>{this.state.resp[this.state.idx].travel_time[0]}</strong>
                     </Card.Text>
                       <Card.Text>
-                        Distance from B: {this.state.resp[this.state.idx].distances[1]}min
+                        Distance from B: <strong>{this.state.resp[this.state.idx].travel_time[1]}</strong>
                       </Card.Text>
                       <Card.Text>
-                        Distance from C: {this.state.resp[this.state.idx].distances[2]}min
+                        Distance from C: <strong>{this.state.resp[this.state.idx].travel_time[2]}</strong>
                       </Card.Text>
                       <Button onClick={() => this.findFlats(this.state)} variant="primary">Flats</Button>
                     </Card.Body>

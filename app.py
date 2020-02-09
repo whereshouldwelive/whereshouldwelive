@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 from flask_cors import CORS
-from geocoding import get_listings, get_result
+from geocoding import get_listings, get_results
 import time
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
@@ -25,7 +25,7 @@ def my_form_post():
 
 @app.route('/find')
 def find():
-    return get_results(['SW7 2BU','WC1E 6BT','WC2A 2AE'],5.5)
+    return get_results(['SW7 2BU','WC1E 6BT','WC2A 2AE'],5.5,2)
     # return get_listings(["SW7", "23 Olympic Way"])
 
 

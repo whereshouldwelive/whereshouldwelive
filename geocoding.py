@@ -104,7 +104,7 @@ def get_travel_times(start,end): # start is one point, end can be a list
         travel_time.append(dat['rows'][0]['elements'][i]['duration']['text'])
     return travel_time
 
-def get_results(address, search_rad):
+def get_results(address, search_rad, bed_num):
     coordinates=[]
     for i in address:
         coordinates.append(get_lat_long(i))

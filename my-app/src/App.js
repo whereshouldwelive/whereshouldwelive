@@ -150,7 +150,7 @@ class App extends React.Component {
         {!this.state.page1  && (
           <div className="page2">
             <div className="header-wrapper">
-                <PrimarySearchAppBar onButtonClick={() => this.handleSubmit2()} loadHomePage={() => this.setState({
+                <PrimarySearchAppBar onButtonClick={this.handleSubmit2} loadHomePage={() => this.setState({
                     ...this.state,
                     page1: true,
                 })}/>

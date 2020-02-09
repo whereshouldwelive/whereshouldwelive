@@ -12,7 +12,7 @@ import './App.css';
 
 const Marker = props => {
   return <>
-    <div className="pin" onMouseEnter={() => console.log(props.vals)}></div>
+    <div className="pin" onMouseEnter={() => props.click()}></div>
   </>
 }
 
@@ -44,10 +44,11 @@ class App extends React.Component {
         lat:51.5074,
         lng:0.1278
       },
-      page2: false
+      page2: 0
     };
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
+      this.hoverMarker = this.hoverMarker.bind(this);
     }
     handleChange(evt) {
       const value = evt.target.value;
@@ -57,8 +58,13 @@ class App extends React.Component {
       });
     }
   hoverMarker(p) {
-    console.log(p);
+    this.setState({
+      ...this.state,
+      page2: 1,
+      idx: p
+    })
   }
+
   handleSubmit(e){
     e.preventDefault();
     fetch("http://whereshouldwelive.herokuapp.com/find", {
@@ -113,34 +119,42 @@ class App extends React.Component {
                 defaultCenter={this.state.center}
                 defaultZoom={11}
               >
-                {this.state.resp && this.state.resp[0] && (<Marker vals={this.state.resp[0]} lat={this.state.resp[0].lat} lng={this.state.resp[0].long} />)}
+              {this.state.resp && this.state.resp[0] && (<Marker click={() => this.hoverMarker(0)} lat={this.state.resp[0].lat} lng={this.state.resp[0].long} />)}
+              {this.state.resp && this.state.resp[1] && (<Marker click={() => this.hoverMarker(1)} lat={this.state.resp[1].lat} lng={this.state.resp[1].long} />)}
+              {this.state.resp && this.state.resp[2] && (<Marker click={() => this.hoverMarker(2)} lat={this.state.resp[2].lat} lng={this.state.resp[2].long} />)}
+              {this.state.resp && this.state.resp[3] && (<Marker click={() => this.hoverMarker(3)} lat={this.state.resp[3].lat} lng={this.state.resp[3].long} />)}
+              {this.state.resp && this.state.resp[4] && (<Marker click={() => this.hoverMarker(4)} lat={this.state.resp[4].lat} lng={this.state.resp[4].long} />)}
 
               </GoogleMapReact>
             </div>
-              {this.state.page2 && (
+              {(this.state.page2 == 0) && (
+                <div className="sidebar">
+                  Sup bro
+                </div>)}
+              {(this.state.page2 == 1) && (
                 <div className="sidebar">
                   <Card border="dark" style={{ width: '31rem' }} className={"bg-light text-dark"}>
                     <Card.Header>
-                      Information for flats at SW7
+                      Information for flats at {this.state.resp[this.state.idx].code}
                     </Card.Header>
                     <Card.Body>
                       <Card.Text>
-                        Average price: £530
+                        Average price: £{this.state.resp[this.state.idx].price}
                       </Card.Text>
                       <Card.Text>
-                      Distance from A: 35min
+                      Distance from A: {this.state.resp[this.state.idx].distances[0]}min
                     </Card.Text>
                       <Card.Text>
-                        Distance from B: 25min
+                        Distance from B: {this.state.resp[this.state.idx].distances[1]}min
                       </Card.Text>
                       <Card.Text>
-                        Distance from C: 40min
+                        Distance from C: {this.state.resp[this.state.idx].distances[2]}min
                       </Card.Text>
                       <Button variant="primary">Flats</Button>
                     </Card.Body>
                   </Card>
                 </div>)}
-                {!this.state.page2 && (<div className="sidebar2">
+                {(this.state.page2 == 2)  && (<div className="sidebar2">
                     <CardDeck>
                       <ListGroup variant="flush">
                         <ListGroup.Item>

@@ -67,6 +67,10 @@ body {
   text-align: left;
 }
 
+.cardWrapper{
+  padding: 12px 20px;
+}
+
 .page2 {
   height: 100%
 }
@@ -96,20 +100,22 @@ body {
 
 .map {
   background-color: blue;
-  width:65%;
+  width:70%;
 }
 
 .sidebar {
-  width:35%;
+  width:30%;
 }
 
 
 .sidebar1 {
+  overflow: auto;
   display: flex;
   flex-direction: column;
 }
 
 .card {
+  max-width: 310px;
   margin-bottom: 20px;
 }
 

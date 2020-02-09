@@ -61,6 +61,7 @@ class App extends React.Component {
       });
     }
   hoverMarker(p) {
+    alert(p)
     this.setState({
       ...this.state,
       page2: 1,
@@ -99,7 +100,7 @@ class App extends React.Component {
 
   findFlats(p) {
     this.setState({...this.state, spin: true});
-    const link = "https://api.zoopla.co.uk/api/v1/property_listings.json?latitude=" + this.state.resp[this.state.idx].lat +  "&longitude=" + this.state.resp[this.state.idx].long + "&api_key=r69gx65afduas4x328vhqhf3&radius=5&listing_status=rent";
+    const link = "https://api.zoopla.co.uk/api/v1/property_listings.json?latitude=" + this.state.resp[this.state.idx].lat +  "&longitude=" + this.state.resp[this.state.idx].long + "&api_key=r69gx65afduas4x328vhqhf3&radius=1&listing_status=rent";
     fetch(link)
     .then(resp => resp.json())
     .then(resp => this.setState({
@@ -179,6 +180,7 @@ class App extends React.Component {
                 </div>)}
               {(this.state.page2 == 1) && (
                 <div className="sidebar sidebar1">
+                  <ListGroup.Item>
                   <Card border="dark"  className={"card bg-light text-dark"}>
                     <Card.Header>
                       Information for flats at {this.state.resp[this.state.idx].code}
@@ -199,6 +201,8 @@ class App extends React.Component {
                       <Button onClick={() => this.findFlats(this.state)} variant="primary">Flats</Button>
                     </Card.Body>
                   </Card>
+                  </ListGroup.Item>
+
                   {this.state.spin && (<div className="spinner"><CircularProgress /></div>)}
                   {this.state.link && this.getFlatInfo()}
                 </div>)}
@@ -206,7 +210,7 @@ class App extends React.Component {
                     <CardDeck>
                       <ListGroup variant="flush">
                         <ListGroup.Item>
-                          <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+                          <Card border="dark" style={{ width: '25rem' }} className={"card bg-light text-dark"}>
                             <Card.Body>
                               <Card.Title>
                                 Hyde Park, London W2

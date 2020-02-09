@@ -23,7 +23,7 @@ def get_lat_long(address):
     print(data)
     lat = data['results'][0]['geometry']['location']['lat']
     long = data['results'][0]['geometry']['location']['lng']
-    get_zoopla_results(lat, long)
+    # get_zoopla_results(lat, long)
     return (data['results'][0]['geometry']['location']['lat'], data['results'][0]['geometry']['location']['lng'])
 
 def get_equidistant_points(points):

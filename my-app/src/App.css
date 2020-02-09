@@ -10,6 +10,57 @@ html {
   height: 100%;
 }
 
+.bluelogo {
+  width: 20%;
+}
+
+.ourtitle {
+  color: white;
+font-family: Andale Mono;
+}
+
+.bigWrapper {
+  width: 600px;
+}
+
+.top4 {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+.top2 {
+  display: flex;
+}
+.locs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom2{
+  display: flex;
+}
+
+.allTheText {
+
+}
+
+.smallfield {
+  background-color: white;
+    border-radius: 20px;
+    width: 40px;
+    /* text-align: center !important; */
+}
+.smallfield:input {
+  text-align: center;
+}
+
+.bigfield {
+  background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
 body {
     background: #fff;
     width: 100%;
@@ -31,7 +82,7 @@ body {
 }
 
 .App-header {
-  background-color: #ffffff;
+  background-color: #63B5D0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

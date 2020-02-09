@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import { Input} from '@material-ui/core';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -7,6 +7,7 @@ import CardDeck from 'react-bootstrap/CardDeck';
 import ListGroup from 'react-bootstrap/ListGroup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import GoogleMapReact from 'google-map-react';
+import logo from './wswl-logo.png';
 
 import './App.css';
 
@@ -95,6 +96,9 @@ class App extends React.Component {
         {!this.state.page1 && this.state.page2 && (
           <div className="page2">
             <div className="header-wrapper">
+
+                <img src="../src/wswl-logo.png" alt=""/>
+
               <h1 className="title">
                 WhereShouldWeLive.com
                 <form className="form"  onSubmit={this.handleSubmit}>
@@ -134,11 +138,12 @@ class App extends React.Component {
         {!this.state.page1 && !this.state.page2 && (
             <div>
             <div className="header-wrapper">
+                <img src={logo} alt=""/>
               <h1 className="title">
                 WhereShouldWeLive.com
                 <form className="form"  onSubmit={this.handleSubmit}>
                 <Button type="submit" variant="contained" color="secondary">
-                  Find flats!!
+                  Find flats
                 </Button>
               </form>
               </h1>

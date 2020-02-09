@@ -26,7 +26,10 @@ def my_form_post():
 import json
 @app.route('/find')
 def find():
-    return json.dumps(get_results(['SW7 2BU','WC1E 6BT','WC2A 2AE'],5.5,2))
+    loc1 = request.args.get('loc1')
+    loc2 = request.args.get('loc2')
+    loc3 = request.args.get('loc3')
+    return json.dumps(get_results([loc1,loc2,loc3],5.5,2))
     # return get_listings(["SW7", "23 Olympic Way"])
 
 

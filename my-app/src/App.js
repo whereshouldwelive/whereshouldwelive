@@ -158,7 +158,8 @@ class App extends React.Component {
       ...this.state,
       page1:1,
     });
-    fetch("http://whereshouldwelive.herokuapp.com/find", {
+    fetch("http://whereshouldwelive.herokuapp.com/find?loc1" +
+        this.state.loc1 + "&loc2=" + this.state.loc2 + "&loc3=" + this.state.loc3, {
       method: 'GET',
       headers: { 'Content-Type': 'application/json'}
     })

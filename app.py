@@ -29,6 +29,9 @@ def find():
     loc1 = request.args.get('loc1')
     loc2 = request.args.get('loc2')
     loc3 = request.args.get('loc3')
+    print(loc1)
+    print(loc2)
+    print(loc3)
     return json.dumps(get_results([loc1,loc2,loc3],5.5,2))
     # return get_listings(["SW7", "23 Olympic Way"])
 

@@ -1,6 +1,8 @@
+import pandas as pd
+from geo import GeoLocation
 import requests
 import json
-from geo import GeoLocation
+import time
 
 def get_listings(addresses):
     points = []

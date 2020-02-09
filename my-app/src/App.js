@@ -195,12 +195,14 @@ class App extends React.Component {
               <div >
                 <div className={"details ourtitle"}>Work locations</div>
                 <div className={"locs"}>
-                  <TextField placeholder="SW1V 3HQ" inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="bigfield"/>
+                  <TextField name="loc1" value={this.state.loc1} onChange={this.handleChange} inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="bigfield"/>
                   <TextField
-                  placeholder="W2 1UF"
+                  name="loc2"
+                  onChange={this.handleChange}
+                  value={this.state.loc2}
                   inputProps={{ style: {textAlign: 'center'} }}
                   InputProps={{disableUnderline:true}} className="bigfield"/>
-                  <TextField placeholder="SW7 5NW" inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="bigfield"/>
+                  <TextField name="loc3" onChange={this.handleChange} value={this.state.loc3} inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="bigfield"/>
                   <TextField disabled inputProps={{ style: {fontSize: '20px', color: 'gray', textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="smallfield" defaultValue="+" />
                 </div>
                 <Button id="submit-button" type="submit" onClick={() => {this.setState({
@@ -262,13 +264,13 @@ class App extends React.Component {
                         Average price: <strong>£{this.state.resp[this.state.idx].price}</strong>
                       </Card.Text>
                       <Card.Text>
-                      Distance from A: <strong>{this.state.resp[this.state.idx].travel_time[0]}</strong>
+                      Distance from <strong>{this.state.loc1}</strong>: <strong>{this.state.resp[this.state.idx].travel_time[0]}</strong>
                     </Card.Text>
                       <Card.Text>
-                        Distance from B: <strong>{this.state.resp[this.state.idx].travel_time[1]}</strong>
+                        Distance from <strong>{this.state.loc2}</strong>: <strong>{this.state.resp[this.state.idx].travel_time[1]}</strong>
                       </Card.Text>
                       <Card.Text>
-                        Distance from C: <strong>{this.state.resp[this.state.idx].travel_time[2]}</strong>
+                        Distance from <strong>{this.state.loc3}</strong>: <strong>{this.state.resp[this.state.idx].travel_time[2]}</strong>
                       </Card.Text>
                       <Button onClick={() => this.findFlats(this.state)} variant="primary">Flats</Button>
                     </Card.Body>

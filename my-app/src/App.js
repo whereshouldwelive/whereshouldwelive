@@ -14,8 +14,9 @@ import PrimarySearchAppBar from "./NavBar";
 import Typography from "@material-ui/core/Typography";
 import LinearProgress from "@material-ui/core/LinearProgress";
 import rotate from './rotate.png';
+import plus from './plus_button.png';
 import { shadows } from '@material-ui/system';
-import Box from '@material-ui/core/Box'
+import submit from './submit_button.png';
 
 import './App.css';
 
@@ -202,6 +203,11 @@ class App extends React.Component {
                   <TextField placeholder="SW7 5NW" inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="bigfield"/>
                   <TextField disabled inputProps={{ style: {fontSize: '20px', color: 'gray', textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="smallfield" defaultValue="+" />
                 </div>
+                <Button id="submit-button" type="submit" onClick={() => {this.setState({
+                  ...this.state,
+                  page1: 0,
+                });
+                  this.handleSubmit();}}><img src={submit} alt ="submit"/></Button>
               </div>
               </div>
               </div>

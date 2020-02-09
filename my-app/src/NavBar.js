@@ -86,6 +86,9 @@ const useStyles = makeStyles(theme => ({
             display: 'none',
         },
     },
+    appBar: {
+        backgroundColor: '#4A6EB5',
+    },
 }));
 
 export default function PrimarySearchAppBar(props) {
@@ -173,7 +176,7 @@ export default function PrimarySearchAppBar(props) {
 
     return (
         <div className={classes.grow}>
-            <AppBar position="static">
+            <AppBar position="static" id="app-bar">
                 <Toolbar>
                     <img id="logo" src={bluelogo} alt=""/>
                     <Typography className={classes.title} variant="h6" noWrap>

@@ -23,6 +23,28 @@ font-family: Andale Mono;
   width: 600px;
 }
 
+#submit-button {
+  background-color: #63B5D0;
+  border-width: 0;
+  opacity: 0.5;
+  display: block;
+  transition: opacity 0.5s ease;
+  margin-left: auto;
+}
+
+#submit-button img {
+  padding-top:14px;
+  display: block;
+  height: 60%;
+  width:60%;
+  margin: auto;
+}
+
+#submit-button:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
 .top4 {
   display: flex;
   margin-bottom: 15px;

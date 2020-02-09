@@ -189,25 +189,26 @@ class App extends React.Component {
               <div className="top4">
                 <div className="top2">
                   <div className={"details ourtitle"}>No. of bedrooms </div>
-                  <TextField InputProps={{disableUnderline:true}}  className="smallfield"/>
-                </div>
-                <div className="bottom2">
-                <div className={"details ourtitle"}>Search radius</div>
-                <TextField InputProps={{disableUnderline:true}} className="smallfield"/>
+                  <TextField inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}}  className="smallfield"/>
                 </div>
               </div>
               <div >
                 <div className={"details ourtitle"}>Work locations</div>
                 <div className={"locs"}>
-                  <TextField InputProps={{disableUnderline:true}} className="bigfield"/>
-                  <TextField InputProps={{disableUnderline:true}} className="bigfield"/>
-                  <TextField InputProps={{disableUnderline:true}} className="bigfield"/>
-                  <Button type="submit" onClick={() => {this.setState({
-                    ...this.state,
-                    page1: 0,
-                  });
-                    this.handleSubmit();}}><img src={submit} alt ="submit"/></Button>
+
+                  <TextField placeholder="W2 1UF" inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="bigfield"/>
+                  <TextField
+                  placeholder="W2 1UF"
+                  inputProps={{ style: {textAlign: 'center'} }}
+                  InputProps={{disableUnderline:true}} className="bigfield"/>
+                  <TextField placeholder="SW7 5NW" inputProps={{ style: {textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="bigfield"/>
+                  <TextField disabled inputProps={{ style: {fontSize: '20px', color: 'gray', textAlign: 'center'} }} InputProps={{disableUnderline:true}} className="smallfield" defaultValue="+" />
                 </div>
+                <Button id="submit-button" type="submit" onClick={() => {this.setState({
+                  ...this.state,
+                  page1: 0,
+                });
+                  this.handleSubmit();}}><img src={submit} alt ="submit"/></Button>
               </div>
               </div>
               </div>

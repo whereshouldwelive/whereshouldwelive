@@ -38,10 +38,14 @@ body {
   color: black;
 }
 
-img {
+/* img {
   height:100%;
   width:100%;
   display: block;
+} */
+.image {
+  width: 65px;
+  height: 64px;
 }
 
 .header-wrapper {
@@ -74,10 +78,11 @@ img {
 }
 
 .header-wrapper img {
-  width:5%;
-  height:70%;
+  width:65px;
+  height:65px;
   margin: auto;
-  margin-left: 400px;
+  margin-left: 350px;
+  margin-right: 20px;
 }
 
 .header-wrapper h1 {
@@ -96,6 +101,16 @@ img {
 
 .sidebar {
   width:35%;
+}
+
+
+.sidebar1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  margin-bottom: 20px;
 }
 
 .hhh {

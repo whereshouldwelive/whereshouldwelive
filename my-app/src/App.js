@@ -1,6 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
-import { Input} from '@material-ui/core';
+import { Input, CircularProgress} from '@material-ui/core';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
@@ -43,13 +43,15 @@ class App extends React.Component {
       page1: false,
       center: {
         lat:51.5074,
-        lng:0.1278
+        lng:-0.1278
       },
-      page2: 0
+      page2: 0,
+      spin: false
     };
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
       this.hoverMarker = this.hoverMarker.bind(this);
+      this.getFlatInfo = this.getFlatInfo.bind(this);
     }
     handleChange(evt) {
       const value = evt.target.value;
@@ -63,7 +65,48 @@ class App extends React.Component {
       ...this.state,
       page2: 1,
       idx: p
-    })
+    });
+  };
+
+  getFlatInfo() {
+    const obj = this.state.link
+    let table = []
+    console.log(obj)
+      // Outer loop to create parent
+    for (let flat of obj.listing) {
+
+        //Inner loop to create children
+          // <Marker lat={this.state.center.lat} lng={this.state.center.lng} />
+    table.push(
+      <ListGroup.Item>
+        <Card border="dark" style={{ width: '25rem' }} className={"bg-light text-dark"}>
+          <Card.Body>
+            <Card.Title>
+              {flat.displayable_address}
+            </Card.Title>
+            <Card.Text>
+              £{flat.rental_prices.per_week} per week
+            </Card.Text>
+            <Card.Img variant="top" src={flat.image_645_430_url} />
+          </Card.Body>
+        </Card>
+      </ListGroup.Item>
+      )
+    }
+      return (<ListGroup variant="flush">{table}</ListGroup>);
+    };
+
+
+  findFlats(p) {
+    this.setState({...this.state, spin: true});
+    const link = "https://api.zoopla.co.uk/api/v1/property_listings.json?latitude=" + this.state.resp[this.state.idx].lat +  "&longitude=" + this.state.resp[this.state.idx].long + "&api_key=r69gx65afduas4x328vhqhf3&radius=5&listing_status=rent";
+    fetch(link)
+    .then(resp => resp.json())
+    .then(resp => this.setState({
+      ...this.state,
+      link: resp,
+      spin:false
+    }))
   }
 
   handleSubmit(e){
@@ -88,7 +131,6 @@ class App extends React.Component {
 
         {this.state.page1 && (
           <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
             <form className="form"  onSubmit={this.handleSubmit}>
               <Input name="loc1" placeholder="Placeholder" inputProps={{ 'aria-label': 'description' }} value={this.state.loc1} onChange={this.handleChange}/>
               <Input name="loc2" placeholder="Post code" inputProps={{ 'aria-label': 'description' }} value={this.state.loc2} onChange={this.handleChange}/>
@@ -105,7 +147,7 @@ class App extends React.Component {
           <div className="page2">
             <div className="header-wrapper">
 
-                <img src="../src/wswl-logo.png" alt=""/>
+              <img className="image" src={logo} alt=""/>
 
               <h1 className="title">
                 WhereShouldWeLive.com
@@ -121,7 +163,7 @@ class App extends React.Component {
               <GoogleMapReact
                 bootstrapURLKeys={{key:"AIzaSyBUajMUOmaG_OFJFtVI-Fb2rtTQkeWzbUg"}}
                 defaultCenter={this.state.center}
-                defaultZoom={11}
+                defaultZoom={12}
               >
               {this.state.resp && this.state.resp[0] && (<Marker click={() => this.hoverMarker(0)} lat={this.state.resp[0].lat} lng={this.state.resp[0].long} />)}
               {this.state.resp && this.state.resp[1] && (<Marker click={() => this.hoverMarker(1)} lat={this.state.resp[1].lat} lng={this.state.resp[1].long} />)}
@@ -136,8 +178,8 @@ class App extends React.Component {
                   Sup bro
                 </div>)}
               {(this.state.page2 == 1) && (
-                <div className="sidebar">
-                  <Card border="dark" style={{ width: '31rem' }} className={"bg-light text-dark"}>
+                <div className="sidebar sidebar1">
+                  <Card border="dark"  className={"card bg-light text-dark"}>
                     <Card.Header>
                       Information for flats at {this.state.resp[this.state.idx].code}
                     </Card.Header>
@@ -154,9 +196,11 @@ class App extends React.Component {
                       <Card.Text>
                         Distance from C: {this.state.resp[this.state.idx].distances[2]}min
                       </Card.Text>
-                      <Button variant="primary">Flats</Button>
+                      <Button onClick={() => this.findFlats(this.state)} variant="primary">Flats</Button>
                     </Card.Body>
                   </Card>
+                  {this.state.spin && (<div className="spinner"><CircularProgress /></div>)}
+                  {this.state.link && this.getFlatInfo()}
                 </div>)}
                 {(this.state.page2 == 2)  && (<div className="sidebar2">
                     <CardDeck>
@@ -220,7 +264,7 @@ class App extends React.Component {
             </div>
           </div>
         )}
-        {!this.state.page1 && !this.state.page2 && (
+        {false && !this.state.page1 && !this.state.page2 && (
             <div>
             <div className="header-wrapper">
                 <img src={logo} alt=""/>

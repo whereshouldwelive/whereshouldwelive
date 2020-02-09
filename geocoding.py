@@ -68,6 +68,7 @@ def get_postcode(point):
     return data['results'][0]['address_components'][-1]['long_name']
 
 def get_area_info(postcode_list,bed_num):
+    coordinates=[]
     df=pd.read_csv('rental_prices.csv')
     df = df.drop(df.columns[0], axis=1)
     df2=pd.DataFrame(columns=df.columns.values)
@@ -79,9 +80,29 @@ def get_area_info(postcode_list,bed_num):
                 if not df['Count of rents'][j]=='-':
                     if not int(df['Count of rents'][j])==0:
                         if int(df['Bedroom Category'][j])==bed_num:
-                            df2=df2.append(df.iloc[j],ignore_index=True)
+                            if len(i)>=6:
+                                coordinates.append(get_lat_long(i))
+                                df2=df2.append(df.iloc[j],ignore_index=True)
     df2=df2.drop('Count of rents',1)
-    return df2
+    return df2,coordinates
+
+def get_travel_times(start,end): # start is one point, end can be a list
+    URL = "https://maps.googleapis.com/maps/api/distancematrix/json"
+    KEY = "AIzaSyBUajMUOmaG_OFJFtVI-Fb2rtTQkeWzbUg"
+    travel_time=[]
+    destination=""
+    for i in end:
+        destination=destination+str(i[0])+','+str(i[1])+'|'
+    params = {'origins': str(start[0])+','+str(start[1]),
+              'units': 'imperial','mode': 'transit',
+              'destinations':destination,"key": KEY}
+    dat = requests.get(url=URL, params=params).json()
+#     time.sleep(2)
+    r['rows'][0]['elements']
+#     print(dat)
+    for i in range(len(dat['rows'][0]['elements'])):
+        travel_time.append(dat['rows'][0]['elements'][i]['duration']['text'])
+    return travel_time
 
 
 ###### API ##########

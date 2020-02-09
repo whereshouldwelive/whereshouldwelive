@@ -23,9 +23,10 @@ def my_form_post():
     # processed_text = text.upper()
     return render_template('usr_list.html',ppl_idx=ppl_idx,ppl_dat=ppl_dat)
 
+import json
 @app.route('/find')
 def find():
-    return get_results(['SW7 2BU','WC1E 6BT','WC2A 2AE'],5.5,2)
+    return json.dumps(get_results(['SW7 2BU','WC1E 6BT','WC2A 2AE'],5.5,2))
     # return get_listings(["SW7", "23 Olympic Way"])
 
 
